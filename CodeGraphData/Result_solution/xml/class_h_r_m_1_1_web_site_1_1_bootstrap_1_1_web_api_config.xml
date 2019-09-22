@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Bootstrap::WebApiConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config_1a83eb8cc91ce2e3d774ba6612810cd22e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HRM.WebSite.Bootstrap.WebApiConfig.Register</definition>
+        <argsstring>(IAppBuilder app, IContainer container)</argsstring>
+        <name>Register</name>
+        <param>
+          <type>IAppBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>IContainer</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/WebApiConfig.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/WebApiConfig.cs" bodystart="13" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/WebApiConfig.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/WebApiConfig.cs" bodystart="11" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config_1a83eb8cc91ce2e3d774ba6612810cd22e" prot="public" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::WebApiConfig</scope><name>Register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

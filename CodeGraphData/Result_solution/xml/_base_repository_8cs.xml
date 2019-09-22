@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_base_repository_8cs" kind="file">
+    <compoundname>BaseRepository.cs</compoundname>
+    <innerclass refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4" prot="public">HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_repository_1_1_base">HRM::Repository::Base</innernamespace>
+    <innernamespace refid="namespace_system_1_1_data_1_1_entity">System::Data::Entity</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.Domain.Base;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.Repository.Base.Interfaces;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Data.Entity;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq.Expressions;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespace_h_r_m_1_1_repository_1_1_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">HRM.Repository.Base</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BaseRepository&lt;T,<sp/>TKey&gt;<sp/>:<sp/>IRepository&lt;T,<sp/>TKey&gt;<sp/>where<sp/>T<sp/>:<sp/>Entity&lt;TKey&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Properties</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae380e855063b5f83757ba67484dd3eb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref><sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae380e855063b5f83757ba67484dd3eb3" kindref="member">_dataContext</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a3e1d5b4fc7e5faee22a37875db026e2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>IDbSet&lt;T&gt;<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a3e1d5b4fc7e5faee22a37875db026e2a" kindref="member">_dbSet</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion<sp/>Properties</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6355ca56cd51195db4f15d57bfa8b7cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6355ca56cd51195db4f15d57bfa8b7cb" kindref="member">BaseRepository</ref>(<ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref><sp/>dataContext)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dataContext<sp/>=<sp/>dataContext;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dbSet<sp/>=<sp/>_dataContext.Set&lt;T&gt;();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Implementation</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a58e1aa9668ed9ba0de95c5bf75ea0e48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a58e1aa9668ed9ba0de95c5bf75ea0e48" kindref="member">Add</ref>(T<sp/>entity)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_dbSet.Add(entity);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae2a8bf38bff104541ce269f196d3d116" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae2a8bf38bff104541ce269f196d3d116" kindref="member">Update</ref>(T<sp/>entity)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>result<sp/>=<sp/>_dbSet.Attach(entity);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dataContext.Entry(entity).State<sp/>=<sp/>EntityState.Modified;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a90c616b1b9b33332d1b68ab82f121c4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a90c616b1b9b33332d1b68ab82f121c4d" kindref="member">Delete</ref>(T<sp/>entity)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_dbSet.Remove(entity);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6c6575ce1b628e2cc8187fe8f57d5fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6c6575ce1b628e2cc8187fe8f57d5fca" kindref="member">Delete</ref>(TKey<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>entity<sp/>=<sp/>_dbSet.Find(id);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_dbSet.Remove(entity);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1afd9946e78a2176fc768a476cd1be3ab3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1afd9946e78a2176fc768a476cd1be3ab3" kindref="member">DeleteMulti</ref>(Expression&lt;Func&lt;T,<sp/>bool&gt;&gt;<sp/>where)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IEnumerable&lt;T&gt;<sp/>objects<sp/>=<sp/>_dbSet.Where&lt;T&gt;(where).AsEnumerable();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(T<sp/>obj<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>objects)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dbSet.Remove(obj);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ad22612a47aeb2f0a83fc24c06969f68f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ad22612a47aeb2f0a83fc24c06969f68f" kindref="member">FindById</ref>(TKey<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params<sp/>Expression&lt;Func&lt;T,<sp/>object&gt;&gt;[]<sp/>includeProperties)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAllByCondition(e<sp/>=&gt;<sp/>e.Id.Equals(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">),<sp/>includeProperties).SingleOrDefault();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a9ebbc29c2232f2640f3152918a0092f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>T<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a9ebbc29c2232f2640f3152918a0092f5" kindref="member">FindByCondition</ref>(Expression&lt;Func&lt;T,<sp/>bool&gt;&gt;<sp/>predicate,<sp/>params<sp/>Expression&lt;Func&lt;T,<sp/>object&gt;&gt;[]<sp/>includeProperties)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAllByCondition(predicate,<sp/>includeProperties).SingleOrDefault();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ab237ed65c7be124e4d70afa395e4f91b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IQueryable&lt;T&gt;<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ab237ed65c7be124e4d70afa395e4f91b" kindref="member">GetAll</ref>(params<sp/>Expression&lt;Func&lt;T,<sp/>object&gt;&gt;[]<sp/>includeProperties)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IQueryable&lt;T&gt;<sp/>items<sp/>=<sp/>_dataContext.Set&lt;T&gt;();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(includeProperties<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>includeProperty<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>includeProperties)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>items<sp/>=<sp/>items.Include(includeProperty);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>items;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a7401b7d2f2b0c1c92c523e87f9024068" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IQueryable&lt;T&gt;<sp/><ref refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a7401b7d2f2b0c1c92c523e87f9024068" kindref="member">GetAllByCondition</ref>(Expression&lt;Func&lt;T,<sp/>bool&gt;&gt;<sp/>predicate,<sp/>params<sp/>Expression&lt;Func&lt;T,<sp/>object&gt;&gt;[]<sp/>includeProperties)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAll(includeProperties).Where(predicate);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion<sp/>Implementation</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs"/>
+  </compounddef>
+</doxygen>

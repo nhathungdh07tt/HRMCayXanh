@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" kind="class" prot="public">
+    <compoundname>HRM::Domain::Base::BaseEntity</compoundname>
+    <derivedcompoundref refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4" prot="public" virt="non-virtual">HRM.Domain.Base.Entity&lt; T &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>HRM.Domain.Base.Entity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>HRM.Domain.Base.BaseEntity</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity"/>
+      </node>
+      <node id="27">
+        <label>HRM.Domain.Base.AuditableEntity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/BaseEntity.cs" line="3" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/BaseEntity.cs" bodystart="3" bodyend="3"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

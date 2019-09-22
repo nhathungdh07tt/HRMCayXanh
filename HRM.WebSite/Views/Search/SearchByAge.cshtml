@@ -1,0 +1,27 @@
+﻿@model IEnumerable<HRM.ViewModels.Employee.EmployeeViewModel>
+
+@{
+    ViewBag.Title = "SearchByAge";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SearchByAge</h2>
+<form method="GET" action="@Url.Action("SearchByAge", "Search")">
+    <div class="row">
+        <div class="col-md-3">From</div>
+        <div class="col-md-3">
+            <input type="text" name="from" value="0" class="form-control"/>
+        </div>
+        <div class="col-md-3">To</div>
+        <div class="col-md-3 form-control">
+            <input type="text" name="to" value="1" class="form-control"/>
+        </div>
+    </div>
+    <div class="row"><div class="col-md-12">
+        <input type="submit"  value="Search" />
+    </div></div>
+</form>
+
+
+@Html.Partial("_SearchEmployeeList", Model)
+

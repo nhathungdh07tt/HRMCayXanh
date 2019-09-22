@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_de5476b9c15158ffd07f5b9a93425118" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Services/Base</compoundname>
+    <innerdir refid="dir_c08b77237d55f347a54a2cebec5d31a6">D:/Projects/HRM/HRM.Services/Base/Interfaces</innerdir>
+    <innerfile refid="_base_service_8cs">BaseService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/Base/"/>
+  </compounddef>
+</doxygen>

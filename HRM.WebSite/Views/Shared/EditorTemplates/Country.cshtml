@@ -1,0 +1,10 @@
+﻿@using HRM.Services
+@model HRM.Domain.Entity.Country
+	 
+@{
+    var countries = DependencyResolver.Current.GetService<ICountryService>();
+
+    ViewData ["states"] = new SelectList(countries.GetCountries().Select(x => new {value = x.Code, text = x.Code}), "value", "text", @Model);
+}
+	 
+@Html.DropDownListFor(x => x.Id, (SelectList) ViewData["states"], new {})

@@ -1,0 +1,44 @@
+﻿@model HRM.ViewModels.Salary.SalaryLevelViewModel
+
+<div>
+    <h4>SalaryLevelViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PayRate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayRate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonthlySalary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonthlySalary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EffectiveDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EffectiveDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

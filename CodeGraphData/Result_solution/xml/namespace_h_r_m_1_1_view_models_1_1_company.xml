@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_view_models_1_1_company" kind="namespace">
+    <compoundname>HRM::ViewModels::Company</compoundname>
+    <innerclass refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model" prot="public">HRM::ViewModels::Company::CompanyContactViewModel</innerclass>
+    <innerclass refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model" prot="public">HRM::ViewModels::Company::CompanyViewModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

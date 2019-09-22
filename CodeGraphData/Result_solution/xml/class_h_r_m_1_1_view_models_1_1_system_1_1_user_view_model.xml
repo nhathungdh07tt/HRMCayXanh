@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model" kind="class" prot="public">
+    <compoundname>HRM::ViewModels::System::UserViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab2b73160a1a9eb7bee97c234b177c260" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long HRM.ViewModels.System.UserViewModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="7" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab199cd98c11ddc645e21c4e9cc86718d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.FullName</definition>
+        <argsstring></argsstring>
+        <name>FullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="8" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a64df7779734354fe86fa61cbc863c3e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.BirthDay</definition>
+        <argsstring></argsstring>
+        <name>BirthDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab89a061b1f04a3227ab92de2720769f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a31af9786e62ca50ca9f1fd422bd3280b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab6db0d637750f632e1f37c2722c210db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a8c1ce93cd1044c1e84338d85bff8df33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a4c4732c587de1c029116e9e5ebcbdc17" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.PhoneNumber</definition>
+        <argsstring></argsstring>
+        <name>PhoneNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1af7b5b3e1a58dc112a0358c38c4e85457" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.Avatar</definition>
+        <argsstring></argsstring>
+        <name>Avatar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1aa17845cd13cc47e5ad7b1ec956479112" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.UserViewModel.Gender</definition>
+        <argsstring></argsstring>
+        <name>Gender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a889007271f0b692023b331389c805669" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model" kindref="compound">RoleViewModel</ref> &gt;</type>
+        <definition>List&lt;RoleViewModel&gt; HRM.ViewModels.System.UserViewModel.Roles</definition>
+        <argsstring></argsstring>
+        <name>Roles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" line="6" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/UserViewModel.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a8c1ce93cd1044c1e84338d85bff8df33" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Address</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1af7b5b3e1a58dc112a0358c38c4e85457" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Avatar</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a64df7779734354fe86fa61cbc863c3e1" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>BirthDay</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab89a061b1f04a3227ab92de2720769f8" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Email</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab199cd98c11ddc645e21c4e9cc86718d" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>FullName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1aa17845cd13cc47e5ad7b1ec956479112" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Gender</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab2b73160a1a9eb7bee97c234b177c260" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Id</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a31af9786e62ca50ca9f1fd422bd3280b" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Password</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a4c4732c587de1c029116e9e5ebcbdc17" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>PhoneNumber</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a889007271f0b692023b331389c805669" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>Roles</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab6db0d637750f632e1f37c2722c210db" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::UserViewModel</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

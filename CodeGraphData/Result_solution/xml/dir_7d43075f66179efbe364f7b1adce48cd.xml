@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7d43075f66179efbe364f7b1adce48cd" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Domain/Entity</compoundname>
+    <innerfile refid="_company_8cs">Company.cs</innerfile>
+    <innerfile refid="_company_contact_8cs">CompanyContact.cs</innerfile>
+    <innerfile refid="_department_8cs">Department.cs</innerfile>
+    <innerfile refid="_department_employee_8cs">DepartmentEmployee.cs</innerfile>
+    <innerfile refid="_employee_8cs">Employee.cs</innerfile>
+    <innerfile refid="_role_8cs">Role.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/"/>
+  </compounddef>
+</doxygen>

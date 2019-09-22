@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_global" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Global</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpApplication</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1a3bd43a9940f9ede20399b412947c0011" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_Start</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_Start</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="16" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1a3c8baddae0579ee9a6702aed7aa664d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Session_Start</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Session_Start</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="75" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1af7c29b79359ed1b419aa9fd212dce28a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_BeginRequest</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_BeginRequest</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="80" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1ae8fbd90eb61d058bc5407d904ad6103b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_EndRequest</definition>
+        <argsstring>()</argsstring>
+        <name>Application_EndRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="88" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1a2d2f60e462dfb8b13005fb086ce9a937" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_AuthenticateRequest</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_AuthenticateRequest</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="92" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1a3db1443a8c74797eb66079ec67f7fa6e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_Error</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_Error</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="97" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1ae2c799d8114a3ed559ffdf3ff2a56da4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Session_End</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Session_End</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="102" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_global_1ab0b24fe6635f7f7853fc93c5b6668409" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Global.Application_End</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_End</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="107" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="117">
+        <label>System::Web::HttpApplication</label>
+      </node>
+      <node id="116">
+        <label>HRM.WebSite.Global</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_global"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>System::Web::HttpApplication</label>
+      </node>
+      <node id="118">
+        <label>HRM.WebSite.Global</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_global"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Global.asax.cs" bodystart="13" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1a2d2f60e462dfb8b13005fb086ce9a937" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_AuthenticateRequest</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1af7c29b79359ed1b419aa9fd212dce28a" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_BeginRequest</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1ab0b24fe6635f7f7853fc93c5b6668409" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_End</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1ae8fbd90eb61d058bc5407d904ad6103b" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_EndRequest</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3db1443a8c74797eb66079ec67f7fa6e" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_Error</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3bd43a9940f9ede20399b412947c0011" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Application_Start</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1ae2c799d8114a3ed559ffdf3ff2a56da4" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Session_End</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3c8baddae0579ee9a6702aed7aa664d9" prot="protected" virt="non-virtual"><scope>HRM::WebSite::Global</scope><name>Session_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+﻿@*<div class="page-container">
+    <div class="page-content">
+        <div class="page-content">*@
+            <!-- lam viec trong nay -->
+            <div class="row" style="padding-top:30px">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a class="dashboard-stat dashboard-stat-v2 blue" href="~/Employee/Index">
+                        <div class="visual">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                <span data-counter="counterup" data-value="1349">@Session["count"]</span>
+                            </div>
+                            <div class="desc"> QUẢN LÝ NHÂN VIÊN </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a class="dashboard-stat dashboard-stat-v2 red" href="~/Employee/Index?month1=@DateTime.Now.Month">
+                        <div class="visual">
+                            <i class="fa fa-bar-chart-o"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                <span data-counter="counterup" data-value="12,5">@Session["sinhnhat"]</span>
+                            </div>
+                            <div class="desc">SINH NHẬT THÁNG @DateTime.Now.Month </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a class="dashboard-stat dashboard-stat-v2 green" href="#">
+                        <div class="visual">
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                <span data-counter="counterup" data-value="549">0</span>
+                            </div>
+                            <div class="desc">HỢP ĐỒNG HẾT HẠN </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a class="dashboard-stat dashboard-stat-v2 purple" href="#">
+                        <div class="visual">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="details">
+                            <div class="number">
+                                +
+                                <span data-counter="counterup" data-value="89"></span>%
+                            </div>
+                            <div class="desc"> ĐẾN HẠNG NÂNG LƯƠNG </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+        @*</div>
+    </div>
+</div>*@

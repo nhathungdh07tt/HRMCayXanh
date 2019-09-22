@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller" kind="class"><name>HRM::WebSite::Controllers::AccountController</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1abdceaff33ea18eac7b4b20af2e5128ee" kind="variable"><name>_authenticateService</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a8e72f0d3ddbce9e58232796aab6b7e59" kind="property"><name>_authenticateManager</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a95cf6a23806cdf5a84d072fb8467f9a6" kind="function"><name>AccountController</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a7f3b5e2284a8fdd3a96926f0645bf6b3" kind="function"><name>Login</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1aa0719678334ae7aac9cce1390078a97d" kind="function"><name>Login</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a5c6a62b4963c4b0b6571fbcb9d6f8b30" kind="function"><name>Logout</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4" kind="class"><name>HRM::Domain::Base::AuditableEntity&lt; T &gt;</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a87f583ec0fd47d2c544167ac96115915" kind="property"><name>CreatedDate</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a58335a41dea037c0426b52c30a644eca" kind="property"><name>CreatedBy</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a7d883d0a1e57adbad597d5755011f2af" kind="property"><name>UpdatedDate</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a72cde5c72105406fbc0b4e5e1f09d848" kind="property"><name>UpdatedBy</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_authenticate_service" kind="class"><name>HRM::Services::AuthenticateService</name>
+    <member refid="class_h_r_m_1_1_services_1_1_authenticate_service_1ac3254f094bc85080aa438f26339c893f" kind="variable"><name>_userRepository</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_authenticate_service_1a337be839c4c19ca756e2338aa8c179cf" kind="function"><name>AuthenticateService</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_authenticate_service_1aa84c4c114248cfd0964d536c0121a0dc" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config" kind="class"><name>HRM::WebSite::Bootstrap::AuthorizeConfig</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1a349ffd88ba9d91db593ad1dabf7399b1" kind="function"><name>Configure</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1af2a3747f2cd1ea7dd8fa17a0aef5f4ff" kind="function"><name>IsAjaxRequest</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1acc9a0bd9b444e808b5c0dadcc313268c" kind="function"><name>IsApiRequest</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration" kind="class"><name>HRM::Services::AutoMapperService::AutoMapperConfiguration</name>
+    <member refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration_1a24b12e63e2e47beab0dc3255e830077a" kind="function"><name>Configure</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" kind="class"><name>HRM::Domain::Base::BaseEntity</name>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4" kind="class"><name>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae380e855063b5f83757ba67484dd3eb3" kind="variable"><name>_dataContext</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a3e1d5b4fc7e5faee22a37875db026e2a" kind="variable"><name>_dbSet</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6355ca56cd51195db4f15d57bfa8b7cb" kind="function"><name>BaseRepository</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a58e1aa9668ed9ba0de95c5bf75ea0e48" kind="function"><name>Add</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae2a8bf38bff104541ce269f196d3d116" kind="function"><name>Update</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a90c616b1b9b33332d1b68ab82f121c4d" kind="function"><name>Delete</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6c6575ce1b628e2cc8187fe8f57d5fca" kind="function"><name>Delete</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1afd9946e78a2176fc768a476cd1be3ab3" kind="function"><name>DeleteMulti</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ad22612a47aeb2f0a83fc24c06969f68f" kind="function"><name>FindById</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a9ebbc29c2232f2640f3152918a0092f5" kind="function"><name>FindByCondition</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ab237ed65c7be124e4d70afa395e4f91b" kind="function"><name>GetAll</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a7401b7d2f2b0c1c92c523e87f9024068" kind="function"><name>GetAllByCondition</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4" kind="class"><name>HRM::Services::Base::BaseService&lt; T, TKey &gt;</name>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1adb0a05bed624f0ffa8e26511bcb0c0ff" kind="variable"><name>_context</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a327784905b5c0d290c869eee583f06c2" kind="variable"><name>_repository</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9580a063d9253000b85d695c7cdfec3a" kind="function"><name>BaseService</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a25e9d943d03d793aa8cffad55004c531" kind="function"><name>Add</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9862ae6374865634148027742099b92b" kind="function"><name>Update</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1aad0469bca609ee84ce4e8f31dd1c9f15" kind="function"><name>Delete</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3849aac05bbd4ef796f5bbb7c13265e4" kind="function"><name>Delete</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3b37157c2b0cf8b23b8f9ee4c60e46d2" kind="function"><name>Save</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company" kind="class"><name>HRM::Domain::Entity::Company</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a219280ca74c0810409f8cc4870229449" kind="property"><name>VietNamName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a0c91f18d7bc91293f84a0c4b4196e67a" kind="property"><name>EnglishName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a664ce5b47ad59c75171648531f3b9018" kind="property"><name>ShortName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adec9411325c4a41c89726c2505c2b2b8" kind="property"><name>TaxCode</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ae3476c7d97bd27758f58728191e72952" kind="property"><name>Address</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a13ee9bd958e48f835d2c14fe322a5bfc" kind="property"><name>FirstRegistrationDate</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b88f9792cb8f9ae3cf85c7e30fa1d12" kind="property"><name>CharterCapital</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b9a1ac6c478a0defc5eb87856148247" kind="property"><name>ChangedCount</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1aa085fca9c76129b2014b99181ec04999" kind="property"><name>ChangedDate</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1acf7f95ad0b362f275899c425a5ba8210" kind="property"><name>ChangedContent</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a49d80b35c0445689768a58ffb170cde6" kind="property"><name>Province</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a7e53324db818898c8e39557d45107e84" kind="property"><name>District</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3f2e4350284f10a94ab0d223db48aa42" kind="property"><name>Ward</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a86b698d8fb2ca324035fc0fcdf2d9a77" kind="property"><name>Website</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a307e99b40d7ecaad697ab7842120d399" kind="property"><name>Mobile</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1af91dfdac97101e743934ac814d7a9d87" kind="property"><name>Fax</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3e742884f7c7d0fd93825e3a6851e723" kind="property"><name>Phone</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ada1cf39b503eec25f736763ab4032d0a" kind="property"><name>Email</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adf1fd4d087021ea91596b074ca31d737" kind="property"><name>BankAccountNumber</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8109f599160eb5243462e66dfe21c247" kind="property"><name>BankAccountIssuePlace</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ac684b7739603b23192482323c4284b27" kind="property"><name>SignName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ab26cdcb3389f5f85cf497503f752c48e" kind="property"><name>SignTitle</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a12a3e24c24cac0913141b6efd26ba6f1" kind="property"><name>Contacts</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8e6bb182ef5285ca927080f8e95cd91c" kind="function"><name>Company</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact" kind="class"><name>HRM::Domain::Entity::CompanyContact</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a0f84bb2f46eb72af47a1e69e30f5542a" kind="property"><name>Prefix</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a7843e30a2f21eba209cb8164c750eb57" kind="property"><name>ContactName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a6b17a872df8405fc766c777267dd8b06" kind="property"><name>Phone</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a42e35df5e053a0993de63e6362b0a1cb" kind="property"><name>Email</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a856933f1e3e3c38d0a97a2c5519c88b1" kind="property"><name>Title</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a1e2f886c926577dc7a65a03e3a00f0d2" kind="property"><name>Company</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a2866844cd1c361798862cd669b5c9b9a" kind="function"><name>CompanyContact</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model" kind="class"><name>HRM::ViewModels::Company::CompanyContactViewModel</name>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aee76a1961cf5119c21dcf352a31ca80d" kind="property"><name>Prefix</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a5fe297ce3b87fcde89f248db7ce20465" kind="property"><name>ContactName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aacf0716b0da615937e8b5392abf249cb" kind="property"><name>Phone</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a3ba76e56596675cb7a3c1e2bbeac5467" kind="property"><name>Email</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a103bcabf1fec9eac9919a95373b3b73c" kind="property"><name>Title</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller" kind="class"><name>HRM::WebSite::Controllers::CompanyController</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a2c04bc05bb914da3c9503b3c170167ca" kind="variable"><name>_companyService</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7fd4526416f924a75185eaee206b6376" kind="function"><name>CompanyController</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a1c5e87b5292d5b0bd86f3e17ae577042" kind="function"><name>Index</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ab4c150bf9589df1f722d89ec040271f6" kind="function"><name>Create</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a86e0dff62f2b01fd2f127b97fb2417df" kind="function"><name>Store</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a626c3c702f33378426330a7552744323" kind="function"><name>Show</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a9a03971c49064280d66ed4f10d6d6678" kind="function"><name>Edit</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ad35b2a4ba364563dfacc9a89b04ae072" kind="function"><name>Update</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7d6064f056d4e01439c5c045634016b5" kind="function"><name>Destroy</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_company_repository" kind="class"><name>HRM::Repository::Repositories::CompanyRepository</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_company_repository_1a141ceb86fbeeafd1361de8c547220008" kind="function"><name>CompanyRepository</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_company_service" kind="class"><name>HRM::Services::CompanyService</name>
+    <member refid="class_h_r_m_1_1_services_1_1_company_service_1a644176ef27c533d950678981da92c8f4" kind="variable"><name>_context</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_company_service_1a26de9c5320c92a54b1ecc6042bbdb44e" kind="variable"><name>_repository</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_company_service_1aead7c4e1a3151c6872a422a5cb7e089b" kind="function"><name>CompanyService</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_company_service_1a341640cfd766fedb0995cc22dc855975" kind="function"><name>GetCompanyInfo</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model" kind="class"><name>HRM::ViewModels::Company::CompanyViewModel</name>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a007465bf56f3304f7300a3d858c867f7" kind="property"><name>VietNamName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a0cfd286d501f1b5cba3c6af620644fda" kind="property"><name>EnglishName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a673251bed8f67d44bab22c61d799f3b6" kind="property"><name>ShortName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1dd68d9f251e42900a80194b7b903284" kind="property"><name>TaxCode</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abf81881b5e32a4613be93f0e66a78c44" kind="property"><name>Address</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a9604a69fa53c44a126c8dfbded51c080" kind="property"><name>FirstRegistrationDate</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aaacda220fce5ca73492803d5e7e32a12" kind="property"><name>CharterCapital</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1d7bf855ac9c9e226e3a0baaaf7ffabc" kind="property"><name>ChangedCount</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a318c5919fa5b2b6a09bcdfbcb4a6621f" kind="property"><name>ChangedDate</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a830e9fcb82b6533be4fb2ac416f07313" kind="property"><name>ChangedContent</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aafa987a2431c50d3b3b659f1fff912ed" kind="property"><name>Province</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abcf7722a0496dfb38f43d5daf85e54ba" kind="property"><name>District</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aea20c51d23301a3c38c6ed4e1f2c8361" kind="property"><name>Ward</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a4da28c794fb62c1a5c35ce51ebd0ad8f" kind="property"><name>Website</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ad3f95d0caf2b3053f19933294a15e622" kind="property"><name>Mobile</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a849b23dda8042be4f843eef9850ace7f" kind="property"><name>Fax</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a96bc2a83bc626aee4892052f37ed8451" kind="property"><name>Phone</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a357f370493e86343c7687c509a6d48c8" kind="property"><name>Email</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abdc91883c6f393ff783a4dda646126fe" kind="property"><name>BankAccountNumber</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1afa967b09d4f0fc35626e0eee5de7a429" kind="property"><name>BankAccountIssuePlace</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1e2cac53ac27f5570e311a08ef8658e0" kind="property"><name>SignName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ae6d25ca5e1af3b7b2eb99a2a3728c61e" kind="property"><name>SignTitle</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a93431261ad121406409d537d600dab3e" kind="property"><name>Contacts</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1af0cdf6e65d7563a4bee42d75921d2aef" kind="function"><name>CompanyViewModel</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module" kind="class"><name>HRM::WebSite::IoC::ContainerBuilderModule</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module_1aa8b6cb0f3034690418880e28810d6036" kind="function"><name>Load</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer" kind="class"><name>HRM::Repository::Initializer::DatabaseInitializer</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer_1a518954e417ef6cd555660a964ea9fc34" kind="function"><name>Seed</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_date_time_binder" kind="class"><name>HRM::WebSite::Binders::DateTimeBinder</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_date_time_binder_1ac3155406389f27901798bc3adf5956cb" kind="function"><name>BindModel</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department" kind="class"><name>HRM::Domain::Entity::Department</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_1a17c63c743444ae6e424d7ef4e07fb631" kind="property"><name>Name</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_1a36db29f1f2efb6a046ff91814232ba9c" kind="property"><name>AssignEmployees</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_1a5098fad07e01a6b96bc221c6c447febf" kind="function"><name>Department</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee" kind="class"><name>HRM::Domain::Entity::DepartmentEmployee</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1acc5ed56378bce8845cd721ebc05bcfa2" kind="property"><name>Department</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a626dec52cd22cf5a285424470d8aa0f5" kind="property"><name>Employee</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1aaa6d34c9845a815dc46985dfcec77d00" kind="property"><name>From</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a6b6818b83f9e1ed992bdecc38124c810" kind="property"><name>To</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a802d739203f942311050b7e5389270b7" kind="function"><name>DepartmentEmployee</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable" kind="class"><name>HRM::Repository::Base::Disposable</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1abe868b93230bf92877507b57d4ce7935" kind="variable"><name>isDisposed</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1ac15f3a7edf827d64fc18a58fc00df37f" kind="function"><name>~Disposable</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1acf0bac815cd4397ee0cd12ac8cfd8da8" kind="function"><name>Dispose</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a85c1073d13ca0d38421eb3bbc1519388" kind="function"><name>Dispose</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a741e4b28a86396394d45450fa7a2d5f1" kind="function"><name>DisposeCore</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile" kind="class"><name>HRM::Services::AutoMapperService::DomainToViewModelProfile</name>
+    <member refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile_1a15ba76f1cede6b2982e020595837b057" kind="function"><name>DomainToViewModelProfile</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee" kind="class"><name>HRM::Domain::Entity::Employee</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee_1ae61b96f001a0a6de585c2a417f01ed0a" kind="property"><name>FirstName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee_1a5cb8b4bb3e11fcb5db6a5e6805c00635" kind="property"><name>LastName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee_1a454d571420c58ef59d39b697b45e0941" kind="property"><name>AssignToDepartments</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee_1ad1d8f808c50ec2f09b989fd36fecaa6a" kind="function"><name>Employee</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4" kind="class"><name>HRM::Domain::Base::Entity&lt; T &gt;</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4_1aea7763337be1b48942c9bfab60c0b9b9" kind="property"><name>Id</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_global" kind="class"><name>HRM::WebSite::Global</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3bd43a9940f9ede20399b412947c0011" kind="function"><name>Application_Start</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3c8baddae0579ee9a6702aed7aa664d9" kind="function"><name>Session_Start</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1af7c29b79359ed1b419aa9fd212dce28a" kind="function"><name>Application_BeginRequest</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1ae8fbd90eb61d058bc5407d904ad6103b" kind="function"><name>Application_EndRequest</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1a2d2f60e462dfb8b13005fb086ce9a937" kind="function"><name>Application_AuthenticateRequest</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1a3db1443a8c74797eb66079ec67f7fa6e" kind="function"><name>Application_Error</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1ae2c799d8114a3ed559ffdf3ff2a56da4" kind="function"><name>Session_End</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_global_1ab0b24fe6635f7f7853fc93c5b6668409" kind="function"><name>Application_End</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller" kind="class"><name>HRM::WebSite::Controllers::HomeController</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a37ea0cf7b44b5a094a3461254247fc92" kind="variable"><name>_userService</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1ab33e0aaa14188b67403e3bc1ab03feed" kind="variable"><name>_roleService</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a7ee0c8ef1cdc69a32150470551b4da5d" kind="function"><name>HomeController</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a86c61090c14dab189e578eea461535aa" kind="function"><name>Index</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a2a9c66bb9a6e5da7a03897ba779d92fa" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_hrm_data_context" kind="class"><name>HRM::Repository::HrmDataContext</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1f7a3bb5c4b1e0ee640f4d64b9eebb5a" kind="variable"><name>_migrated</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1abb06c9febf0d9e44f7759483281b76e3" kind="property"><name>Users</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a782eec77d67524a8c3f6b9e472d344b2" kind="property"><name>Roles</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ae8a4aff9023f7f3df90ab449452d0af7" kind="property"><name>Employees</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a83985f0112fab74fcabcaea71a89cde5" kind="property"><name>Departments</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a9c35c0765f1abc7c4240b8155b512d9b" kind="property"><name>DeparementEmployees</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a98fbec767eb8283c1868d3b8b27641fb" kind="property"><name>Companies</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a8aeae40c04fbec2896391c14c3d37db0" kind="property"><name>CompanyContacts</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ace54365b5d76d6bee7c0aeab4b0488af" kind="function"><name>HrmDataContext</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1051a48acd143b87fa4ced50b4b9285d" kind="function"><name>SaveChanges</name></member>
+    <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ad636b5bd25cb1cf94127531c42cf05c1" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity" kind="interface"><name>HRM::Domain::Base::IAuditableEntity</name>
+    <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity_1a0847f5aa64a8dd10bfab7aad0929c523" kind="property"><name>CreatedDate</name></member>
+    <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity_1ade600b8db2ce623a34fa5a5b20345a0c" kind="property"><name>CreatedBy</name></member>
+    <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity_1a396169856c5e9c82102c090dd2bc19e5" kind="property"><name>UpdatedDate</name></member>
+    <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity_1a6bb180307d867b31fff57198e1ffb8a6" kind="property"><name>UpdatedBy</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service" kind="interface"><name>HRM::Services::IAuthenticateService</name>
+    <member refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service_1a3296bca97899585790dad3f7116d2764" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository" kind="interface"><name>HRM::Repository::Repositories::ICompanyRepository</name>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_services_1_1_i_company_service" kind="interface"><name>HRM::Services::ICompanyService</name>
+    <member refid="interface_h_r_m_1_1_services_1_1_i_company_service_1acb048a55fb50359c76042948c6bd8066" kind="function"><name>GetCompanyInfo</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_repository_1_1_i_context" kind="interface"><name>HRM::Repository::IContext</name>
+    <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1adfdb4460b4ffa326dc8bab7798572173" kind="function"><name>Set&lt; TEntity &gt;</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1a1012a6217819fa4dbed72424e7e10131" kind="function"><name>Entry&lt; TEntity &gt;</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1ab28f56bd6df15878104e4f05a137ede9" kind="function"><name>SaveChanges</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4" kind="interface"><name>HRM::Domain::Base::IEntity&lt; T &gt;</name>
+    <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4_1a575f8855d14a341e374e41e3a8100fa5" kind="property"><name>Id</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config" kind="class"><name>HRM::WebSite::Bootstrap::IocConfig</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ac3e7d7785f49cef4392a876dc5330721" kind="variable"><name>_containerBuilder</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1a6a24f534061a0995deacf339601d6c43" kind="variable"><name>lock</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ab0472b18c9767295740dcc02d82322ab" kind="property"><name>ContainerBuilder</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4" kind="interface"><name>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</name>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aa43c413a81b4b0c64ad7677c76ce00ef" kind="function"><name>Add</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a18e8c8ca7d53d36d3b6480cd34d7a288" kind="function"><name>Update</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac4a2b5ca88d3e91f41c4c07218516704" kind="function"><name>Delete</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac03c01d49931156c49516655d371ee3d" kind="function"><name>Delete</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a2bc25bd03456ea1c7dec2bb52921e46e" kind="function"><name>DeleteMulti</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aaeaaeca76d22e572671ea4bead7216c5" kind="function"><name>FindById</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a760272e819ebc43d162d3df13d075ffe" kind="function"><name>FindByCondition</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abed6ca86bb2987eb81858804b3eb9426" kind="function"><name>GetAll</name></member>
+    <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abd8d73b435b5c3257beb2bdd6437fb86" kind="function"><name>GetAllByCondition</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository" kind="interface"><name>HRM::Repository::Repositories::IRoleRepository</name>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_services_1_1_i_role_service" kind="interface"><name>HRM::Services::IRoleService</name>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4" kind="interface"><name>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</name>
+    <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1aa887e85a2bd9d50fe7c51eddbd938554" kind="function"><name>Add</name></member>
+    <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1ac448f38ca3fcef73194fb554ea78dff0" kind="function"><name>Update</name></member>
+    <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a7fb7410b31a62083acebbc9a302673e3" kind="function"><name>Delete</name></member>
+    <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a8de909bcb7384c9fb8b41d6ec53b2254" kind="function"><name>Delete</name></member>
+    <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a1b69b4a155eb01585b00a2fdf04e3851" kind="function"><name>Save</name></member>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository" kind="interface"><name>HRM::Repository::Repositories::IUserRepository</name>
+  </compound>
+  <compound refid="interface_h_r_m_1_1_services_1_1_i_user_service" kind="interface"><name>HRM::Services::IUserService</name>
+    <member refid="interface_h_r_m_1_1_services_1_1_i_user_service_1acccca8571c7651c94d581aab3c296309" kind="function"><name>UserIncludeRole</name></member>
+    <member refid="interface_h_r_m_1_1_services_1_1_i_user_service_1a772d5155e427e9cacf70022a469c92d5" kind="function"><name>GetUserById</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_view_models_1_1_authenticate_1_1_login_view_model" kind="class"><name>HRM::ViewModels::Authenticate::LoginViewModel</name>
+    <member refid="class_h_r_m_1_1_view_models_1_1_authenticate_1_1_login_view_model_1ab048e4a09a11467ff57104063c49ef7c" kind="property"><name>Username</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_authenticate_1_1_login_view_model_1a3c41701040a38180ec06aa9cf533816e" kind="property"><name>Password</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_authenticate_1_1_login_view_model_1a23f64d0c1c013c28b9c6132d909bede2" kind="property"><name>Remember</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config" kind="class"><name>HRM::WebSite::Bootstrap::MvcRouteConfig</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config_1acf120b2126bc6d6c1fa67e04ef53ce9f" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder" kind="class"><name>HRM::WebSite::Binders::NullableDateTimeBinder</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder_1a7618bba53bfd6fa2368902a638d4a329" kind="function"><name>BindModel</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role" kind="class"><name>HRM::Domain::Entity::Role</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role_1ac4edfe38d63bc8c60bbcfa8e30a8b373" kind="property"><name>Name</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role_1a4de78c00254f95ab92c786a32407f08f" kind="property"><name>Users</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role_1aaf2eb21185eeabfc87f896df49988556" kind="function"><name>Role</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository" kind="class"><name>HRM::Repository::Repositories::RoleRepository</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository_1abeca09577ca48f952a02a0069e15a22e" kind="function"><name>RoleRepository</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_role_service" kind="class"><name>HRM::Services::RoleService</name>
+    <member refid="class_h_r_m_1_1_services_1_1_role_service_1a65e62cf0d93f171b5bf208b05d716ee2" kind="variable"><name>_context</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_role_service_1adb6246abef7b0b4ff73e6e5da5abc62c" kind="variable"><name>_repository</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_role_service_1a7e033a4ed6df6a6007e4a58c11581891" kind="function"><name>RoleService</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model" kind="class"><name>HRM::ViewModels::System::RoleViewModel</name>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1aeb49cddea169e447d4097bd2d8b12565" kind="property"><name>Id</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ace983e19d5004938cbe7f3effbfb6bcc" kind="property"><name>Name</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ac9537f394eb1dd923292f488a8f2e521" kind="property"><name>Description</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_common_1_1_settings" kind="class"><name>HRM::WebSite::Common::Settings</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_common_1_1_settings_1adea91afd2f505ca80728b1e7b5e8d5c2" kind="variable"><name>DATE_PATTERN</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup" kind="class"><name>HRM::WebSite::Bootstrap::Startup</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup_1aaa9d2d9446b7e3db135cce78d8e7ae04" kind="function"><name>Configuration</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user" kind="class"><name>HRM::Domain::Entity::User</name>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1ab2d91f3714b770213101a664efea7d31" kind="property"><name>UserName</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a1d9460de7d310483519c92c016897102" kind="property"><name>Password</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a75973bf67e8aefcbc9540ad0169bf415" kind="property"><name>Roles</name></member>
+    <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a606f267c382f8c0cf169c739680006db" kind="function"><name>User</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_models_1_1_user_api_result" kind="class"><name>HRM::WebSite::Models::UserApiResult</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_models_1_1_user_api_result_1ada6f572a4ca901aa00e508fdb1f004a3" kind="property"><name>Id</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" kind="class"><name>HRM::WebSite::Api::UserController</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aa10065c49454789eb7c3f31ef79dee7e" kind="variable"><name>_userService</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aabcd85293cacdd571281c593adbbacb6" kind="function"><name>UserController</name></member>
+    <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1a70586771f631259227329d4882f9fc82" kind="function"><name>Get</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository" kind="class"><name>HRM::Repository::Repositories::UserRepository</name>
+    <member refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository_1ae493296eab4b736667b2d4923135442f" kind="function"><name>UserRepository</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_user_service" kind="class"><name>HRM::Services::UserService</name>
+    <member refid="class_h_r_m_1_1_services_1_1_user_service_1ac22587eeffadfe2d5cc875997f450a64" kind="variable"><name>_context</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_user_service_1a22f0f233bf12a43a558e34fb5ef9d86a" kind="variable"><name>_repository</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_user_service_1a878805f5c62bda4b40179bd72b54d5e8" kind="function"><name>UserService</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_user_service_1ab88207eb00865e238757f849a5f3328f" kind="function"><name>GetUserById</name></member>
+    <member refid="class_h_r_m_1_1_services_1_1_user_service_1a79ab913c9efa323b3e6a1d9bf99658c4" kind="function"><name>UserIncludeRole</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model" kind="class"><name>HRM::ViewModels::System::UserViewModel</name>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab2b73160a1a9eb7bee97c234b177c260" kind="property"><name>Id</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab199cd98c11ddc645e21c4e9cc86718d" kind="property"><name>FullName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a64df7779734354fe86fa61cbc863c3e1" kind="property"><name>BirthDay</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab89a061b1f04a3227ab92de2720769f8" kind="property"><name>Email</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a31af9786e62ca50ca9f1fd422bd3280b" kind="property"><name>Password</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1ab6db0d637750f632e1f37c2722c210db" kind="property"><name>UserName</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a8c1ce93cd1044c1e84338d85bff8df33" kind="property"><name>Address</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a4c4732c587de1c029116e9e5ebcbdc17" kind="property"><name>PhoneNumber</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1af7b5b3e1a58dc112a0358c38c4e85457" kind="property"><name>Avatar</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1aa17845cd13cc47e5ad7b1ec956479112" kind="property"><name>Gender</name></member>
+    <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model_1a889007271f0b692023b331389c805669" kind="property"><name>Roles</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_view_model_to_domain_profile" kind="class"><name>HRM::Services::AutoMapperService::ViewModelToDomainProfile</name>
+    <member refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_view_model_to_domain_profile_1afb03f5fccc5ff0522f639ab13cd608a6" kind="function"><name>ViewModelToDomainProfile</name></member>
+  </compound>
+  <compound refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config" kind="class"><name>HRM::WebSite::Bootstrap::WebApiConfig</name>
+    <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config_1a83eb8cc91ce2e3d774ba6612810cd22e" kind="function"><name>Register</name></member>
+  </compound>
+  <compound refid="namespace_autofac" kind="namespace"><name>Autofac</name>
+  </compound>
+  <compound refid="namespace_autofac_1_1_integration_1_1_mvc" kind="namespace"><name>Autofac::Integration::Mvc</name>
+  </compound>
+  <compound refid="namespace_autofac_1_1_integration_1_1_web_api" kind="namespace"><name>Autofac::Integration::WebApi</name>
+  </compound>
+  <compound refid="namespace_auto_mapper" kind="namespace"><name>AutoMapper</name>
+  </compound>
+  <compound refid="namespace_auto_mapper_1_1_queryable_extensions" kind="namespace"><name>AutoMapper::QueryableExtensions</name>
+  </compound>
+  <compound refid="namespace_effort" kind="namespace"><name>Effort</name>
+  </compound>
+  <compound refid="namespace_h_r_m" kind="namespace"><name>HRM</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_domain" kind="namespace"><name>HRM::Domain</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_domain_1_1_base" kind="namespace"><name>HRM::Domain::Base</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_domain_1_1_entity" kind="namespace"><name>HRM::Domain::Entity</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_repository" kind="namespace"><name>HRM::Repository</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_repository_1_1_base" kind="namespace"><name>HRM::Repository::Base</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_repository_1_1_base_1_1_interfaces" kind="namespace"><name>HRM::Repository::Base::Interfaces</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_repository_1_1_initializer" kind="namespace"><name>HRM::Repository::Initializer</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_repository_1_1_repositories" kind="namespace"><name>HRM::Repository::Repositories</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_services" kind="namespace"><name>HRM::Services</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_services_1_1_auto_mapper_service" kind="namespace"><name>HRM::Services::AutoMapperService</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_services_1_1_base" kind="namespace"><name>HRM::Services::Base</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_services_1_1_base_1_1_interfaces" kind="namespace"><name>HRM::Services::Base::Interfaces</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_view_models" kind="namespace"><name>HRM::ViewModels</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_view_models_1_1_authenticate" kind="namespace"><name>HRM::ViewModels::Authenticate</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_view_models_1_1_company" kind="namespace"><name>HRM::ViewModels::Company</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_view_models_1_1_system" kind="namespace"><name>HRM::ViewModels::System</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site" kind="namespace"><name>HRM::WebSite</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_api" kind="namespace"><name>HRM::WebSite::Api</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_binders" kind="namespace"><name>HRM::WebSite::Binders</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_bootstrap" kind="namespace"><name>HRM::WebSite::Bootstrap</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_common" kind="namespace"><name>HRM::WebSite::Common</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_controllers" kind="namespace"><name>HRM::WebSite::Controllers</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_io_c" kind="namespace"><name>HRM::WebSite::IoC</name>
+  </compound>
+  <compound refid="namespace_h_r_m_1_1_web_site_1_1_models" kind="namespace"><name>HRM::WebSite::Models</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_1_1_identity" kind="namespace"><name>Microsoft::AspNet::Identity</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_owin" kind="namespace"><name>Microsoft::Owin</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_owin_1_1_security" kind="namespace"><name>Microsoft::Owin::Security</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_owin_1_1_security_1_1_cookies" kind="namespace"><name>Microsoft::Owin::Security::Cookies</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json_1_1_serialization" kind="namespace"><name>Newtonsoft::Json::Serialization</name>
+  </compound>
+  <compound refid="namespace_owin" kind="namespace"><name>Owin</name>
+  </compound>
+  <compound refid="namespace_stack_exchange_1_1_profiling" kind="namespace"><name>StackExchange::Profiling</name>
+  </compound>
+  <compound refid="namespace_stack_exchange_1_1_profiling_1_1_entity_framework6" kind="namespace"><name>StackExchange::Profiling::EntityFramework6</name>
+  </compound>
+  <compound refid="namespace_stack_exchange_1_1_profiling_1_1_mvc" kind="namespace"><name>StackExchange::Profiling::Mvc</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_common" kind="namespace"><name>System::Data::Common</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_infrastructure" kind="namespace"><name>System::Data::Entity::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_migrations" kind="namespace"><name>System::Data::Entity::Migrations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_migrations_1_1_infrastructure" kind="namespace"><name>System::Data::Entity::Migrations::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_sql_types" kind="namespace"><name>System::Data::SqlTypes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics_1_1_eventing_1_1_reader" kind="namespace"><name>System::Diagnostics::Eventing::Reader</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq_1_1_expressions" kind="namespace"><name>System::Linq::Expressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http" kind="namespace"><name>System::Net::Http</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_access_control" kind="namespace"><name>System::Security::AccessControl</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_claims" kind="namespace"><name>System::Security::Claims</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_policy" kind="namespace"><name>System::Security::Policy</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_helpers" kind="namespace"><name>System::Web::Helpers</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_http" kind="namespace"><name>System::Web::Http</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_security" kind="namespace"><name>System::Web::Security</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_session_state" kind="namespace"><name>System::Web::SessionState</name>
+  </compound>
+  <compound refid="_h_r_m_8_core_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_services_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_repository_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_domain_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_common_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_test_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_web_site_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_h_r_m_8_view_models_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_auditable_entity_8cs" kind="file"><name>AuditableEntity.cs</name>
+  </compound>
+  <compound refid="_base_entity_8cs" kind="file"><name>BaseEntity.cs</name>
+  </compound>
+  <compound refid="_entity_8cs" kind="file"><name>Entity.cs</name>
+  </compound>
+  <compound refid="_i_auditable_entity_8cs" kind="file"><name>IAuditableEntity.cs</name>
+  </compound>
+  <compound refid="_i_entity_8cs" kind="file"><name>IEntity.cs</name>
+  </compound>
+  <compound refid="_company_8cs" kind="file"><name>Company.cs</name>
+  </compound>
+  <compound refid="_company_contact_8cs" kind="file"><name>CompanyContact.cs</name>
+  </compound>
+  <compound refid="_department_8cs" kind="file"><name>Department.cs</name>
+  </compound>
+  <compound refid="_department_employee_8cs" kind="file"><name>DepartmentEmployee.cs</name>
+  </compound>
+  <compound refid="_employee_8cs" kind="file"><name>Employee.cs</name>
+  </compound>
+  <compound refid="_role_8cs" kind="file"><name>Role.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_base_repository_8cs" kind="file"><name>BaseRepository.cs</name>
+  </compound>
+  <compound refid="_disposable_8cs" kind="file"><name>Disposable.cs</name>
+  </compound>
+  <compound refid="_i_repository_8cs" kind="file"><name>IRepository.cs</name>
+  </compound>
+  <compound refid="_hrm_data_context_8cs" kind="file"><name>HrmDataContext.cs</name>
+  </compound>
+  <compound refid="_i_context_8cs" kind="file"><name>IContext.cs</name>
+  </compound>
+  <compound refid="_database_initializer_8cs" kind="file"><name>DatabaseInitializer.cs</name>
+  </compound>
+  <compound refid="_company_repository_8cs" kind="file"><name>CompanyRepository.cs</name>
+  </compound>
+  <compound refid="_role_repository_8cs" kind="file"><name>RoleRepository.cs</name>
+  </compound>
+  <compound refid="_user_repository_8cs" kind="file"><name>UserRepository.cs</name>
+  </compound>
+  <compound refid="_authenticate_service_8cs" kind="file"><name>AuthenticateService.cs</name>
+  </compound>
+  <compound refid="_auto_mapper_configuration_8cs" kind="file"><name>AutoMapperConfiguration.cs</name>
+  </compound>
+  <compound refid="_domain_to_view_model_profile_8cs" kind="file"><name>DomainToViewModelProfile.cs</name>
+  </compound>
+  <compound refid="_view_model_to_domain_profile_8cs" kind="file"><name>ViewModelToDomainProfile.cs</name>
+  </compound>
+  <compound refid="_base_service_8cs" kind="file"><name>BaseService.cs</name>
+  </compound>
+  <compound refid="_i_service_8cs" kind="file"><name>IService.cs</name>
+  </compound>
+  <compound refid="_company_service_8cs" kind="file"><name>CompanyService.cs</name>
+  </compound>
+  <compound refid="_role_service_8cs" kind="file"><name>RoleService.cs</name>
+  </compound>
+  <compound refid="_user_service_8cs" kind="file"><name>UserService.cs</name>
+  </compound>
+  <compound refid="_login_view_model_8cs" kind="file"><name>LoginViewModel.cs</name>
+  </compound>
+  <compound refid="_company_contact_view_model_8cs" kind="file"><name>CompanyContactViewModel.cs</name>
+  </compound>
+  <compound refid="_company_view_model_8cs" kind="file"><name>CompanyViewModel.cs</name>
+  </compound>
+  <compound refid="_role_view_model_8cs" kind="file"><name>RoleViewModel.cs</name>
+  </compound>
+  <compound refid="_user_view_model_8cs" kind="file"><name>UserViewModel.cs</name>
+  </compound>
+  <compound refid="_user_controller_8cs" kind="file"><name>UserController.cs</name>
+  </compound>
+  <compound refid="_date_time_binder_8cs" kind="file"><name>DateTimeBinder.cs</name>
+  </compound>
+  <compound refid="_nullable_date_time_binder_8cs" kind="file"><name>NullableDateTimeBinder.cs</name>
+  </compound>
+  <compound refid="_authorize_config_8cs" kind="file"><name>AuthorizeConfig.cs</name>
+  </compound>
+  <compound refid="_io_c_config_8cs" kind="file"><name>IoCConfig.cs</name>
+  </compound>
+  <compound refid="_mvc_route_config_8cs" kind="file"><name>MvcRouteConfig.cs</name>
+  </compound>
+  <compound refid="_startup_8cs" kind="file"><name>Startup.cs</name>
+  </compound>
+  <compound refid="_web_api_config_8cs" kind="file"><name>WebApiConfig.cs</name>
+  </compound>
+  <compound refid="_settings_8cs" kind="file"><name>Settings.cs</name>
+  </compound>
+  <compound refid="_account_controller_8cs" kind="file"><name>AccountController.cs</name>
+  </compound>
+  <compound refid="_company_controller_8cs" kind="file"><name>CompanyController.cs</name>
+  </compound>
+  <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="_container_builder_module_8cs" kind="file"><name>ContainerBuilderModule.cs</name>
+  </compound>
+  <compound refid="_user_api_result_8cs" kind="file"><name>UserApiResult.cs</name>
+  </compound>
+  <compound refid="dir_a7d1532dd4e9c4c2150f1d6f44c9ad42" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Api</name>
+  </compound>
+  <compound refid="dir_c40179d7224c3bbec9e3cfb602ec2d99" kind="dir"><name>D:/Projects/HRM/HRM.ViewModels/Authenticate</name>
+  </compound>
+  <compound refid="dir_5615f7ac5b45b77c60f50aeb7ddb1c81" kind="dir"><name>D:/Projects/HRM/HRM.Services/AutoMapperService</name>
+  </compound>
+  <compound refid="dir_de5476b9c15158ffd07f5b9a93425118" kind="dir"><name>D:/Projects/HRM/HRM.Services/Base</name>
+  </compound>
+  <compound refid="dir_ecee9605fd6357afcd823a78e047604f" kind="dir"><name>D:/Projects/HRM/HRM.Repository/Base</name>
+  </compound>
+  <compound refid="dir_d60e49bf8dd02654a8169051fdb5fce2" kind="dir"><name>D:/Projects/HRM/HRM.Domain/Base</name>
+  </compound>
+  <compound refid="dir_82e4be2de8d5fceb4b98765b52976461" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Binders</name>
+  </compound>
+  <compound refid="dir_91d4f4ee5faf6473ce30eba416d4548f" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Bootstrap</name>
+  </compound>
+  <compound refid="dir_4a668186a4fe47fc90f76ec972cd0be3" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Common</name>
+  </compound>
+  <compound refid="dir_a9fe51799fe469b529e55ffe2cbee590" kind="dir"><name>D:/Projects/HRM/HRM.ViewModels/Company</name>
+  </compound>
+  <compound refid="dir_9e08a8a897eaf12516fefd9e14105c8b" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Controllers</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_7d43075f66179efbe364f7b1adce48cd" kind="dir"><name>D:/Projects/HRM/HRM.Domain/Entity</name>
+  </compound>
+  <compound refid="dir_cf3dcf05dfa1315b5cdfb7cfb89a7ae7" kind="dir"><name>D:/Projects/HRM</name>
+  </compound>
+  <compound refid="dir_ae193d0c5e3e63ed8f62f9e0a0ea3c91" kind="dir"><name>D:/Projects/HRM/HRM.Common</name>
+  </compound>
+  <compound refid="dir_7691782067e39aea4c6d0dc77e15d962" kind="dir"><name>D:/Projects/HRM/HRM.Core</name>
+  </compound>
+  <compound refid="dir_ddb8aceba92b9a11736842d7951f965f" kind="dir"><name>D:/Projects/HRM/HRM.Domain</name>
+  </compound>
+  <compound refid="dir_a97b30daad162a8997c2b4ae72a979df" kind="dir"><name>D:/Projects/HRM/HRM.Repository</name>
+  </compound>
+  <compound refid="dir_dc1e84afddc1897edd3e81a3b35f8ebd" kind="dir"><name>D:/Projects/HRM/HRM.Services</name>
+  </compound>
+  <compound refid="dir_6ffb5f718a7a623e3702d66e60c50c89" kind="dir"><name>D:/Projects/HRM/HRM.Test</name>
+  </compound>
+  <compound refid="dir_05c645c3423bc592bdbb334c60ac460b" kind="dir"><name>D:/Projects/HRM/HRM.ViewModels</name>
+  </compound>
+  <compound refid="dir_ad731b282c2c96822df09ad6e1eb137c" kind="dir"><name>D:/Projects/HRM/HRM.WebSite</name>
+  </compound>
+  <compound refid="dir_4937d193e5a516f33077d26d8f4f4144" kind="dir"><name>D:/Projects/HRM/HRM.Repository/Initializer</name>
+  </compound>
+  <compound refid="dir_c08b77237d55f347a54a2cebec5d31a6" kind="dir"><name>D:/Projects/HRM/HRM.Services/Base/Interfaces</name>
+  </compound>
+  <compound refid="dir_113b913cc4cf35675b20959012facf93" kind="dir"><name>D:/Projects/HRM/HRM.Repository/Base/Interfaces</name>
+  </compound>
+  <compound refid="dir_6ff6fefc7ae6ec068fa695eb71cb8fd3" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/IoC</name>
+  </compound>
+  <compound refid="dir_e6090818c7f01f30a8806c892a016621" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Models</name>
+  </compound>
+  <compound refid="dir_70399fa3d88a5292b2b41a1f3fe3e4e2" kind="dir"><name>D:/Projects</name>
+  </compound>
+  <compound refid="dir_fe27d0310240bb9abe400b9187628205" kind="dir"><name>D:/Projects/HRM/HRM.ViewModels/Properties</name>
+  </compound>
+  <compound refid="dir_fbe82b9e04c606a3475558b426c45fc6" kind="dir"><name>D:/Projects/HRM/HRM.WebSite/Properties</name>
+  </compound>
+  <compound refid="dir_96b3be6046acff7b68b4fbbe36b32e98" kind="dir"><name>D:/Projects/HRM/HRM.Test/Properties</name>
+  </compound>
+  <compound refid="dir_00a0f044be0a3942b139a4062307db36" kind="dir"><name>D:/Projects/HRM/HRM.Common/Properties</name>
+  </compound>
+  <compound refid="dir_75dc0cc3f77b8416528c371312cd0263" kind="dir"><name>D:/Projects/HRM/HRM.Domain/Properties</name>
+  </compound>
+  <compound refid="dir_744eb72bb1c29ce93dc545979f76e9f9" kind="dir"><name>D:/Projects/HRM/HRM.Repository/Properties</name>
+  </compound>
+  <compound refid="dir_1ddf00923ad12cf8e187209b03643cdd" kind="dir"><name>D:/Projects/HRM/HRM.Services/Properties</name>
+  </compound>
+  <compound refid="dir_b5ab846ea76743e97d777416626eb230" kind="dir"><name>D:/Projects/HRM/HRM.Core/Properties</name>
+  </compound>
+  <compound refid="dir_ebf8a927fa2a82510c4f8e7d7c961ec1" kind="dir"><name>D:/Projects/HRM/HRM.Repository/Repositories</name>
+  </compound>
+  <compound refid="dir_f9444180f4ccb6cffffaea5c30cb8132" kind="dir"><name>D:/Projects/HRM/HRM.ViewModels/System</name>
+  </compound>
+</doxygenindex>

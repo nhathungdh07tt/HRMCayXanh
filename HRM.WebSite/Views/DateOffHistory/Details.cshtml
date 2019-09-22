@@ -1,0 +1,68 @@
+﻿@model HRM.ViewModels.Employee.DateOffHistoryViewModel
+
+<div>
+    <h4>DateOffHistoryViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.From)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.From)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.To)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.To)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromSession)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FromSession)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ToSession)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ToSession)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HasPermission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HasPermission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reason)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

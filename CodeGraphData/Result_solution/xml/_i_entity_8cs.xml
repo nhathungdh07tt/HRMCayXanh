@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_entity_8cs" kind="file">
+    <compoundname>IEntity.cs</compoundname>
+    <innerclass refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4" prot="public">HRM::Domain::Base::IEntity&lt; T &gt;</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_domain_1_1_base">HRM::Domain::Base</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">HRM.Domain.Base</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal">IEntity&lt;T&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4_1a575f8855d14a341e374e41e3a8100fa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T<sp/>Id<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/IEntity.cs"/>
+  </compounddef>
+</doxygen>

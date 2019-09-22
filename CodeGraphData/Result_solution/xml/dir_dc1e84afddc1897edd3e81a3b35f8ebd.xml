@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_dc1e84afddc1897edd3e81a3b35f8ebd" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Services</compoundname>
+    <innerdir refid="dir_5615f7ac5b45b77c60f50aeb7ddb1c81">D:/Projects/HRM/HRM.Services/AutoMapperService</innerdir>
+    <innerdir refid="dir_de5476b9c15158ffd07f5b9a93425118">D:/Projects/HRM/HRM.Services/Base</innerdir>
+    <innerdir refid="dir_1ddf00923ad12cf8e187209b03643cdd">D:/Projects/HRM/HRM.Services/Properties</innerdir>
+    <innerfile refid="_authenticate_service_8cs">AuthenticateService.cs</innerfile>
+    <innerfile refid="_company_service_8cs">CompanyService.cs</innerfile>
+    <innerfile refid="_role_service_8cs">RoleService.cs</innerfile>
+    <innerfile refid="_user_service_8cs">UserService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/"/>
+  </compounddef>
+</doxygen>

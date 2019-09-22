@@ -1,0 +1,127 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=369C61480FE81143A4695DD70AEC93B8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=369C61480FE81143A4695DD70AEC93B8/EntryName/@EntryValue">Generic Service Interface</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=369C61480FE81143A4695DD70AEC93B8/Position/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=607A3C6300829A44B0AB7F3927507711/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=607A3C6300829A44B0AB7F3927507711/EntryName/@EntryValue">Generic Repository Interface</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=607A3C6300829A44B0AB7F3927507711/Position/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/CustomProperties/=FileName/@EntryIndexedValue">MyService</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Description/@EntryValue">Generic Service Interface</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Text/@EntryValue">$HEADER$using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Linq;&#xD;
+using System.Text;&#xD;
+using System.Threading.Tasks;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+	public interface I$NAME$Service : IService&lt;$NAME$&gt;&#xD;
+    {&#xD;
+      &#xD;
+    }&#xD;
+&#xD;
+    public class $NAME$Service : BaseService&lt;$NAME$&gt;, I$NAME$Service&#xD;
+    {&#xD;
+        #region Properties&#xD;
+&#xD;
+        private readonly IContext _context;&#xD;
+        private readonly I$NAME$Repository _repository;&#xD;
+&#xD;
+        #endregion Properties&#xD;
+&#xD;
+        #region Constructors&#xD;
+&#xD;
+        public $NAME$Service(IContext context, I$NAME$Repository repository)&#xD;
+            : base(context, repository)&#xD;
+        {&#xD;
+            _repository = repository;&#xD;
+            _context = context;&#xD;
+        }&#xD;
+        #endregion Constructors&#xD;
+&#xD;
+		$END$&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=369C61480FE81143A4695DD70AEC93B8/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/CustomProperties/=FileName/@EntryIndexedValue">MyRepository</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Description/@EntryValue">Generic Repository Interface</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Text/@EntryValue">$HEADER$using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Linq;&#xD;
+using System.Text;&#xD;
+using System.Threading.Tasks;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+	public interface I$NAME$Repository : IRepository&lt;$NAME$&gt;&#xD;
+	{&#xD;
+&#xD;
+	}&#xD;
+&#xD;
+	public class $NAME$Repository : BaseRepository&lt;$NAME$&gt;, I$NAME$Repository&#xD;
+	{&#xD;
+		public $NAME$Repository(IContext dbFactory)&#xD;
+			: base(dbFactory)&#xD;
+		{&#xD;
+            &#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=607A3C6300829A44B0AB7F3927507711/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Description/@EntryValue">Generate Repository</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Shortcut/@EntryValue">#repository</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Text/@EntryValue">public interface I$NAME$Repository : IRepository&lt;$NAME$&gt;&#xD;
+{&#xD;
+&#xD;
+}&#xD;
+&#xD;
+public class $NAME$Repository : BaseRepository&lt;$NAME$&gt;, I$NAME$Repository&#xD;
+{&#xD;
+    public $NAME$Repository(IContext dbFactory)&#xD;
+        : base(dbFactory)&#xD;
+    {&#xD;
+            &#xD;
+    }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64BFD2ADC832EE4FB168AE400FF2C973/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String></wpf:ResourceDictionary>

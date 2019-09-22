@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Bootstrap::MvcRouteConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config_1acf120b2126bc6d6c1fa67e04ef53ce9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HRM.WebSite.Bootstrap.MvcRouteConfig.RegisterRoutes</definition>
+        <argsstring>(RouteCollection routes)</argsstring>
+        <name>RegisterRoutes</name>
+        <param>
+          <type>RouteCollection</type>
+          <declname>routes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/MvcRouteConfig.cs" line="8" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/MvcRouteConfig.cs" bodystart="8" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/MvcRouteConfig.cs" line="7" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/MvcRouteConfig.cs" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config_1acf120b2126bc6d6c1fa67e04ef53ce9f" prot="public" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::MvcRouteConfig</scope><name>RegisterRoutes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

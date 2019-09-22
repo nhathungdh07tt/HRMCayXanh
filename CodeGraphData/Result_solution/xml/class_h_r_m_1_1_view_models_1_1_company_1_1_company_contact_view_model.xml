@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model" kind="class" prot="public">
+    <compoundname>HRM::ViewModels::Company::CompanyContactViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aee76a1961cf5119c21dcf352a31ca80d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyContactViewModel.Prefix</definition>
+        <argsstring></argsstring>
+        <name>Prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="5" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a5fe297ce3b87fcde89f248db7ce20465" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyContactViewModel.ContactName</definition>
+        <argsstring></argsstring>
+        <name>ContactName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="6" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aacf0716b0da615937e8b5392abf249cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyContactViewModel.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="7" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a3ba76e56596675cb7a3c1e2bbeac5467" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyContactViewModel.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="8" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a103bcabf1fec9eac9919a95373b3b73c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyContactViewModel.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" line="4" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyContactViewModel.cs" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a5fe297ce3b87fcde89f248db7ce20465" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyContactViewModel</scope><name>ContactName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a3ba76e56596675cb7a3c1e2bbeac5467" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyContactViewModel</scope><name>Email</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aacf0716b0da615937e8b5392abf249cb" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyContactViewModel</scope><name>Phone</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1aee76a1961cf5119c21dcf352a31ca80d" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyContactViewModel</scope><name>Prefix</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model_1a103bcabf1fec9eac9919a95373b3b73c" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyContactViewModel</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

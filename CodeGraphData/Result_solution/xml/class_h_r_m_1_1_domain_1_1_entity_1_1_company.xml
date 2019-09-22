@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_entity_1_1_company" kind="class" prot="public">
+    <compoundname>HRM::Domain::Entity::Company</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Entity&lt; long &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a219280ca74c0810409f8cc4870229449" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.VietNamName</definition>
+        <argsstring></argsstring>
+        <name>VietNamName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="20" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a0c91f18d7bc91293f84a0c4b4196e67a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.EnglishName</definition>
+        <argsstring></argsstring>
+        <name>EnglishName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a664ce5b47ad59c75171648531f3b9018" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.ShortName</definition>
+        <argsstring></argsstring>
+        <name>ShortName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="22" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adec9411325c4a41c89726c2505c2b2b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.TaxCode</definition>
+        <argsstring></argsstring>
+        <name>TaxCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="23" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ae3476c7d97bd27758f58728191e72952" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="24" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a13ee9bd958e48f835d2c14fe322a5bfc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Entity.Company.FirstRegistrationDate</definition>
+        <argsstring></argsstring>
+        <name>FirstRegistrationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="25" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b88f9792cb8f9ae3cf85c7e30fa1d12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double HRM.Domain.Entity.Company.CharterCapital</definition>
+        <argsstring></argsstring>
+        <name>CharterCapital</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="26" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b9a1ac6c478a0defc5eb87856148247" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int HRM.Domain.Entity.Company.ChangedCount</definition>
+        <argsstring></argsstring>
+        <name>ChangedCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="27" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1aa085fca9c76129b2014b99181ec04999" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Entity.Company.ChangedDate</definition>
+        <argsstring></argsstring>
+        <name>ChangedDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="28" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1acf7f95ad0b362f275899c425a5ba8210" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.ChangedContent</definition>
+        <argsstring></argsstring>
+        <name>ChangedContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="29" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a49d80b35c0445689768a58ffb170cde6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Province</definition>
+        <argsstring></argsstring>
+        <name>Province</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="30" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a7e53324db818898c8e39557d45107e84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.District</definition>
+        <argsstring></argsstring>
+        <name>District</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="31" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3f2e4350284f10a94ab0d223db48aa42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Ward</definition>
+        <argsstring></argsstring>
+        <name>Ward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="32" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a86b698d8fb2ca324035fc0fcdf2d9a77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Website</definition>
+        <argsstring></argsstring>
+        <name>Website</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="33" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a307e99b40d7ecaad697ab7842120d399" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Mobile</definition>
+        <argsstring></argsstring>
+        <name>Mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="34" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1af91dfdac97101e743934ac814d7a9d87" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Fax</definition>
+        <argsstring></argsstring>
+        <name>Fax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="35" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3e742884f7c7d0fd93825e3a6851e723" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="36" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ada1cf39b503eec25f736763ab4032d0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="37" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adf1fd4d087021ea91596b074ca31d737" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.BankAccountNumber</definition>
+        <argsstring></argsstring>
+        <name>BankAccountNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="38" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8109f599160eb5243462e66dfe21c247" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.BankAccountIssuePlace</definition>
+        <argsstring></argsstring>
+        <name>BankAccountIssuePlace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="39" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ac684b7739603b23192482323c4284b27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.SignName</definition>
+        <argsstring></argsstring>
+        <name>SignName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="40" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ab26cdcb3389f5f85cf497503f752c48e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.Company.SignTitle</definition>
+        <argsstring></argsstring>
+        <name>SignTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="41" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a12a3e24c24cac0913141b6efd26ba6f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact" kindref="compound">CompanyContact</ref> &gt;</type>
+        <definition>virtual ICollection&lt;CompanyContact&gt; HRM.Domain.Entity.Company.Contacts</definition>
+        <argsstring></argsstring>
+        <name>Contacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="43" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8e6bb182ef5285ca927080f8e95cd91c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Domain.Entity.Company.Company</definition>
+        <argsstring>()</argsstring>
+        <name>Company</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>HRM.Domain.Entity.Company</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>HRM.Domain.Entity.Company</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" bodystart="11" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ae3476c7d97bd27758f58728191e72952" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Address</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8109f599160eb5243462e66dfe21c247" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>BankAccountIssuePlace</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adf1fd4d087021ea91596b074ca31d737" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>BankAccountNumber</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1acf7f95ad0b362f275899c425a5ba8210" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>ChangedContent</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b9a1ac6c478a0defc5eb87856148247" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>ChangedCount</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1aa085fca9c76129b2014b99181ec04999" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>ChangedDate</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a6b88f9792cb8f9ae3cf85c7e30fa1d12" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>CharterCapital</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a8e6bb182ef5285ca927080f8e95cd91c" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Company</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a12a3e24c24cac0913141b6efd26ba6f1" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Contacts</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a7e53324db818898c8e39557d45107e84" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>District</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ada1cf39b503eec25f736763ab4032d0a" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Email</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a0c91f18d7bc91293f84a0c4b4196e67a" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>EnglishName</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1af91dfdac97101e743934ac814d7a9d87" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Fax</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a13ee9bd958e48f835d2c14fe322a5bfc" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>FirstRegistrationDate</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a307e99b40d7ecaad697ab7842120d399" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Mobile</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3e742884f7c7d0fd93825e3a6851e723" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Phone</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a49d80b35c0445689768a58ffb170cde6" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Province</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a664ce5b47ad59c75171648531f3b9018" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>ShortName</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ac684b7739603b23192482323c4284b27" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>SignName</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1ab26cdcb3389f5f85cf497503f752c48e" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>SignTitle</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1adec9411325c4a41c89726c2505c2b2b8" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>TaxCode</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a219280ca74c0810409f8cc4870229449" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>VietNamName</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a3f2e4350284f10a94ab0d223db48aa42" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Ward</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_1a86b698d8fb2ca324035fc0fcdf2d9a77" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::Company</scope><name>Website</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

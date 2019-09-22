@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Binders::NullableDateTimeBinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IModelBinder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder_1a7618bba53bfd6fa2368902a638d4a329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object HRM.WebSite.Binders.NullableDateTimeBinder.BindModel</definition>
+        <argsstring>(ControllerContext controllerContext, ModelBindingContext bindingContext)</argsstring>
+        <name>BindModel</name>
+        <param>
+          <type>ControllerContext</type>
+          <declname>controllerContext</declname>
+        </param>
+        <param>
+          <type>ModelBindingContext</type>
+          <declname>bindingContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Binders/NullableDateTimeBinder.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Binders/NullableDateTimeBinder.cs" bodystart="14" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="192">
+        <label>IModelBinder</label>
+      </node>
+      <node id="191">
+        <label>HRM.WebSite.Binders.NullableDateTimeBinder</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="194">
+        <label>IModelBinder</label>
+      </node>
+      <node id="193">
+        <label>HRM.WebSite.Binders.NullableDateTimeBinder</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Binders/NullableDateTimeBinder.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Binders/NullableDateTimeBinder.cs" bodystart="12" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_binders_1_1_nullable_date_time_binder_1a7618bba53bfd6fa2368902a638d4a329" prot="public" virt="non-virtual"><scope>HRM::WebSite::Binders::NullableDateTimeBinder</scope><name>BindModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+﻿@model HRM.ViewModels.Employee.DateOffHistoryCollectionViewModel
+@{
+    List<SelectListItem> employeesList = ((SelectList)ViewBag.Employees).ToList();
+  
+}
+<div class="row">
+    <div class="col-md-4">
+        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+        <div class="portlet light bordered">
+            <div class="portlet-body">
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_2">
+                    <thead>
+                        <tr>
+                            <th>
+                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                    <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                    <span></span>
+                                </label>
+                            </th>
+                            <th>Mã NV</th>
+                            <th>Họ tên</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Employees)
+                        {
+                            <tr class="odd gradeX">
+                                <td>
+                                    <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                        <span></span>
+                                    </label>
+                                </td>
+                                <td><a href="@Url.Action("Index", "DateOffHistory", new { employeeId = item.Id})">@Html.DisplayFor(modelItem => item.LastName)</a></td>
+                                <td><a href="@Url.Action("Index", "DateOffHistory", new { employeeId = item.Id})">@Html.DisplayFor(modelItem => item.FirstName)</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END EXAMPLE TABLE PORTLET-->
+    </div>
+    <div class="col-md-8">
+        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+        <div class="portlet light bordered">
+            <div class="portlet-body">
+                <div class="table-toolbar">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="btn-group">
+                                <button id="sample_editable_1_new" class="btn sbold green">
+                                    @Html.ActionLink("Thêm mới", "Create")
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group pull-right">
+                                <button class="btn green  btn-outline dropdown-toggle" data-toggle="dropdown">
+                                    Công cụ
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu pull-right">
+                                    <li>
+
+                                        <a href="#searchname" data-toggle="modal">
+                                            <i class="fa fa-search"></i> TÌm kiếm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Export","DateOffHistory")" data-toggle="modal">
+                                            <i class="fa fa-print"></i> Xuất Excel
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                    <thead>
+                        <tr class="mautable">
+                            <th>
+                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                    <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                    <spasn></spasn>
+                                </label>
+                            </th>
+                            <th>
+                                Họ tên
+                            </th>
+                            <th>
+                                Nghỉ từ
+                            </th>
+                            <th>
+                                Đến lúc
+                            </th>
+                            <th>Loại</th>
+                            <th>Số ngày</th>
+                            <th>Lý do</th>
+                            <th>Chức năng</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.DateOffHistorys)
+                        {
+                            <tr class="odd gradeX">
+                                <td>
+                                    <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                        <span></span>
+                                    </label>
+                                </td>
+                                <td> @item.Employee.FirstName.Trim() @item.Employee.LastName.Trim()</td>
+                                <td> @Html.DisplayFor(modelItem => item.From)</td>
+                                <td> @Html.DisplayFor(modelItem => item.To)</td>
+                                <td> @Html.DisplayFor(modelItem => item.HasPermission)</td>
+                                <td> @Html.DisplayFor(modelItem => item.TotalDate)</td>
+                                <td> @Html.DisplayFor(modelItem => item.Reason)</td>
+                                <td>
+                                    @Html.ActionLink("Sửa", "Edit", new { id = item.Id }) |
+                                    @Html.ActionLink("Xóa", "Delete", new { id = item.Id })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END EXAMPLE TABLE PORTLET-->
+    </div>
+</div>
+
+<div class="modal fade draggable-modal" id="searchname" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/DateOffHistory/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo tên nhân viên</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6">
+                        <label for="select2-single-input-sm" class="control-label">Chọn nhân viên</label>
+                        <select name="employeeId" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Chọn nhân viên</option>
+                            @for (int i = 0; i < employeesList.Count(); i++)
+                            {
+                                <option value="@employeesList[i].Value">@employeesList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>

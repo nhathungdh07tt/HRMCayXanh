@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_user_controller_8cs" kind="file">
+    <compoundname>UserController.cs</compoundname>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" prot="public">HRM::WebSite::Api::UserController</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_web_site_1_1_api">HRM::WebSite::Api</innernamespace>
+    <innernamespace refid="namespace_system_1_1_net">System::Net</innernamespace>
+    <innernamespace refid="namespace_system_1_1_net_1_1_http">System::Net::Http</innernamespace>
+    <innernamespace refid="namespace_system_1_1_web_1_1_http">System::Web::Http</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net.Http;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Web.Http;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.Domain.Entity;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.Services;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.WebSite.Models;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespace_h_r_m_1_1_web_site_1_1_api" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">HRM.WebSite.Api</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" kindref="compound">UserController</ref><sp/>:<sp/>ApiController</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aa10065c49454789eb7c3f31ef79dee7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref><sp/><ref refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aa10065c49454789eb7c3f31ef79dee7e" kindref="member">_userService</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aabcd85293cacdd571281c593adbbacb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aabcd85293cacdd571281c593adbbacb6" kindref="member">UserController</ref>(<ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref><sp/>userService)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this._userService<sp/>=<sp/>userService;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[HttpGet]</highlight></codeline>
+<codeline lineno="23" refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1a70586771f631259227329d4882f9fc82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IHttpActionResult<sp/><ref refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1a70586771f631259227329d4882f9fc82" kindref="member">Get</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Ok();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_hrm_data_context" kind="class" prot="public">
+    <compoundname>HRM::Repository::HrmDataContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_repository_1_1_i_context" prot="public" virt="non-virtual">HRM.Repository.IContext</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1f7a3bb5c4b1e0ee640f4d64b9eebb5a" prot="private" static="yes" mutable="no">
+        <type>readonly bool[]</type>
+        <definition>readonly bool [] HRM.Repository.HrmDataContext._migrated</definition>
+        <argsstring></argsstring>
+        <name>_migrated</name>
+        <initializer>= { false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="30" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1abb06c9febf0d9e44f7759483281b76e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>IDbSet&lt;User&gt; HRM.Repository.HrmDataContext.Users</definition>
+        <argsstring></argsstring>
+        <name>Users</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="37" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a782eec77d67524a8c3f6b9e472d344b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role" kindref="compound">Role</ref> &gt;</type>
+        <definition>IDbSet&lt;Role&gt; HRM.Repository.HrmDataContext.Roles</definition>
+        <argsstring></argsstring>
+        <name>Roles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="38" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ae8a4aff9023f7f3df90ab449452d0af7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee" kindref="compound">Employee</ref> &gt;</type>
+        <definition>IDbSet&lt;Employee&gt; HRM.Repository.HrmDataContext.Employees</definition>
+        <argsstring></argsstring>
+        <name>Employees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="39" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a83985f0112fab74fcabcaea71a89cde5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department" kindref="compound">Department</ref> &gt;</type>
+        <definition>IDbSet&lt;Department&gt; HRM.Repository.HrmDataContext.Departments</definition>
+        <argsstring></argsstring>
+        <name>Departments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="40" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a9c35c0765f1abc7c4240b8155b512d9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee" kindref="compound">DepartmentEmployee</ref> &gt;</type>
+        <definition>IDbSet&lt;DepartmentEmployee&gt; HRM.Repository.HrmDataContext.DeparementEmployees</definition>
+        <argsstring></argsstring>
+        <name>DeparementEmployees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="41" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a98fbec767eb8283c1868d3b8b27641fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company" kindref="compound">Company</ref> &gt;</type>
+        <definition>IDbSet&lt;Company&gt; HRM.Repository.HrmDataContext.Companies</definition>
+        <argsstring></argsstring>
+        <name>Companies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="42" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer_1a518954e417ef6cd555660a964ea9fc34" compoundref="_database_initializer_8cs" startline="13" endline="44">HRM.Repository.Initializer.DatabaseInitializer.Seed</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a8aeae40c04fbec2896391c14c3d37db0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDbSet&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact" kindref="compound">CompanyContact</ref> &gt;</type>
+        <definition>IDbSet&lt;CompanyContact&gt; HRM.Repository.HrmDataContext.CompanyContacts</definition>
+        <argsstring></argsstring>
+        <name>CompanyContacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="43" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ace54365b5d76d6bee7c0aeab4b0488af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Repository.HrmDataContext.HrmDataContext</definition>
+        <argsstring>()</argsstring>
+        <name>HrmDataContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="31" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1051a48acd143b87fa4ced50b4b9285d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int HRM.Repository.HrmDataContext.SaveChanges</definition>
+        <argsstring>()</argsstring>
+        <name>SaveChanges</name>
+        <reimplements refid="interface_h_r_m_1_1_repository_1_1_i_context_1ab28f56bd6df15878104e4f05a137ede9">SaveChanges</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="54" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="54" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ad636b5bd25cb1cf94127531c42cf05c1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void HRM.Repository.HrmDataContext.OnModelCreating</definition>
+        <argsstring>(DbModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>DbModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="45" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="129">
+        <label>DbContext</label>
+      </node>
+      <node id="131">
+        <label>IDisposable</label>
+      </node>
+      <node id="130">
+        <label>IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>HRM.Repository.HrmDataContext</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_hrm_data_context"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="133">
+        <label>DbContext</label>
+      </node>
+      <node id="135">
+        <label>IDisposable</label>
+      </node>
+      <node id="134">
+        <label>IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>HRM.Repository.HrmDataContext</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_hrm_data_context"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/HrmDataContext.cs" bodystart="20" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1f7a3bb5c4b1e0ee640f4d64b9eebb5a" prot="private" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>_migrated</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a98fbec767eb8283c1868d3b8b27641fb" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Companies</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a8aeae40c04fbec2896391c14c3d37db0" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>CompanyContacts</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a9c35c0765f1abc7c4240b8155b512d9b" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>DeparementEmployees</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a83985f0112fab74fcabcaea71a89cde5" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Departments</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ae8a4aff9023f7f3df90ab449452d0af7" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Employees</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1a1012a6217819fa4dbed72424e7e10131" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Entry&lt; TEntity &gt;</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ace54365b5d76d6bee7c0aeab4b0488af" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>HrmDataContext</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1ad636b5bd25cb1cf94127531c42cf05c1" prot="protected" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>OnModelCreating</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a782eec77d67524a8c3f6b9e472d344b2" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Roles</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1051a48acd143b87fa4ced50b4b9285d" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>SaveChanges</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1adfdb4460b4ffa326dc8bab7798572173" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Set&lt; TEntity &gt;</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1abb06c9febf0d9e44f7759483281b76e3" prot="public" virt="non-virtual"><scope>HRM::Repository::HrmDataContext</scope><name>Users</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

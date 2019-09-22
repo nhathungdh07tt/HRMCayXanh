@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_entity_1_1_user" kind="class" prot="public">
+    <compoundname>HRM::Domain::Entity::User</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AuditableEntity&lt; long &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1ab2d91f3714b770213101a664efea7d31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.User.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/User.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/User.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a1d9460de7d310483519c92c016897102" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/User.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/User.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a75973bf67e8aefcbc9540ad0169bf415" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role" kindref="compound">Role</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Role&gt; HRM.Domain.Entity.User.Roles</definition>
+        <argsstring></argsstring>
+        <name>Roles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/User.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/User.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a606f267c382f8c0cf169c739680006db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Domain.Entity.User.User</definition>
+        <argsstring>()</argsstring>
+        <name>User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/User.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/User.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="226">
+        <label>AuditableEntity&lt; long &gt;</label>
+      </node>
+      <node id="225">
+        <label>HRM.Domain.Entity.User</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="228">
+        <label>AuditableEntity&lt; long &gt;</label>
+      </node>
+      <node id="227">
+        <label>HRM.Domain.Entity.User</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/User.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/User.cs" bodystart="11" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a1d9460de7d310483519c92c016897102" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::User</scope><name>Password</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a75973bf67e8aefcbc9540ad0169bf415" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::User</scope><name>Roles</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1a606f267c382f8c0cf169c739680006db" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::User</scope><name>User</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user_1ab2d91f3714b770213101a664efea7d31" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::User</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

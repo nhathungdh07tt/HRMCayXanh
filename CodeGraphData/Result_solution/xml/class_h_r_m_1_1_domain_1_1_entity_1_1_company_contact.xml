@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact" kind="class" prot="public">
+    <compoundname>HRM::Domain::Entity::CompanyContact</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Entity&lt; long &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a0f84bb2f46eb72af47a1e69e30f5542a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.CompanyContact.Prefix</definition>
+        <argsstring></argsstring>
+        <name>Prefix</name>
+        <briefdescription>
+<para>Name prefix ex (Mr, Mrs, Miss ...) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="20" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a7843e30a2f21eba209cb8164c750eb57" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.CompanyContact.ContactName</definition>
+        <argsstring></argsstring>
+        <name>ContactName</name>
+        <briefdescription>
+<para>Contract Name ex (John Smith) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="25" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a6b17a872df8405fc766c777267dd8b06" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.CompanyContact.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="26" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a42e35df5e053a0993de63e6362b0a1cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.CompanyContact.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="27" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a856933f1e3e3c38d0a97a2c5519c88b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Entity.CompanyContact.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+<para><ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company" kindref="compound">Company</ref> Title ex (General, Manager ..) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="31" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a1e2f886c926577dc7a65a03e3a00f0d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company" kindref="compound">Company</ref></type>
+        <definition>virtual Company HRM.Domain.Entity.CompanyContact.Company</definition>
+        <argsstring></argsstring>
+        <name>Company</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="33" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a2866844cd1c361798862cd669b5c9b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Domain.Entity.CompanyContact.CompanyContact</definition>
+        <argsstring>()</argsstring>
+        <name>CompanyContact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="44">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+      <node id="43">
+        <label>HRM.Domain.Entity.CompanyContact</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+      <node id="45">
+        <label>HRM.Domain.Entity.CompanyContact</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/CompanyContact.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a1e2f886c926577dc7a65a03e3a00f0d2" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>Company</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a2866844cd1c361798862cd669b5c9b9a" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>CompanyContact</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a7843e30a2f21eba209cb8164c750eb57" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>ContactName</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a42e35df5e053a0993de63e6362b0a1cb" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>Email</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a6b17a872df8405fc766c777267dd8b06" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>Phone</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a0f84bb2f46eb72af47a1e69e30f5542a" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>Prefix</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact_1a856933f1e3e3c38d0a97a2c5519c88b1" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::CompanyContact</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

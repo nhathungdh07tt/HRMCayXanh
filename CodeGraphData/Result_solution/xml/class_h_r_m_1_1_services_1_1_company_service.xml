@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_services_1_1_company_service" kind="class" prot="public">
+    <compoundname>HRM::Services::CompanyService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseService&lt; Company, long &gt;</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_services_1_1_i_company_service" prot="public" virt="non-virtual">HRM.Services.ICompanyService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_company_service_1a644176ef27c533d950678981da92c8f4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+        <definition>readonly IContext HRM.Services.CompanyService._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="27" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_company_service_1a26de9c5320c92a54b1ecc6042bbdb44e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository" kindref="compound">ICompanyRepository</ref></type>
+        <definition>readonly ICompanyRepository HRM.Services.CompanyService._repository</definition>
+        <argsstring></argsstring>
+        <name>_repository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="28" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_company_service_1aead7c4e1a3151c6872a422a5cb7e089b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Services.CompanyService.CompanyService</definition>
+        <argsstring>(IContext context, ICompanyRepository repository)</argsstring>
+        <name>CompanyService</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository" kindref="compound">ICompanyRepository</ref></type>
+          <declname>repository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="34" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_company_service_1a341640cfd766fedb0995cc22dc855975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model" kindref="compound">CompanyViewModel</ref></type>
+        <definition>CompanyViewModel HRM.Services.CompanyService.GetCompanyInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetCompanyInfo</name>
+        <reimplements refid="interface_h_r_m_1_1_services_1_1_i_company_service_1acb048a55fb50359c76042948c6bd8066">GetCompanyInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="41" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="41" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>ICompanyService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_company_service"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>IService&lt; Company, long &gt;</label>
+      </node>
+      <node id="64">
+        <label>BaseService&lt; Company, long &gt;</label>
+      </node>
+      <node id="63">
+        <label>HRM.Services.CompanyService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_company_service"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="71">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>ICompanyService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_company_service"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>IService&lt; Company, long &gt;</label>
+      </node>
+      <node id="72">
+        <label>IDisposable</label>
+      </node>
+      <node id="74">
+        <label>IRepository&lt; Company, long &gt;</label>
+      </node>
+      <node id="68">
+        <label>BaseService&lt; Company, long &gt;</label>
+      </node>
+      <node id="73">
+        <label>HRM.Repository.Repositories.ICompanyRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>HRM.Services.CompanyService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_company_service"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>_repository</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="24" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="23" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_services_1_1_company_service_1a644176ef27c533d950678981da92c8f4" prot="private" virt="non-virtual"><scope>HRM::Services::CompanyService</scope><name>_context</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_company_service_1a26de9c5320c92a54b1ecc6042bbdb44e" prot="private" virt="non-virtual"><scope>HRM::Services::CompanyService</scope><name>_repository</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_company_service_1aead7c4e1a3151c6872a422a5cb7e089b" prot="public" virt="non-virtual"><scope>HRM::Services::CompanyService</scope><name>CompanyService</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_company_service_1a341640cfd766fedb0995cc22dc855975" prot="public" virt="non-virtual"><scope>HRM::Services::CompanyService</scope><name>GetCompanyInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

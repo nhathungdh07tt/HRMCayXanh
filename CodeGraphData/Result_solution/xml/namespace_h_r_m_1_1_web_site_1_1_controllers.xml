@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_web_site_1_1_controllers" kind="namespace">
+    <compoundname>HRM::WebSite::Controllers</compoundname>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller" prot="public">HRM::WebSite::Controllers::AccountController</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller" prot="public">HRM::WebSite::Controllers::CompanyController</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller" prot="public">HRM::WebSite::Controllers::HomeController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

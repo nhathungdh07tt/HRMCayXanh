@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_web_site_1_1_bootstrap" kind="namespace">
+    <compoundname>HRM::WebSite::Bootstrap</compoundname>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config" prot="public">HRM::WebSite::Bootstrap::AuthorizeConfig</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config" prot="public">HRM::WebSite::Bootstrap::IocConfig</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_mvc_route_config" prot="public">HRM::WebSite::Bootstrap::MvcRouteConfig</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup" prot="public">HRM::WebSite::Bootstrap::Startup</innerclass>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_web_api_config" prot="public">HRM::WebSite::Bootstrap::WebApiConfig</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

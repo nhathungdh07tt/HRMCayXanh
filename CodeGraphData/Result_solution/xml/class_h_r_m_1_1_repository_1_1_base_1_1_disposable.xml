@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable" kind="class" prot="public">
+    <compoundname>HRM::Repository::Base::Disposable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1abe868b93230bf92877507b57d4ce7935" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HRM.Repository.Base.Disposable.isDisposed</definition>
+        <argsstring></argsstring>
+        <name>isDisposed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="7" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1ac15f3a7edf827d64fc18a58fc00df37f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Repository.Base.Disposable.~Disposable</definition>
+        <argsstring>()</argsstring>
+        <name>~Disposable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1acf0bac815cd4397ee0cd12ac8cfd8da8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.Repository.Base.Disposable.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="20" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="20" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a85c1073d13ca0d38421eb3bbc1519388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.Repository.Base.Disposable.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a741e4b28a86396394d45450fa7a2d5f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void HRM.Repository.Base.Disposable.DisposeCore</definition>
+        <argsstring>()</argsstring>
+        <name>DisposeCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="31" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>IDisposable</label>
+      </node>
+      <node id="97">
+        <label>HRM.Repository.Base.Disposable</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="100">
+        <label>IDisposable</label>
+      </node>
+      <node id="99">
+        <label>HRM.Repository.Base.Disposable</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" line="6" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Disposable.cs" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a85c1073d13ca0d38421eb3bbc1519388" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Disposable</scope><name>Dispose</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1acf0bac815cd4397ee0cd12ac8cfd8da8" prot="private" virt="non-virtual"><scope>HRM::Repository::Base::Disposable</scope><name>Dispose</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1a741e4b28a86396394d45450fa7a2d5f1" prot="protected" virt="virtual"><scope>HRM::Repository::Base::Disposable</scope><name>DisposeCore</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1abe868b93230bf92877507b57d4ce7935" prot="private" virt="non-virtual"><scope>HRM::Repository::Base::Disposable</scope><name>isDisposed</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_disposable_1ac15f3a7edf827d64fc18a58fc00df37f" prot="private" virt="non-virtual"><scope>HRM::Repository::Base::Disposable</scope><name>~Disposable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

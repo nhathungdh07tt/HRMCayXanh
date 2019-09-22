@@ -1,0 +1,83 @@
+﻿@using HRM.Common
+@model HRM.ViewModels.Employee.EmployeeViewModel
+<div class="page-container">
+    <div class="page-content">
+        <div class="page-content">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption font-red-sunglo">
+                        <span class="caption-subject bold uppercase" style="color:#3fbd6c">NHẬP THÔNG TIN</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-circle btn-icon-only blue" href="javascript:;">
+                            <i class="icon-cloud-upload"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only green" href="javascript:;">
+                            <i class="icon-wrench"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only red" href="javascript:;">
+                            <i class="icon-trash"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="javascript:;" data-original-title="" title=""> </a>
+                    </div>
+                </div>
+                <div class="portlet-body form">
+                    @using (Html.BeginForm("Create", "Employee", FormMethod.Post, new { enctype = "multipart/form-data", @role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        { Html.RenderPartial("_Modify"); }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        function checkYearofday(ele) {
+            var value = $(ele).val();
+            if (value != "") {
+                $.ajax({
+                    type: "GET",
+                    url: '/Employee/CheckExistingUsername?' + '&username=' + value,
+                    success: function (result) {
+                        if (result == true) {
+                            alert("Tên đăng nhập đã tồn tại");
+                            $(ele).val('').focus();
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+
+    @if (Model.DateOfBirth.HasValue)
+    {
+        <script type="text/javascript">
+    $(document).ready(function () {
+        setDate("DateOfBirth", @Model.DateOfBirth.Value.ToJavaScriptMilliseconds());
+            });
+        </script>
+    }
+
+    @if (Model.DateIssueIdentity.HasValue)
+    {
+        <script type="text/javascript">
+    $(document).ready(function () {
+        setDate("DateIssueIdentity", @Model.DateIssueIdentity.Value.ToJavaScriptMilliseconds());
+            });
+        </script>
+    }
+
+    @if (Model.DateIssueSocialInsurance.HasValue)
+    {
+        <script type="text/javascript">
+    $(document).ready(function () {
+        setDate("DateIssueSocialInsurance", @Model.DateIssueSocialInsurance.Value.ToJavaScriptMilliseconds());
+            });
+        </script>
+    }
+
+}

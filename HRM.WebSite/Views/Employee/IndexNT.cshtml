@@ -1,0 +1,588 @@
+﻿@model IEnumerable<HRM.ViewModels.Employee.EmployeeViewModel>
+@{
+    List<SelectListItem> departmentList = ((SelectList)ViewBag.Departments).ToList();
+    List<SelectListItem> skillList = ((SelectList)ViewBag.Skills).ToList();
+    List<SelectListItem> educationList = ((SelectList)ViewBag.Educations).ToList();
+}
+<div class="page-container">
+    <div class="page-content">
+        <div class="page-content">
+            <div class="row">
+                <form method="get" action="/Employee/Index">
+                    <div class="col-md-4">
+                    </div>
+
+                    <div class="col-md-4">
+                    </div>
+
+                    <div class="col-md-4">
+                        <!-- Sugget name -->
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->                    <div class="portlet light bordered">
+
+                        <div class="portlet-body">
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="btn-group">
+                                            <button id="sample_editable_1_new" class="btn sbold green">
+                                                @Html.ActionLink("Thêm mới", "CreateNT")
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green  btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Tìm kiếm
+                                                <i class="fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li>
+
+                                                    <a href="#draggabletuoi" data-toggle="modal">
+                                                        <i class="fa fa-search"></i> Theo tuổi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#draggablesinhnhat" data-toggle="modal">
+                                                        <i class="fa fa-search"></i> Ngày sinh nhật
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#draggablenamnu" data-toggle="modal">
+                                                        <i class="fa fa-search"></i> Giới tính
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#draggabletrinhdo" data-toggle="modal">
+                                                        <i class="fa fa-search"></i> Trinh độ
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#draggablechungchi" data-toggle="modal">
+                                                        <i class="fa fa-search"></i> Chứng chỉ
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="@Url.Action("Export","Employee")" data-toggle="modal">
+                                                        <i class="fa fa-print"></i> Xuất Excel
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                                <thead>
+                                    <tr class="mautable">
+                                        <th>
+                                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                                <span></span>
+                                            </label>
+                                        </th>
+                                        <th>
+                                            Mã người thân
+                                        </th>
+                                        <th>
+                                            Hình ảnh
+                                        </th>
+                                        <th>
+                                            Họ và tên
+                                        </th>
+                                        <th>
+                                            Quốc tịch
+                                        </th>
+                                        <th>
+                                            Giới tính
+                                        </th>
+                                        <th>
+                                            Số CMND
+                                        </th>
+                                        <th>
+                                            Ngày sinh
+                                        </th>
+                                        <th>
+                                            Nơi sinh
+                                        </th>
+                                        <th>
+                                            Ngày cấp
+                                        </th>
+                                        <th>
+                                            Nơi cấp
+                                        </th>
+                                        <th>
+                                            Dân tộc
+                                        </th>
+                                        <th>
+                                            Tôn giáo
+                                        </th>
+                                        <th>
+                                            Địa chỉ
+                                        </th>
+                                        <th>
+                                            Điện thoại
+                                        </th>
+                                        <th>
+                                            Email
+                                        </th>
+                                        <th>
+                                            Trình độ
+                                        </th>
+                                        <th>
+                                            Trình độ học vấn
+                                        </th>
+                                        <th>
+                                            Trình độ chuyên môn
+                                        </th>
+                                        <th>
+                                            Chứng chỉ khác
+                                        </th>
+                                        <th>
+                                            Đoàn viên
+                                        </th>
+                                        <th>
+                                            Số BHXH
+                                        </th>
+                                        <th>
+                                            Ngày tham gia BHXH
+                                        </th>
+                                        <th>
+                                            Số tài khoản ngân hàng
+                                        </th>
+                                        <th>
+                                            Ngân hàng
+                                        </th>
+                                        <th>
+                                            Ngày ký hợp đồng
+                                        </th>
+                                        <th>
+                                            Ngày kết thúc hợp đồng
+                                        </th>
+                                        <th>
+                                            Ngày nghỉ phép
+                                        </th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr class="odd gradeX">
+                                        <td>
+                                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                <input type="checkbox" class="checkboxes" value="1" />
+                                                <span></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.LastName)
+                                        </td>
+                                        <td>
+                                            <ul class="list-unstyled profile-nav">
+                                                <li>
+                                                    <img src="@Html.DisplayFor(modelItem => item.Avatar)" class="img-responsive pic-bordered" alt="">
+                                                    <a href="javascript:;" class="profile-edit"> </a>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.FirstName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Nationality.Name)
+                                        </td>
+                                        <td>
+                                            @*@Html.DisplayFor(modelItem => item.Gender)*@
+                                            @if (item.Gender == 0)
+                                            {
+                                                <p>Nữ</p>
+                                            }
+                                            else
+                                            {
+                                                <p>Nam</p>
+                                            }
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.IdentityNo)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DateOfBirth)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PlaceOfBirth)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DateIssueIdentity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PlaceIssueIdentity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.EthnicGroup.Name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Religion.Name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Address)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Phone)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Education.Title)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DetailEducation)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DetailSkill)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Certificate)
+
+                                        </td>
+                                        <td>
+                                            @if (item.CommunistYouthUnion == 1)
+                                            {
+                                                <p>Đoàn viên</p>
+                                            }
+                                            else
+                                            {
+                                                <p>Đảng viên</p>
+                                            }
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.SocialInsuranceNo)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DateIssueSocialInsurance)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.BankAccount)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Bank)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DateSignContract)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DateOffContract)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.YearDayOff)
+                                        </td>
+                                        <td>
+                                            @Html.ActionLink("Sửa", "EditNT", new { id = item.Id })
+
+                                        </td>
+                                    </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade draggable-modal" id="draggabletuoi" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/Employee/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo tuổi</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="department" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Tất cả phòng ban</option>
+                            @for (int i = 0; i < departmentList.Count(); i++)
+                            {
+                                <option value="@departmentList[i].Value">@departmentList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group form-md-line-input has-success form-md-floating-label">
+                            <div class="input-icon">
+                                <input name="from" type="number" class="form-control">
+                                <label for="form_control_1">Từ tuổi</label>
+                                <i class="fa fa-bell-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group form-md-line-input has-success form-md-floating-label">
+                            <div class="input-icon">
+                                <input name="to" type="number" class="form-control">
+                                <label for="form_control_1">Đến tuổi</label>
+                                <i class="fa fa-bell-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade draggable-modal" id="draggablesinhnhat" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/Employee/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo ngày sinh</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="department" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Tất cả phòng ban</option>
+                            @for (int i = 0; i < departmentList.Count(); i++)
+                            {
+                                <option value="@departmentList[i].Value">@departmentList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group form-md-line-input has-success form-md-floating-label ngaythang">
+                            <div class="input-icon">
+
+                                <label for="form_control_1">Từ ngày</label>
+                                <span>
+                                    <input class="inputngaythang" id="DateOfBirth" name="fromDate" type="date" value="">
+                                </span>
+                                @*<span class="help-block">Some help goes here...</span>*@
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group form-md-line-input has-success form-md-floating-label ngaythang">
+                            <div class="input-icon">
+
+                                <label for="form_control_1">Đến ngày</label>
+                                <span>
+                                    <input class="inputngaythang" id="DateOfBirth" name="toDate" type="date" value="">
+                                </span>
+                                @*<span class="help-block">Some help goes here...</span>*@
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade draggable-modal" id="draggablenamnu" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/Employee/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo giới tính</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="department" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Tất cả phòng ban</option>
+                            @for (int i = 0; i < departmentList.Count(); i++)
+                            {
+                                <option value="@departmentList[i].Value">@departmentList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label col-md-5">Giới tính</label>
+                            <div class="col-md-7">
+                                <div class="margin-bottom-10">
+                                    <select class="bs-select form-control input-small" name="gender" id="gender" data-style="btn-primary">
+                                        <option value=1>Nam</option>
+                                        <option value=0>Nữ</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade draggable-modal" id="draggabletrinhdo" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/Employee/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo trình độ</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="department" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Tất cả phòng ban</option>
+                            @for (int i = 0; i < departmentList.Count(); i++)
+                            {
+                                <option value="@departmentList[i].Value">@departmentList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="education" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Chọn trình độ</option>
+                            @for (int i = 0; i < educationList.Count(); i++)
+                            {
+                                <option value="@educationList[i].Value">@educationList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    @*<div class="col-md-3">
+                            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                <div class="input-icon">
+                                    <label for="form_control_1">Chọn trình độ</label>
+                                    <select name="education" id="education" class="form-control select2-multiple" multiple>
+                                        <optgroup label="Chọn trình độ">
+                                            @for (int i = 0; i < educationList.Count(); i++)
+                                            {
+                                                <option value="@educationList[i].Value">@educationList[i].Text</option>
+                                            }
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>*@
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade draggable-modal" id="draggablechungchi" tabindex="-1" role="basic" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="get" action="/Employee/Index">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Tìm kiếm theo chứng chỉ</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="department" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Tất cả phòng ban</option>
+                            @for (int i = 0; i < departmentList.Count(); i++)
+                            {
+                                <option value="@departmentList[i].Value">@departmentList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="select2-single-input-sm" class="control-label">Chọn phòng ban</label>
+                        <select name="skill" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                            <option value="">Chọn trình độ</option>
+                            @for (int i = 0; i < skillList.Count(); i++)
+                            {
+                                <option value="@skillList[i].Value">@skillList[i].Text</option>
+                            }
+                        </select>
+                    </div>
+
+
+                    @*<div class="col-md-3">
+                            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                <div class="input-icon">
+                                    <label for="form_control_1">Chứng chỉ khác</label>
+                                    <select name="skill" id="skill" class="form-control select2-multiple" multiple>
+                                        <optgroup label="Chọn chứng chỉ khác">
+                                            @for (int i = 0; i < skillList.Count(); i++)
+                                            {
+                                                <option value="@skillList[i].Value">@skillList[i].Text</option>
+                                            }
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>*@
+                    <div class="col-md-4">
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn green" style="color:green">Tìm kiếm</button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>

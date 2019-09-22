@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_82e4be2de8d5fceb4b98765b52976461" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.WebSite/Binders</compoundname>
+    <innerfile refid="_date_time_binder_8cs">DateTimeBinder.cs</innerfile>
+    <innerfile refid="_nullable_date_time_binder_8cs">NullableDateTimeBinder.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Binders/"/>
+  </compounddef>
+</doxygen>

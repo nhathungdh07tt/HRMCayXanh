@@ -1,0 +1,89 @@
+﻿@model HRM.ViewModels.Relation.RelationViewModel
+
+<div class="page-container">
+    <div class="page-content">
+        <div class="page-content">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption font-red-sunglo">
+                        <span class="caption-subject bold uppercase" style="color:#3fbd6c">NHẬP THÔNG TIN</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-circle btn-icon-only blue" href="javascript:;">
+                            <i class="icon-cloud-upload"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only green" href="javascript:;">
+                            <i class="icon-wrench"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only red" href="javascript:;">
+                            <i class="icon-trash"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="javascript:;" data-original-title="" title=""> </a>
+                    </div>
+                </div>
+                <div class="portlet-body form">
+                    @*@using (Html.BeginForm("Create", "Achievement", FormMethod.Post, new { enctype = "multipart/form-data", @role = "form" }))*@
+                    @using (Html.BeginForm("Create", "Relation", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="form-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label inputngaythang">
+                                        <div class="input-icon">
+                                            @Html.DropDownListFor(model => model.EmployeeId, (SelectList)ViewBag.Employees, new { @class = "select2 form-control " })
+                                            <label for="form_control_1">Tên nhân viên</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            @*<i class="fa fa-bell-o"></i>*@
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Xungbanthan, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Xưng bản thân</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Xungnguoidoidien, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Xưng người đối diện</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label inputngaythang">
+                                        <div class="input-icon">
+                                            @Html.DropDownListFor(model => model.RelationWithEmployeeId, (SelectList)ViewBag.Employees, new { @class = "select2 form-control " })
+                                            <label for="form_control_1">Tên nhân viên</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            @*<i class="fa fa-bell-o"></i>*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>
+                        <div class="form-actions noborder">
+                            <button type="submit" class="btn green-meadow">Lưu lại</button>
+                            <button type="button" class="btn default">@Html.ActionLink("Hủy", "Index")</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setDate("Date");
+        });
+    </script>
+}

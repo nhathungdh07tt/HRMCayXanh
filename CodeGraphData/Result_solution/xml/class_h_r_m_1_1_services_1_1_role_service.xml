@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_services_1_1_role_service" kind="class" prot="public">
+    <compoundname>HRM::Services::RoleService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseService&lt; Role, long &gt;</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_services_1_1_i_role_service" prot="public" virt="non-virtual">HRM.Services.IRoleService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_role_service_1a65e62cf0d93f171b5bf208b05d716ee2" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+        <definition>readonly IContext HRM.Services.RoleService._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/RoleService.cs" line="22" column="1" bodyfile="D:/Projects/HRM/HRM.Services/RoleService.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_role_service_1adb6246abef7b0b4ff73e6e5da5abc62c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository" kindref="compound">IRoleRepository</ref></type>
+        <definition>readonly IRoleRepository HRM.Services.RoleService._repository</definition>
+        <argsstring></argsstring>
+        <name>_repository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/RoleService.cs" line="23" column="1" bodyfile="D:/Projects/HRM/HRM.Services/RoleService.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_role_service_1a7e033a4ed6df6a6007e4a58c11581891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Services.RoleService.RoleService</definition>
+        <argsstring>(IContext context, IRoleRepository repository)</argsstring>
+        <name>RoleService</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository" kindref="compound">IRoleRepository</ref></type>
+          <declname>repository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/RoleService.cs" line="29" column="1" bodyfile="D:/Projects/HRM/HRM.Services/RoleService.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="207">
+        <label>HRM.Services.RoleService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_role_service"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>BaseService&lt; Role, long &gt;</label>
+      </node>
+      <node id="210">
+        <label>IService&lt; Role, long &gt;</label>
+      </node>
+      <node id="209">
+        <label>IRoleService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_role_service"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="217">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>HRM.Services.RoleService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_role_service"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+        <childnode refid="215" relation="usage">
+          <edgelabel>_repository</edgelabel>
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="215">
+        <label>HRM.Repository.Repositories.IRoleRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>IDisposable</label>
+      </node>
+      <node id="212">
+        <label>BaseService&lt; Role, long &gt;</label>
+      </node>
+      <node id="214">
+        <label>IService&lt; Role, long &gt;</label>
+      </node>
+      <node id="213">
+        <label>IRoleService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_role_service"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>IRepository&lt; Role, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/RoleService.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.Services/RoleService.cs" bodystart="18" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_services_1_1_role_service_1a65e62cf0d93f171b5bf208b05d716ee2" prot="private" virt="non-virtual"><scope>HRM::Services::RoleService</scope><name>_context</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_role_service_1adb6246abef7b0b4ff73e6e5da5abc62c" prot="private" virt="non-virtual"><scope>HRM::Services::RoleService</scope><name>_repository</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_role_service_1a7e033a4ed6df6a6007e4a58c11581891" prot="public" virt="non-virtual"><scope>HRM::Services::RoleService</scope><name>RoleService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

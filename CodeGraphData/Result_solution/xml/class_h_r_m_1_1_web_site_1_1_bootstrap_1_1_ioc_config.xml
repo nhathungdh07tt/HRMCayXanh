@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Bootstrap::IocConfig</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ac3e7d7785f49cef4392a876dc5330721" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ab0472b18c9767295740dcc02d82322ab" kindref="member">ContainerBuilder</ref></type>
+        <definition>ContainerBuilder HRM.WebSite.Bootstrap.IocConfig._containerBuilder</definition>
+        <argsstring></argsstring>
+        <name>_containerBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1a6a24f534061a0995deacf339601d6c43" prot="private" static="yes" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object HRM.WebSite.Bootstrap.IocConfig.lock</definition>
+        <argsstring></argsstring>
+        <name>lock</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ab0472b18c9767295740dcc02d82322ab" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ContainerBuilder</type>
+        <definition>ContainerBuilder HRM.WebSite.Bootstrap.IocConfig.ContainerBuilder</definition>
+        <argsstring></argsstring>
+        <name>ContainerBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/IoCConfig.cs" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ac3e7d7785f49cef4392a876dc5330721" prot="private" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::IocConfig</scope><name>_containerBuilder</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1ab0472b18c9767295740dcc02d82322ab" prot="public" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::IocConfig</scope><name>ContainerBuilder</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_ioc_config_1a6a24f534061a0995deacf339601d6c43" prot="private" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::IocConfig</scope><name>lock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

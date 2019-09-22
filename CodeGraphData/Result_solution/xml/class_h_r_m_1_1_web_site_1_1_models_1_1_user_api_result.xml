@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_models_1_1_user_api_result" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Models::UserApiResult</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_web_site_1_1_models_1_1_user_api_result_1ada6f572a4ca901aa00e508fdb1f004a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.WebSite.Models.UserApiResult.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Models/UserApiResult.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Models/UserApiResult.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Models/UserApiResult.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Models/UserApiResult.cs" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_models_1_1_user_api_result_1ada6f572a4ca901aa00e508fdb1f004a3" prot="public" virt="non-virtual"><scope>HRM::WebSite::Models::UserApiResult</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_services_1_1_auto_mapper_service" kind="namespace">
+    <compoundname>HRM::Services::AutoMapperService</compoundname>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration" prot="public">HRM::Services::AutoMapperService::AutoMapperConfiguration</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile" prot="public">HRM::Services::AutoMapperService::DomainToViewModelProfile</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_view_model_to_domain_profile" prot="public">HRM::Services::AutoMapperService::ViewModelToDomainProfile</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/AutoMapperService/AutoMapperConfiguration.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

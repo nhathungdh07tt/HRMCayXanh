@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Api::UserController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApiController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aa10065c49454789eb7c3f31ef79dee7e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref></type>
+        <definition>readonly IUserService HRM.WebSite.Api.UserController._userService</definition>
+        <argsstring></argsstring>
+        <name>_userService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aabcd85293cacdd571281c593adbbacb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.WebSite.Api.UserController.UserController</definition>
+        <argsstring>(IUserService userService)</argsstring>
+        <name>UserController</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref></type>
+          <declname>userService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1a70586771f631259227329d4882f9fc82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IHttpActionResult</type>
+        <definition>IHttpActionResult HRM.WebSite.Api.UserController.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" line="23" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="232">
+        <label>ApiController</label>
+      </node>
+      <node id="231">
+        <label>HRM.WebSite.Api.UserController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="234">
+        <label>ApiController</label>
+      </node>
+      <node id="235">
+        <label>HRM.Services.IUserService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_user_service"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>HRM.WebSite.Api.UserController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+        <childnode refid="235" relation="usage">
+          <edgelabel>_userService</edgelabel>
+        </childnode>
+      </node>
+      <node id="236">
+        <label>IService&lt; User, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" bodystart="13" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aa10065c49454789eb7c3f31ef79dee7e" prot="private" virt="non-virtual"><scope>HRM::WebSite::Api::UserController</scope><name>_userService</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1a70586771f631259227329d4882f9fc82" prot="public" virt="non-virtual"><scope>HRM::WebSite::Api::UserController</scope><name>Get</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller_1aabcd85293cacdd571281c593adbbacb6" prot="public" virt="non-virtual"><scope>HRM::WebSite::Api::UserController</scope><name>UserController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

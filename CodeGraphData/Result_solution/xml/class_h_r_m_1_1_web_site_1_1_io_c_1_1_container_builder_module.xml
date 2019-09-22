@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module" kind="class" prot="public">
+    <compoundname>HRM::WebSite::IoC::ContainerBuilderModule</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Module</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module_1aa8b6cb0f3034690418880e28810d6036" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void HRM.WebSite.IoC.ContainerBuilderModule.Load</definition>
+        <argsstring>(ContainerBuilder builder)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>ContainerBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/IoC/ContainerBuilderModule.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/IoC/ContainerBuilderModule.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>HRM.WebSite.IoC.ContainerBuilderModule</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Autofac::Module</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>HRM.WebSite.IoC.ContainerBuilderModule</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Autofac::Module</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/IoC/ContainerBuilderModule.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/IoC/ContainerBuilderModule.cs" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_io_c_1_1_container_builder_module_1aa8b6cb0f3034690418880e28810d6036" prot="protected" virt="non-virtual"><scope>HRM::WebSite::IoC::ContainerBuilderModule</scope><name>Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<HRM.ViewModels.Employee.EmployeeViewModel>
+
+@{
+    ViewBag.Title = "SearchByAge";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SearchByBirthDay</h2>
+
+@Html.Partial("_SearchEmployeeList", Model)

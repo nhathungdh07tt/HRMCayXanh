@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Bootstrap::Startup</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup_1aaa9d2d9446b7e3db135cce78d8e7ae04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.WebSite.Bootstrap.Startup.Configuration</definition>
+        <argsstring>(IAppBuilder app)</argsstring>
+        <name>Configuration</name>
+        <param>
+          <type>IAppBuilder</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/Startup.cs" line="22" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/Startup.cs" bodystart="22" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/Startup.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/Startup.cs" bodystart="20" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_startup_1aaa9d2d9446b7e3db135cce78d8e7ae04" prot="public" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::Startup</scope><name>Configuration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

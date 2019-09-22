@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_services_1_1_i_user_service" kind="interface" prot="public">
+    <compoundname>HRM::Services::IUserService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IService&lt; User, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_services_1_1_user_service" prot="public" virt="non-virtual">HRM.Services.UserService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_i_user_service_1acccca8571c7651c94d581aab3c296309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model" kindref="compound">UserViewModel</ref></type>
+        <definition>UserViewModel HRM.Services.IUserService.UserIncludeRole</definition>
+        <argsstring>()</argsstring>
+        <name>UserIncludeRole</name>
+        <reimplementedby refid="class_h_r_m_1_1_services_1_1_user_service_1a79ab913c9efa323b3e6a1d9bf99658c4">UserIncludeRole</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/UserService.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_i_user_service_1a772d5155e427e9cacf70022a469c92d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_h_r_m_1_1_view_models_1_1_system_1_1_user_view_model" kindref="compound">UserViewModel</ref></type>
+        <definition>UserViewModel HRM.Services.IUserService.GetUserById</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetUserById</name>
+        <reimplementedby refid="class_h_r_m_1_1_services_1_1_user_service_1ab88207eb00865e238757f849a5f3328f">GetUserById</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/UserService.cs" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="182">
+        <label>HRM.Services.IUserService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_user_service"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>IService&lt; User, long &gt;</label>
+      </node>
+      <node id="184">
+        <label>HRM.Services.UserService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_user_service"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="185">
+        <label>HRM.Services.IUserService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_user_service"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>IService&lt; User, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/UserService.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.Services/UserService.cs" bodystart="18" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_services_1_1_i_user_service_1a772d5155e427e9cacf70022a469c92d5" prot="public" virt="non-virtual"><scope>HRM::Services::IUserService</scope><name>GetUserById</name></member>
+      <member refid="interface_h_r_m_1_1_services_1_1_i_user_service_1acccca8571c7651c94d581aab3c296309" prot="public" virt="non-virtual"><scope>HRM::Services::IUserService</scope><name>UserIncludeRole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

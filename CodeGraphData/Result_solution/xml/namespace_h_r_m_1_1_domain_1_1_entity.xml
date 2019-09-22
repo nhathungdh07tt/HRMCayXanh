@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_domain_1_1_entity" kind="namespace">
+    <compoundname>HRM::Domain::Entity</compoundname>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company" prot="public">HRM::Domain::Entity::Company</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_company_contact" prot="public">HRM::Domain::Entity::CompanyContact</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department" prot="public">HRM::Domain::Entity::Department</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee" prot="public">HRM::Domain::Entity::DepartmentEmployee</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee" prot="public">HRM::Domain::Entity::Employee</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_role" prot="public">HRM::Domain::Entity::Role</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_entity_1_1_user" prot="public">HRM::Domain::Entity::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/Company.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

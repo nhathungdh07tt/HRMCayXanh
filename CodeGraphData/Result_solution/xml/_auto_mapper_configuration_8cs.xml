@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_auto_mapper_configuration_8cs" kind="file">
+    <compoundname>AutoMapperConfiguration.cs</compoundname>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration" prot="public">HRM::Services::AutoMapperService::AutoMapperConfiguration</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_services_1_1_auto_mapper_service">HRM::Services::AutoMapperService</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>HRM.Domain.Entity;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_h_r_m_1_1_services_1_1_auto_mapper_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">HRM.Services.AutoMapperService</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration" kindref="compound">AutoMapperConfiguration</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration_1a24b12e63e2e47beab0dc3255e830077a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_auto_mapper_configuration_1a24b12e63e2e47beab0dc3255e830077a" kindref="member">Configure</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AutoMapper.Mapper.Initialize(cf<sp/>=&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cf.AddProfile(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile" kindref="compound">DomainToViewModelProfile</ref>());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cf.AddProfile(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_view_model_to_domain_profile" kindref="compound">ViewModelToDomainProfile</ref>());</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Projects/HRM/HRM.Services/AutoMapperService/AutoMapperConfiguration.cs"/>
+  </compounddef>
+</doxygen>

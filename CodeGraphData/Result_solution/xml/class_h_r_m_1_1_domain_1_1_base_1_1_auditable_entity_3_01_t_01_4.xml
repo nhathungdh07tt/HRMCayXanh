@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>HRM::Domain::Base::AuditableEntity&lt; T &gt;</compoundname>
+    <basecompoundref refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4" prot="public" virt="non-virtual">HRM.Domain.Base.Entity&lt; T &gt;</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity" prot="public" virt="non-virtual">HRM.Domain.Base.IAuditableEntity</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a87f583ec0fd47d2c544167ac96115915" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Base.AuditableEntity&lt; T &gt;.CreatedDate</definition>
+        <argsstring></argsstring>
+        <name>CreatedDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="7" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a58335a41dea037c0426b52c30a644eca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Base.AuditableEntity&lt; T &gt;.CreatedBy</definition>
+        <argsstring></argsstring>
+        <name>CreatedBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a7d883d0a1e57adbad597d5755011f2af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Base.AuditableEntity&lt; T &gt;.UpdatedDate</definition>
+        <argsstring></argsstring>
+        <name>UpdatedDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a72cde5c72105406fbc0b4e5e1f09d848" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.Domain.Base.AuditableEntity&lt; T &gt;.UpdatedBy</definition>
+        <argsstring></argsstring>
+        <name>UpdatedBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>IEntity&lt; T &gt;</label>
+        <link refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4"/>
+      </node>
+      <node id="6">
+        <label>Entity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IAuditableEntity</label>
+        <link refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity"/>
+      </node>
+      <node id="5">
+        <label>HRM.Domain.Base.AuditableEntity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>BaseEntity</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>IEntity&lt; T &gt;</label>
+        <link refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4"/>
+      </node>
+      <node id="11">
+        <label>Entity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IAuditableEntity</label>
+        <link refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity"/>
+      </node>
+      <node id="10">
+        <label>HRM.Domain.Base.AuditableEntity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>BaseEntity</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="6" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a58335a41dea037c0426b52c30a644eca" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::AuditableEntity&lt; T &gt;</scope><name>CreatedBy</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a87f583ec0fd47d2c544167ac96115915" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::AuditableEntity&lt; T &gt;</scope><name>CreatedDate</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4_1aea7763337be1b48942c9bfab60c0b9b9" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::AuditableEntity&lt; T &gt;</scope><name>Id</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a72cde5c72105406fbc0b4e5e1f09d848" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::AuditableEntity&lt; T &gt;</scope><name>UpdatedBy</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4_1a7d883d0a1e57adbad597d5755011f2af" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::AuditableEntity&lt; T &gt;</scope><name>UpdatedDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

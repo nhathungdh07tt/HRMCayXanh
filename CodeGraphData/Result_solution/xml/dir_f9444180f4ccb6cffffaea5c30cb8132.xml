@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f9444180f4ccb6cffffaea5c30cb8132" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.ViewModels/System</compoundname>
+    <innerfile refid="_role_view_model_8cs">RoleViewModel.cs</innerfile>
+    <innerfile refid="_user_view_model_8cs">UserViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/System/"/>
+  </compounddef>
+</doxygen>

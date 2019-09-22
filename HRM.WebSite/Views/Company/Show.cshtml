@@ -1,0 +1,236 @@
+﻿@model HRM.ViewModels.Company.CompanyViewModel
+@using HRM.Common
+<div class="page-container">
+    <div class="page-content">
+        <div class="page-content">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption font-red-sunglo">
+                        <div class="btn-group">
+                            <button id="sample_editable_1_new" class="btn sbold green">
+                                <a href="~/CompanyChangeHistory/Index">
+                                    <i class="fa fa-bookmark-o"></i> Lịch sử giấy phép kinh doanh
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-circle btn-icon-only blue" href="javascript:;">
+                            <i class="icon-cloud-upload"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only green" href="javascript:;">
+                            <i class="icon-wrench"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only red" href="javascript:;">
+                            <i class="icon-trash"></i>
+                        </a>
+                        <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="javascript:;" data-original-title="" title=""> </a>
+                    </div>
+                </div>
+                <div class="portlet-body form">
+                    <form role="form">
+                        <div class="form-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.VietNamName, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Tên công ty</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.EnglishName, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Tên tiếng anh</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.ShortName, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Tên viết tắt</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.TaxCode, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Mã số thuế</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Địa chỉ công ty</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.CharterCapital, new { htmlAttributes = new { @class = "form-control money" } })
+                                            <label for="form_control_1">Vốn điều lệ</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.ChangedCount, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Lần thay đổi số</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon" style="margin-top:-23px">
+                                            <label for="form_control_1">Ngày thay đổi</label>
+                                            @Html.TextBoxFor(model => model.ChangedDate, new { @type = "date", @class = "form-control" })
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.ChangedContent, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Nội dung thay đổi</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Website, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Website</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Điện thoại bàn</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Fax, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Fax</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Di động</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Email</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.BankAccountNumber, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Số tài khoản Ngân hàng</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.BankAccountIssuePlace, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Tại ngân hàng</label>
+                                            @*<span class="help-block">Nhập tại đây...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                        <div class="input-icon">
+                                            @Html.EditorFor(model => model.SignName, new { htmlAttributes = new { @class = "form-control" } })
+                                            <label for="form_control_1">Người đại diên pháp luật</label>
+                                            @*<span class="help-block">Some help goes here...</span>*@
+                                            <i class="fa fa-bell-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="@Html.DisplayFor(model => model.SignTitle)"> @Html.DisplayFor(model => model.SignTitle)</a>
+                                </div>
+                            </div>
+                           
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    @if (Model.ChangedDate.HasValue)
+    {
+        <script type="text/javascript">
+    $(document).ready(function () {
+        setDate("ChangedDate", @Model.ChangedDate.Value.ToJavaScriptMilliseconds());
+            });
+        </script>
+    }
+
+}

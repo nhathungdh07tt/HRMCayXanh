@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4" kind="interface" prot="public">
+    <compoundname>HRM::Domain::Base::IEntity&lt; T &gt;</compoundname>
+    <derivedcompoundref refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4" prot="public" virt="non-virtual">HRM.Domain.Base.Entity&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4_1a575f8855d14a341e374e41e3a8100fa5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>T</type>
+        <definition>T HRM.Domain.Base.IEntity&lt; T &gt;.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Base/IEntity.cs" line="5" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/IEntity.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="158">
+        <label>HRM.Domain.Base.Entity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4"/>
+        <childnode refid="157" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>HRM.Domain.Base.IEntity&lt; T &gt;</label>
+        <link refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4"/>
+      </node>
+      <node id="159">
+        <label>HRM.Domain.Base.AuditableEntity&lt; T &gt;</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/IEntity.cs" line="4" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Base/IEntity.cs" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4_1a575f8855d14a341e374e41e3a8100fa5" prot="public" virt="non-virtual"><scope>HRM::Domain::Base::IEntity&lt; T &gt;</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

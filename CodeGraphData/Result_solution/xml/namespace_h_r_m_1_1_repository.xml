@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_repository" kind="namespace">
+    <compoundname>HRM::Repository</compoundname>
+    <innerclass refid="class_h_r_m_1_1_repository_1_1_hrm_data_context" prot="public">HRM::Repository::HrmDataContext</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_repository_1_1_i_context" prot="public">HRM::Repository::IContext</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_repository_1_1_base">HRM::Repository::Base</innernamespace>
+    <innernamespace refid="namespace_h_r_m_1_1_repository_1_1_initializer">HRM::Repository::Initializer</innernamespace>
+    <innernamespace refid="namespace_h_r_m_1_1_repository_1_1_repositories">HRM::Repository::Repositories</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

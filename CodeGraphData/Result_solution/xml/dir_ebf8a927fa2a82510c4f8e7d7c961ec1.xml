@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ebf8a927fa2a82510c4f8e7d7c961ec1" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Repository/Repositories</compoundname>
+    <innerfile refid="_company_repository_8cs">CompanyRepository.cs</innerfile>
+    <innerfile refid="_role_repository_8cs">RoleRepository.cs</innerfile>
+    <innerfile refid="_user_repository_8cs">UserRepository.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/"/>
+  </compounddef>
+</doxygen>

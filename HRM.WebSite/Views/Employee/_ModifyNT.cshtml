@@ -1,0 +1,352 @@
+﻿@model HRM.ViewModels.Employee.EmployeeViewModel
+@{
+    List<SelectListItem> skillList = ((SelectList)ViewBag.Skills).ToList();
+}
+<div class="form-body">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", onchange = "checkUsername(this);" } })
+                    <label for="form_control_1">Mã nhân viên</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                    <label for="form_control_1">Họ tên</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.Nationality.Id, (SelectList)ViewBag.Countries, new { @class = "form-control" })
+                    <label for="form_control_1">Quốc tịch</label>
+                    @*<span class="help-block">Some help goes here..</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon" style="margin-top:-23px">
+                    <label for="form_control_1">Ngày sinh</label>
+                    @Html.TextBoxFor(m => m.DateOfBirth, new { @type = "date", @class = "form-control" })
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.EditorFor(model => model.PlaceOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+                    <label for="form_control_1">Nơi sinh</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.Gender, (SelectList)ViewBag.Genders, new { @class = "form-control" })
+                    <label for="form_control_1">Giới tính</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.EthnicGroup.Id, (SelectList)ViewBag.EthnicGroups, new { @class = "form-control" })
+                    <label for="form_control_1">Dân tộc</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.Religion.Id, (SelectList)ViewBag.Religions, new { @class = "form-control" })
+                    <label for="form_control_1">Tôn giáo</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.Address, new { @class = "form-control" })
+                    <label for="form_control_1">Địa chỉ</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
+                    <label for="form_control_1">Số điện thoại</label>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.IdentityNo, new { @class = "form-control" })
+                    <label for="form_control_1">Số CMND</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label ngaythang">
+                <div class="input-icon">
+
+                    <label for="form_control_1">Ngày cấp</label>
+                    <span>
+                        <input class="inputngaythang" id="DateIssueIdentity" name="DateIssueIdentity" type="date" value="">
+                    </span>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.PlaceIssueIdentity, new { @class = "form-control" })
+                    <label for="form_control_1">Nơi cấp</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.Education.Id, (SelectList)ViewBag.Educations, new { @class = "form-control" })
+                    <label for="form_control_1">Trình độ học vấn</label>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.DetailEducation, new { @class = "form-control" })
+                    <label for="form_control_1">Chi tiết trình độ học vấn</label>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.DetailSkill, new { @class = "form-control" })
+                    <label for="form_control_1">Chi tiết trình độ chuyên môn</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        @*<div class="col-md-3">
+                <div class="form-group form-md-line-input has-success form-md-floating-label">
+                    <div class="input-icon">
+                        @Html.ListBoxFor(model => model.SelectedSkills, (MultiSelectList)ViewBag.Skills, new { multiple = "multiple", @class = "form-control" })
+                        <label for="form_control_1">Chứng chỉ khác</label>
+                        <span class="help-block">Some help goes here...</span>
+
+
+                            <label for="form_control_1" class="control-label">Chọn chứng chỉ khác</label>
+                            <select id="multiple" class="form-control select2-multiple" multiple>
+                                <optgroup label="Chọn chứng chỉ khác">
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WV">West Virginia</option>
+                                </optgroup>
+                            </select>
+
+
+
+
+                       <i class="fa fa-bell-o"></i>
+                    </div>
+                </div>
+            </div>*@
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    <label for="form_control_1">Chứng chỉ khác</label>
+                    @{ var selectedSkills = Model != null && Model.SelectedSkills != null ? Model.SelectedSkills : new long[] { };}
+                    <select name="SelectedSkills" id="SelectedSkills" class="form-control select2-multiple" multiple>
+                        <optgroup label="Chọn chứng chỉ khác">
+                            @for (int i = 0; i < skillList.Count(); i++)
+                            {
+                                var sel = selectedSkills.Any(c => c.ToString() == skillList[i].Value) ? "selected='selected'" : "";
+                                <option @(sel) value="@skillList[i].Value">@skillList[i].Text</option>
+                            }
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="form-group form-md-line-input has-success form-md-floating-label ngaythang">
+                <div class="input-icon">
+                    <label for="form_control_1">Ngày BHXH</label>
+                    <span>
+                        <input class="inputngaythang" id="DateIssueSocialInsurance" name="DateIssueSocialInsurance" type="date" value="">
+                    </span>
+                    <span class="help-block">Some help goes here...</span>
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.SocialInsuranceNo, new { @class = "form-control" })
+                    <label for="form_control_1">Số sổ BHXH</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.BankAccount, new { @class = "form-control" })
+                    <label for="form_control_1">Số tài khoản ngân hàng</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.Bank, new { @class = "form-control" })
+                    <label for="form_control_1">Ngân hàng</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.YearDayOff, new { @class = "form-control", @Value = "0" })
+                    <label for="form_control_1">Ngày nghỉ phép trong năm</label>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.DropDownListFor(model => model.CommunistYouthUnion, (SelectList)ViewBag.CommunistYouthUnions, new { @class = "form-control" })
+                    @*<label for="form_control_1">Đoàn viên</label>*@
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                    <label for="form_control_1">Email</label>
+                    @*<span class="help-block">Some help goes here...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextAreaFor(model => model.Note, new { @class = "form-control" })
+                    <label for="form_control_1">Ghi chú</label>
+                    @*<span class="help-block">Nhập tại đây...</span>*@
+                    <i class="fa fa-bell-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.CheckBoxFor(model => model.Working)
+                    <label for="form_control_1">Đã nghỉ làm</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                <div class="input-icon">
+                    @Html.TextBoxFor(model => model.Avatar, new { @class = "form-control", type = "file" })
+                    @*<span class="help-block">Some help goes here...</span>*@
+
+                </div>
+            </div>
+        </div>
+        @Html.EditorFor(model => model.EmployeeRelationType, new { htmlAttributes = new { @class = "hide form-control", @Value = 1 } })
+    </div>
+    <div class="form-actions noborder">
+        <button type="submit" class="btn green-meadow">Lưu lại</button>
+        <button type="button" class="btn default">@Html.ActionLink("Hủy", "Index")</button>
+    </div>
+</div>
+

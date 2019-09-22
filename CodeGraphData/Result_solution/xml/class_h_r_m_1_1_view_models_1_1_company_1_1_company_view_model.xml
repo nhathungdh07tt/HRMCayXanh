@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model" kind="class" prot="public">
+    <compoundname>HRM::ViewModels::Company::CompanyViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a007465bf56f3304f7300a3d858c867f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.VietNamName</definition>
+        <argsstring></argsstring>
+        <name>VietNamName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a0cfd286d501f1b5cba3c6af620644fda" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.EnglishName</definition>
+        <argsstring></argsstring>
+        <name>EnglishName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a673251bed8f67d44bab22c61d799f3b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.ShortName</definition>
+        <argsstring></argsstring>
+        <name>ShortName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1dd68d9f251e42900a80194b7b903284" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.TaxCode</definition>
+        <argsstring></argsstring>
+        <name>TaxCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abf81881b5e32a4613be93f0e66a78c44" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a9604a69fa53c44a126c8dfbded51c080" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.ViewModels.Company.CompanyViewModel.FirstRegistrationDate</definition>
+        <argsstring></argsstring>
+        <name>FirstRegistrationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="20" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aaacda220fce5ca73492803d5e7e32a12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double HRM.ViewModels.Company.CompanyViewModel.CharterCapital</definition>
+        <argsstring></argsstring>
+        <name>CharterCapital</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1d7bf855ac9c9e226e3a0baaaf7ffabc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int HRM.ViewModels.Company.CompanyViewModel.ChangedCount</definition>
+        <argsstring></argsstring>
+        <name>ChangedCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="22" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a318c5919fa5b2b6a09bcdfbcb4a6621f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.ViewModels.Company.CompanyViewModel.ChangedDate</definition>
+        <argsstring></argsstring>
+        <name>ChangedDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="23" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a830e9fcb82b6533be4fb2ac416f07313" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.ChangedContent</definition>
+        <argsstring></argsstring>
+        <name>ChangedContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="24" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aafa987a2431c50d3b3b659f1fff912ed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Province</definition>
+        <argsstring></argsstring>
+        <name>Province</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="25" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abcf7722a0496dfb38f43d5daf85e54ba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.District</definition>
+        <argsstring></argsstring>
+        <name>District</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="26" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aea20c51d23301a3c38c6ed4e1f2c8361" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Ward</definition>
+        <argsstring></argsstring>
+        <name>Ward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="27" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a4da28c794fb62c1a5c35ce51ebd0ad8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Website</definition>
+        <argsstring></argsstring>
+        <name>Website</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="28" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ad3f95d0caf2b3053f19933294a15e622" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Mobile</definition>
+        <argsstring></argsstring>
+        <name>Mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="29" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a849b23dda8042be4f843eef9850ace7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Fax</definition>
+        <argsstring></argsstring>
+        <name>Fax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="30" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a96bc2a83bc626aee4892052f37ed8451" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="31" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a357f370493e86343c7687c509a6d48c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="32" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abdc91883c6f393ff783a4dda646126fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.BankAccountNumber</definition>
+        <argsstring></argsstring>
+        <name>BankAccountNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="33" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1afa967b09d4f0fc35626e0eee5de7a429" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.BankAccountIssuePlace</definition>
+        <argsstring></argsstring>
+        <name>BankAccountIssuePlace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="34" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1e2cac53ac27f5570e311a08ef8658e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.SignName</definition>
+        <argsstring></argsstring>
+        <name>SignName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="35" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ae6d25ca5e1af3b7b2eb99a2a3728c61e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.Company.CompanyViewModel.SignTitle</definition>
+        <argsstring></argsstring>
+        <name>SignTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="36" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a93431261ad121406409d537d600dab3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_contact_view_model" kindref="compound">CompanyContactViewModel</ref> &gt;</type>
+        <definition>virtual ICollection&lt;CompanyContactViewModel&gt; HRM.ViewModels.Company.CompanyViewModel.Contacts</definition>
+        <argsstring></argsstring>
+        <name>Contacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="38" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1af0cdf6e65d7563a4bee42d75921d2aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.ViewModels.Company.CompanyViewModel.CompanyViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>CompanyViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/Company/CompanyViewModel.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abf81881b5e32a4613be93f0e66a78c44" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Address</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1afa967b09d4f0fc35626e0eee5de7a429" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>BankAccountIssuePlace</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abdc91883c6f393ff783a4dda646126fe" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>BankAccountNumber</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a830e9fcb82b6533be4fb2ac416f07313" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>ChangedContent</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1d7bf855ac9c9e226e3a0baaaf7ffabc" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>ChangedCount</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a318c5919fa5b2b6a09bcdfbcb4a6621f" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>ChangedDate</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aaacda220fce5ca73492803d5e7e32a12" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>CharterCapital</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1af0cdf6e65d7563a4bee42d75921d2aef" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>CompanyViewModel</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a93431261ad121406409d537d600dab3e" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Contacts</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1abcf7722a0496dfb38f43d5daf85e54ba" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>District</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a357f370493e86343c7687c509a6d48c8" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Email</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a0cfd286d501f1b5cba3c6af620644fda" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>EnglishName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a849b23dda8042be4f843eef9850ace7f" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Fax</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a9604a69fa53c44a126c8dfbded51c080" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>FirstRegistrationDate</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ad3f95d0caf2b3053f19933294a15e622" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Mobile</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a96bc2a83bc626aee4892052f37ed8451" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Phone</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aafa987a2431c50d3b3b659f1fff912ed" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Province</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a673251bed8f67d44bab22c61d799f3b6" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>ShortName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1e2cac53ac27f5570e311a08ef8658e0" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>SignName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1ae6d25ca5e1af3b7b2eb99a2a3728c61e" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>SignTitle</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a1dd68d9f251e42900a80194b7b903284" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>TaxCode</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a007465bf56f3304f7300a3d858c867f7" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>VietNamName</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1aea20c51d23301a3c38c6ed4e1f2c8361" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Ward</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model_1a4da28c794fb62c1a5c35ce51ebd0ad8f" prot="public" virt="non-virtual"><scope>HRM::ViewModels::Company::CompanyViewModel</scope><name>Website</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

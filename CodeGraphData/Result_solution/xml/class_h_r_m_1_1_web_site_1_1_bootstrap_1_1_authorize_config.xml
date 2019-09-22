@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Bootstrap::AuthorizeConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1a349ffd88ba9d91db593ad1dabf7399b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void HRM.WebSite.Bootstrap.AuthorizeConfig.Configure</definition>
+        <argsstring>(IAppBuilder app)</argsstring>
+        <name>Configure</name>
+        <param>
+          <type>IAppBuilder</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" bodystart="18" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1af2a3747f2cd1ea7dd8fa17a0aef5f4ff" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool HRM.WebSite.Bootstrap.AuthorizeConfig.IsAjaxRequest</definition>
+        <argsstring>(IOwinRequest request)</argsstring>
+        <name>IsAjaxRequest</name>
+        <param>
+          <type>IOwinRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" line="39" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" bodystart="39" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1acc9a0bd9b444e808b5c0dadcc313268c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool HRM.WebSite.Bootstrap.AuthorizeConfig.IsApiRequest</definition>
+        <argsstring>(IOwinRequest request)</argsstring>
+        <name>IsApiRequest</name>
+        <param>
+          <type>IOwinRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" line="52" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Bootstrap/AuthorizeConfig.cs" bodystart="15" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1a349ffd88ba9d91db593ad1dabf7399b1" prot="public" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::AuthorizeConfig</scope><name>Configure</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1af2a3747f2cd1ea7dd8fa17a0aef5f4ff" prot="private" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::AuthorizeConfig</scope><name>IsAjaxRequest</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_bootstrap_1_1_authorize_config_1acc9a0bd9b444e808b5c0dadcc313268c" prot="private" virt="non-virtual"><scope>HRM::WebSite::Bootstrap::AuthorizeConfig</scope><name>IsApiRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

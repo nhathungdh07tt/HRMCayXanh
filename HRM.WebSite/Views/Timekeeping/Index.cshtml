@@ -1,0 +1,245 @@
+﻿@model HRM.ViewModels.Salary.SalaryHistoryCollectionViewModel
+@{
+    List<SelectListItem> timeAttendanceTypesList = ((SelectList)ViewBag.TimeAttendanceTypes).ToList();
+}
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+        <div class="portlet light bordered">
+            <div class="portlet-body">
+                <div class="table-toolbar">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group form-md-line-input has-success form-md-floating-label ngaythang">
+                                <div class="input-icon">
+
+                                    <label for="form_control_1">Đến ngày</label>
+                                    <span>
+                                        <input class="inputngaythang" id="Datehtml" name="Date" type="date" value="@DateTime.Today.ToShortDateString()">
+                                    </span>
+                                    @*<span class="help-block">Some help goes here...</span>*@
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group pull-right">
+                                <button class="btn green  btn-outline dropdown-toggle" data-toggle="dropdown">
+                                    Tools
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                                <ul class="dropdown-menu pull-right">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-print"></i> Print
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <i class="fa fa-file-pdf-o"></i> Save as PDF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Export","Country")">
+                                            Xuất Excel
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                    <thead>
+                        <tr class="mautable">
+                            <th>
+                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                    <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                    <span></span>
+                                </label>
+                            </th>
+                            <th> Tên nhân viên </th>
+                            <th> Mục tiêu </th>
+                            <th> Cách thức </th>
+                            <th> Chấm công </th>
+                            <th> Chức Năng </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.SalaryHistorys)
+                        {
+                        <tr>
+                            <td>
+                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                    <input type="checkbox" class="checkboxes" value="1" />
+                                    <span></span>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="hidden" name="employeeId" value="@item.EmployeeId" />
+                                @item.LastName.Trim() - @item.FirstName.Trim()
+
+                            </td>
+                            <td>
+                                <input type="hidden" name="departmentId" value="@item.DepartmentId" />
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                <select name="content" class="form-control form-filter input-sm">
+                                    <option value="BT">Bình thường</option>
+                                    <option value="TC">Tăng ca</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <select name="timeAttendanceTypeId" id="select2-single-input-sm" class="form-control input-sm select2-multiple">
+                                    <option value="">chọn công</option>
+                                    @for (int i = 0; i < timeAttendanceTypesList.Count(); i++)
+                                    {
+                                        <option value="@timeAttendanceTypesList[i].Value">@timeAttendanceTypesList[i].Text</option>
+                                    }
+                                </select>
+                            </td>
+                          
+                            <td>
+                                <button type="button" class="btnDiVao btn blue savecuhamcong">Đi Vào</button>
+                                <button type="button" style="display:none" class="btnDiRa btn btn-danger ">Đi Ra</button>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END EXAMPLE TABLE PORTLET-->
+    </div>
+</div>
+@section scripts{
+    <script>
+
+        var employeeService = function () {
+            window.curentRow = null;
+            var empModel = function () {
+                return {
+                    EmployeeId: "",
+                    DepartmentId: "",
+                    Content: "",
+                    Date: "",
+                    TimeAttendanceTypeId:"",
+                }
+            }
+
+            //function convertDateTime(dt) {
+            //    var parts = dt.split('/');
+            //    var date = new Date(parts[2], parts[1] - 1, parts[0]);
+            //    return date;
+            //}
+
+            function getDataRow(rowElement) {
+                var current = $(rowElement);
+                var ngayChamCong = $("#Datehtml").val();
+                var e = new empModel();
+                e.EmployeeId = current.find("input[name='employeeId']").val();
+                e.DepartmentId = current.find("input[name='departmentId']").val();               
+                e.Content = current.find("select[name='content']").val();
+                e.TimeAttendanceTypeId = current.find("select[name='timeAttendanceTypeId']").val();
+                e.Date = ngayChamCong;
+                //e.MucTieuId = current.find("input[name='muctieuId']").val();
+                return e;
+            }
+            
+            function kiemTraChamCong(emp) {              
+                $.ajax({
+                    url: "/Timekeeping/KiemTraChamCong",
+                    type: 'POST',
+                    data: JSON.stringify(emp),
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    error: function (xhr) {
+                        alert('Error: ' + xhr.statusText);
+                    },                    
+                    success: function (result) {
+                        if (result.daCham == true) {
+                            var r = confirm("Nhân viên này đã được chấm công (" + result.chamCong + ") hôm nay. Bạn có muốn tiếp tục?");
+                            if (r == true) {
+                                saveChamCong(emp);
+                            } else {
+                                showButtonChamCong(curentRow, false);
+                            }
+                        } else {
+                            saveChamCong(emp);
+                        }
+                    },
+                    async: true,
+                    processData: false
+                });
+            }
+
+            function saveChamCong(emp) {
+                $.ajax({
+                    url: "/Timekeeping/Luu",
+                    type: 'POST',
+                    data: JSON.stringify(emp),
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    error: function (xhr) {
+                        alert('Error: ' + xhr.statusText);
+                    },
+                    success: function (result) {
+                        if (result > 0) {
+                            showButtonChamCong(curentRow, false);
+                            alert("Chấm công thành công");
+                        }
+                    },
+                    async: true,
+                    processData: false
+                });
+            }
+
+            function showButtonChamCong(parent, isChamCong) {
+
+                if (isChamCong) {
+                    $(parent).find(".btnDiVao").show();
+                    $(parent).find(".btnDiRa").hide();
+                } else {
+                    $(parent).find(".btnDiVao").hide();
+                    $(parent).find(".btnDiRa").show();
+                }
+            }
+
+            return {
+                getDataRow: getDataRow,
+                saveChamCong: saveChamCong,
+                kiemTraChamCong: kiemTraChamCong,
+                showButtonChamCong: showButtonChamCong
+            }
+        }
+
+        $(document).ready(function () {
+            var empService = new employeeService();
+
+            $(".savecuhamcong").click(function (e) {
+
+                var currentRow = $(e.currentTarget);
+                var parent = currentRow.closest("tr");
+                window.curentRow = parent;
+
+                var emp = empService.getDataRow(parent);
+                empService.kiemTraChamCong(emp);
+
+            });
+
+            $(".btnDiRa").click(function () {
+                var parent = $(this).closest("tr");
+                empService.showButtonChamCong(parent, true);
+            });
+
+            $("#Datehtml").change(function () {
+                $(".btnDiVao").show();
+                $(".btnDiRa").hide();
+            });
+        });
+
+    </script>
+}

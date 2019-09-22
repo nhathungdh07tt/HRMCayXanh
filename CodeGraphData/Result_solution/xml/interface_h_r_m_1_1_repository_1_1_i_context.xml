@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_repository_1_1_i_context" kind="interface" prot="public">
+    <compoundname>HRM::Repository::IContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_repository_1_1_hrm_data_context" prot="public" virt="non-virtual">HRM.Repository.HrmDataContext</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_i_context_1adfdb4460b4ffa326dc8bab7798572173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DbSet&lt; TEntity &gt;</type>
+        <definition>DbSet&lt;TEntity&gt; HRM.Repository.IContext.Set&lt; TEntity &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>Set&lt; TEntity &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/IContext.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_i_context_1a1012a6217819fa4dbed72424e7e10131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DbEntityEntry&lt; TEntity &gt;</type>
+        <definition>DbEntityEntry&lt;TEntity&gt; HRM.Repository.IContext.Entry&lt; TEntity &gt;</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>Entry&lt; TEntity &gt;</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/IContext.cs" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_i_context_1ab28f56bd6df15878104e4f05a137ede9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int HRM.Repository.IContext.SaveChanges</definition>
+        <argsstring>()</argsstring>
+        <name>SaveChanges</name>
+        <reimplementedby refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a1051a48acd143b87fa4ced50b4b9285d">SaveChanges</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/IContext.cs" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>IDisposable</label>
+      </node>
+      <node id="154">
+        <label>HRM.Repository.HrmDataContext</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_hrm_data_context"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="155">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/IContext.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/IContext.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1a1012a6217819fa4dbed72424e7e10131" prot="public" virt="non-virtual"><scope>HRM::Repository::IContext</scope><name>Entry&lt; TEntity &gt;</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1ab28f56bd6df15878104e4f05a137ede9" prot="public" virt="non-virtual"><scope>HRM::Repository::IContext</scope><name>SaveChanges</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_i_context_1adfdb4460b4ffa326dc8bab7798572173" prot="public" virt="non-virtual"><scope>HRM::Repository::IContext</scope><name>Set&lt; TEntity &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

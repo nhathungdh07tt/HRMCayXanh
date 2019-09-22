@@ -1,0 +1,196 @@
+﻿@model IEnumerable<HRM.ViewModels.Employee.EmployeeViewModel>
+
+@{
+    ViewBag.Title = "SearchByAge";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SearchByAge</h2>
+
+<p>
+    
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaceOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdentityNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateIssueIdentity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaceIssueIdentity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DetailEducation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DetailSkill)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CommunistYouthUnion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SocialInsuranceNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateIssueSocialInsurance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearDayOff)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateSignContract)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOffContract)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Certificate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BankAccount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bank)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Working)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Note)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Avatar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notification)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDeactivated)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaceOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdentityNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateIssueIdentity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaceIssueIdentity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DetailEducation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DetailSkill)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommunistYouthUnion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SocialInsuranceNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateIssueSocialInsurance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearDayOff)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateSignContract)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOffContract)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Certificate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BankAccount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bank)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Working)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Note)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Avatar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Notification)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsDeleted)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsDeactivated)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

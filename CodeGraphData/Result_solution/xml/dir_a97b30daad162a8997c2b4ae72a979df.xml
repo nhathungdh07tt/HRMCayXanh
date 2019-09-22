@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a97b30daad162a8997c2b4ae72a979df" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Repository</compoundname>
+    <innerdir refid="dir_ecee9605fd6357afcd823a78e047604f">D:/Projects/HRM/HRM.Repository/Base</innerdir>
+    <innerdir refid="dir_4937d193e5a516f33077d26d8f4f4144">D:/Projects/HRM/HRM.Repository/Initializer</innerdir>
+    <innerdir refid="dir_744eb72bb1c29ce93dc545979f76e9f9">D:/Projects/HRM/HRM.Repository/Properties</innerdir>
+    <innerdir refid="dir_ebf8a927fa2a82510c4f8e7d7c961ec1">D:/Projects/HRM/HRM.Repository/Repositories</innerdir>
+    <innerfile refid="_hrm_data_context_8cs">HrmDataContext.cs</innerfile>
+    <innerfile refid="_i_context_8cs">IContext.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Repository/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository" kind="interface" prot="public">
+    <compoundname>HRM::Repository::Repositories::IUserRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRepository&lt; User, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository" prot="public" virt="non-virtual">HRM.Repository.Repositories.UserRepository</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="178">
+        <label>IRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="177">
+        <label>HRM.Repository.Repositories.IUserRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>HRM.Repository.Repositories.UserRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>IRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="180">
+        <label>HRM.Repository.Repositories.IUserRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

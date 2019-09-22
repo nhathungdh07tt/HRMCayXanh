@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4" kind="interface" prot="public">
+    <compoundname>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+      <param>
+        <type>in</type>
+        <declname>TKey</declname>
+        <defname>TKey</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1aa887e85a2bd9d50fe7c51eddbd938554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Services.Base.Interfaces.IService&lt; T, in TKey &gt;.Add</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1ac448f38ca3fcef73194fb554ea78dff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Services.Base.Interfaces.IService&lt; T, in TKey &gt;.Update</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a7fb7410b31a62083acebbc9a302673e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Services.Base.Interfaces.IService&lt; T, in TKey &gt;.Delete</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a8de909bcb7384c9fb8b41d6ec53b2254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Services.Base.Interfaces.IService&lt; T, in TKey &gt;.Delete</definition>
+        <argsstring>(TKey id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a1b69b4a155eb01585b00a2fdf04e3851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.Services.Base.Interfaces.IService&lt; T, in TKey &gt;.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" line="8" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/Interfaces/IService.cs" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1aa887e85a2bd9d50fe7c51eddbd938554" prot="public" virt="non-virtual"><scope>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</scope><name>Add</name></member>
+      <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a7fb7410b31a62083acebbc9a302673e3" prot="public" virt="non-virtual"><scope>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</scope><name>Delete</name></member>
+      <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a8de909bcb7384c9fb8b41d6ec53b2254" prot="public" virt="non-virtual"><scope>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</scope><name>Delete</name></member>
+      <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1a1b69b4a155eb01585b00a2fdf04e3851" prot="public" virt="non-virtual"><scope>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</scope><name>Save</name></member>
+      <member refid="interface_h_r_m_1_1_services_1_1_base_1_1_interfaces_1_1_i_service_3_01_t_00_01in_01_t_key_01_4_1ac448f38ca3fcef73194fb554ea78dff0" prot="public" virt="non-virtual"><scope>HRM::Services::Base::Interfaces::IService&lt; T, in TKey &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

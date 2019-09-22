@@ -1,0 +1,98 @@
+﻿@model HRM.ViewModels.Document.DocumentViewModel
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DocumentViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.No)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.No)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromDepartment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FromDepartment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResolvePlace)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResolvePlace)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StorePlace)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StorePlace)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Link)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Checked)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Checked)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

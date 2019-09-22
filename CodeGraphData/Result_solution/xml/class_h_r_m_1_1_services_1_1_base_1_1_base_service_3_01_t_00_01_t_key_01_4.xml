@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4" kind="class" prot="public">
+    <compoundname>HRM::Services::Base::BaseService&lt; T, TKey &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+      <param>
+        <type>TKey</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1adb0a05bed624f0ffa8e26511bcb0c0ff" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+        <definition>readonly IContext HRM.Services.Base.BaseService&lt; T, TKey &gt;._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a327784905b5c0d290c869eee583f06c2" prot="private" static="no" mutable="no">
+        <type>readonly IRepository&lt; T, TKey &gt;</type>
+        <definition>readonly IRepository&lt;T, TKey&gt; HRM.Services.Base.BaseService&lt; T, TKey &gt;._repository</definition>
+        <argsstring></argsstring>
+        <name>_repository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9580a063d9253000b85d695c7cdfec3a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Services.Base.BaseService&lt; T, TKey &gt;.BaseService</definition>
+        <argsstring>(IContext context, IRepository&lt; T, TKey &gt; repository)</argsstring>
+        <name>BaseService</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>IRepository&lt; T, TKey &gt;</type>
+          <declname>repository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a25e9d943d03d793aa8cffad55004c531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Services.Base.BaseService&lt; T, TKey &gt;.Add</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="22" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9862ae6374865634148027742099b92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Services.Base.BaseService&lt; T, TKey &gt;.Update</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="32" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1aad0469bca609ee84ce4e8f31dd1c9f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Services.Base.BaseService&lt; T, TKey &gt;.Delete</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="40" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3849aac05bbd4ef796f5bbb7c13265e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Services.Base.BaseService&lt; T, TKey &gt;.Delete</definition>
+        <argsstring>(TKey id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="48" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3b37157c2b0cf8b23b8f9ee4c60e46d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.Services.Base.BaseService&lt; T, TKey &gt;.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="53" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="37">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>HRM.Services.Base.BaseService&lt; T, TKey &gt;</label>
+        <link refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4"/>
+        <childnode refid="37" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" bodystart="11" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1adb0a05bed624f0ffa8e26511bcb0c0ff" prot="private" virt="non-virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>_context</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a327784905b5c0d290c869eee583f06c2" prot="private" virt="non-virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>_repository</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a25e9d943d03d793aa8cffad55004c531" prot="public" virt="virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>Add</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9580a063d9253000b85d695c7cdfec3a" prot="protected" virt="non-virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>BaseService</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1aad0469bca609ee84ce4e8f31dd1c9f15" prot="public" virt="virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>Delete</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3849aac05bbd4ef796f5bbb7c13265e4" prot="public" virt="virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>Delete</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a3b37157c2b0cf8b23b8f9ee4c60e46d2" prot="public" virt="non-virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>Save</name></member>
+      <member refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4_1a9862ae6374865634148027742099b92b" prot="public" virt="virtual"><scope>HRM::Services::Base::BaseService&lt; T, TKey &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

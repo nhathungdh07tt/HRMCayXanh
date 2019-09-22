@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository" kind="interface" prot="public">
+    <compoundname>HRM::Repository::Repositories::ICompanyRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRepository&lt; Company, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_company_repository" prot="public" virt="non-virtual">HRM.Repository.Repositories.CompanyRepository</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="143">
+        <label>IRepository&lt; Company, long &gt;</label>
+      </node>
+      <node id="142">
+        <label>HRM.Repository.Repositories.ICompanyRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>HRM.Repository.Repositories.CompanyRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_company_repository"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="146">
+        <label>IRepository&lt; Company, long &gt;</label>
+      </node>
+      <node id="145">
+        <label>HRM.Repository.Repositories.ICompanyRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_company_repository"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/CompanyRepository.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/CompanyRepository.cs" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

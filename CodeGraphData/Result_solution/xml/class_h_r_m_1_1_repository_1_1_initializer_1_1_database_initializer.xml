@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer" kind="class" prot="public">
+    <compoundname>HRM::Repository::Initializer::DatabaseInitializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DropCreateDatabaseAlways&lt; HrmDataContext &gt;</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer_1a518954e417ef6cd555660a964ea9fc34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void HRM.Repository.Initializer.DatabaseInitializer.Seed</definition>
+        <argsstring>(HrmDataContext context)</argsstring>
+        <name>Seed</name>
+        <param>
+          <type><ref refid="class_h_r_m_1_1_repository_1_1_hrm_data_context" kindref="compound">HrmDataContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Initializer/DatabaseInitializer.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Initializer/DatabaseInitializer.cs" bodystart="13" bodyend="44"/>
+        <references refid="class_h_r_m_1_1_repository_1_1_hrm_data_context_1a98fbec767eb8283c1868d3b8b27641fb" compoundref="_hrm_data_context_8cs" startline="42">HRM.Repository.HrmDataContext.Companies</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>HRM.Repository.Initializer.DatabaseInitializer</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>DropCreateDatabaseAlways&lt; HrmDataContext &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>HRM.Repository.Initializer.DatabaseInitializer</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>DropCreateDatabaseAlways&lt; HrmDataContext &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Initializer/DatabaseInitializer.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Initializer/DatabaseInitializer.cs" bodystart="11" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_initializer_1_1_database_initializer_1a518954e417ef6cd555660a964ea9fc34" prot="protected" virt="non-virtual"><scope>HRM::Repository::Initializer::DatabaseInitializer</scope><name>Seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

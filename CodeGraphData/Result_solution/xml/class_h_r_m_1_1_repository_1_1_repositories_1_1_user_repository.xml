@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository" kind="class" prot="public">
+    <compoundname>HRM::Repository::Repositories::UserRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseRepository&lt; User, long &gt;</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository" prot="public" virt="non-virtual">HRM.Repository.Repositories.IUserRepository</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository_1ae493296eab4b736667b2d4923135442f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Repository.Repositories.UserRepository.UserRepository</definition>
+        <argsstring>(IContext dbFactory)</argsstring>
+        <name>UserRepository</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>dbFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="240">
+        <label>IRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="238">
+        <label>BaseRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="237">
+        <label>HRM.Repository.Repositories.UserRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>IUserRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository"/>
+        <childnode refid="240" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="244">
+        <label>IRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="242">
+        <label>BaseRepository&lt; User, long &gt;</label>
+      </node>
+      <node id="241">
+        <label>HRM.Repository.Repositories.UserRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>IUserRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_user_repository"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/UserRepository.cs" bodystart="17" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_user_repository_1ae493296eab4b736667b2d4923135442f" prot="public" virt="non-virtual"><scope>HRM::Repository::Repositories::UserRepository</scope><name>UserRepository</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

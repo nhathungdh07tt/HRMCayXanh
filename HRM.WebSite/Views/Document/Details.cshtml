@@ -1,0 +1,92 @@
+﻿@model HRM.ViewModels.Document.DocumentViewModel
+
+<div>
+    <h4>DocumentViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.No)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.No)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromDepartment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FromDepartment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResolvePlace)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResolvePlace)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StorePlace)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StorePlace)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Link)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Checked)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Checked)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

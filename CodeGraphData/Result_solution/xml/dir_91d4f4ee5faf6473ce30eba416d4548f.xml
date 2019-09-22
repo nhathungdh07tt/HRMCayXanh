@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_91d4f4ee5faf6473ce30eba416d4548f" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.WebSite/Bootstrap</compoundname>
+    <innerfile refid="_authorize_config_8cs">AuthorizeConfig.cs</innerfile>
+    <innerfile refid="_io_c_config_8cs">IoCConfig.cs</innerfile>
+    <innerfile refid="_mvc_route_config_8cs">MvcRouteConfig.cs</innerfile>
+    <innerfile refid="_startup_8cs">Startup.cs</innerfile>
+    <innerfile refid="_web_api_config_8cs">WebApiConfig.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Bootstrap/"/>
+  </compounddef>
+</doxygen>

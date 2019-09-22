@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_05c645c3423bc592bdbb334c60ac460b" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.ViewModels</compoundname>
+    <innerdir refid="dir_c40179d7224c3bbec9e3cfb602ec2d99">D:/Projects/HRM/HRM.ViewModels/Authenticate</innerdir>
+    <innerdir refid="dir_a9fe51799fe469b529e55ffe2cbee590">D:/Projects/HRM/HRM.ViewModels/Company</innerdir>
+    <innerdir refid="dir_fe27d0310240bb9abe400b9187628205">D:/Projects/HRM/HRM.ViewModels/Properties</innerdir>
+    <innerdir refid="dir_f9444180f4ccb6cffffaea5c30cb8132">D:/Projects/HRM/HRM.ViewModels/System</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/"/>
+  </compounddef>
+</doxygen>

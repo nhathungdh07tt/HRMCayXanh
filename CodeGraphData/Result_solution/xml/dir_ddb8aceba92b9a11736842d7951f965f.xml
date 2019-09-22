@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ddb8aceba92b9a11736842d7951f965f" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Domain</compoundname>
+    <innerdir refid="dir_d60e49bf8dd02654a8169051fdb5fce2">D:/Projects/HRM/HRM.Domain/Base</innerdir>
+    <innerdir refid="dir_7d43075f66179efbe364f7b1adce48cd">D:/Projects/HRM/HRM.Domain/Entity</innerdir>
+    <innerdir refid="dir_75dc0cc3f77b8416528c371312cd0263">D:/Projects/HRM/HRM.Domain/Properties</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Domain/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e6090818c7f01f30a8806c892a016621" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.WebSite/Models</compoundname>
+    <innerfile refid="_user_api_result_8cs">UserApiResult.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Models/"/>
+  </compounddef>
+</doxygen>

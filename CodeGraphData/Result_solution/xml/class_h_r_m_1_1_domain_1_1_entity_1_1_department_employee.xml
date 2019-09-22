@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee" kind="class" prot="public">
+    <compoundname>HRM::Domain::Entity::DepartmentEmployee</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Entity&lt; long &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1acc5ed56378bce8845cd721ebc05bcfa2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department" kindref="compound">Department</ref></type>
+        <definition>virtual Department HRM.Domain.Entity.DepartmentEmployee.Department</definition>
+        <argsstring></argsstring>
+        <name>Department</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a626dec52cd22cf5a285424470d8aa0f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_h_r_m_1_1_domain_1_1_entity_1_1_employee" kindref="compound">Employee</ref></type>
+        <definition>virtual Employee HRM.Domain.Entity.DepartmentEmployee.Employee</definition>
+        <argsstring></argsstring>
+        <name>Employee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1aaa6d34c9845a815dc46985dfcec77d00" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Entity.DepartmentEmployee.From</definition>
+        <argsstring></argsstring>
+        <name>From</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="20" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a6b6818b83f9e1ed992bdecc38124c810" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime HRM.Domain.Entity.DepartmentEmployee.To</definition>
+        <argsstring></argsstring>
+        <name>To</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a802d739203f942311050b7e5389270b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Domain.Entity.DepartmentEmployee.DepartmentEmployee</definition>
+        <argsstring>()</argsstring>
+        <name>DepartmentEmployee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+      <node id="93">
+        <label>HRM.Domain.Entity.DepartmentEmployee</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>Entity&lt; long &gt;</label>
+      </node>
+      <node id="95">
+        <label>HRM.Domain.Entity.DepartmentEmployee</label>
+        <link refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.Domain/Entity/DepartmentEmployee.cs" bodystart="10" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1acc5ed56378bce8845cd721ebc05bcfa2" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::DepartmentEmployee</scope><name>Department</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a802d739203f942311050b7e5389270b7" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::DepartmentEmployee</scope><name>DepartmentEmployee</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a626dec52cd22cf5a285424470d8aa0f5" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::DepartmentEmployee</scope><name>Employee</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1aaa6d34c9845a815dc46985dfcec77d00" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::DepartmentEmployee</scope><name>From</name></member>
+      <member refid="class_h_r_m_1_1_domain_1_1_entity_1_1_department_employee_1a6b6818b83f9e1ed992bdecc38124c810" prot="public" virt="non-virtual"><scope>HRM::Domain::Entity::DepartmentEmployee</scope><name>To</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

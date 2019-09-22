@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_base_entity_8cs" kind="file">
+    <compoundname>BaseEntity.cs</compoundname>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" prot="public">HRM::Domain::Base::BaseEntity</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_domain_1_1_base">HRM::Domain::Base</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">HRM.Domain.Base</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" kindref="compound">BaseEntity</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/BaseEntity.cs"/>
+  </compounddef>
+</doxygen>

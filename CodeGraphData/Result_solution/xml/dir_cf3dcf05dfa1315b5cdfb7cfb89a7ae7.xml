@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_cf3dcf05dfa1315b5cdfb7cfb89a7ae7" kind="dir">
+    <compoundname>D:/Projects/HRM</compoundname>
+    <innerdir refid="dir_ae193d0c5e3e63ed8f62f9e0a0ea3c91">D:/Projects/HRM/HRM.Common</innerdir>
+    <innerdir refid="dir_7691782067e39aea4c6d0dc77e15d962">D:/Projects/HRM/HRM.Core</innerdir>
+    <innerdir refid="dir_ddb8aceba92b9a11736842d7951f965f">D:/Projects/HRM/HRM.Domain</innerdir>
+    <innerdir refid="dir_a97b30daad162a8997c2b4ae72a979df">D:/Projects/HRM/HRM.Repository</innerdir>
+    <innerdir refid="dir_dc1e84afddc1897edd3e81a3b35f8ebd">D:/Projects/HRM/HRM.Services</innerdir>
+    <innerdir refid="dir_6ffb5f718a7a623e3702d66e60c50c89">D:/Projects/HRM/HRM.Test</innerdir>
+    <innerdir refid="dir_05c645c3423bc592bdbb334c60ac460b">D:/Projects/HRM/HRM.ViewModels</innerdir>
+    <innerdir refid="dir_ad731b282c2c96822df09ad6e1eb137c">D:/Projects/HRM/HRM.WebSite</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/"/>
+  </compounddef>
+</doxygen>

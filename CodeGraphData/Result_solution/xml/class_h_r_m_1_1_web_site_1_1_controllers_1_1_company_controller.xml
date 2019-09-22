@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Controllers::CompanyController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a2c04bc05bb914da3c9503b3c170167ca" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_services_1_1_i_company_service" kindref="compound">ICompanyService</ref></type>
+        <definition>readonly ICompanyService HRM.WebSite.Controllers.CompanyController._companyService</definition>
+        <argsstring></argsstring>
+        <name>_companyService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7fd4526416f924a75185eaee206b6376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.WebSite.Controllers.CompanyController.CompanyController</definition>
+        <argsstring>(ICompanyService companyService)</argsstring>
+        <name>CompanyController</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_services_1_1_i_company_service" kindref="compound">ICompanyService</ref></type>
+          <declname>companyService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a1c5e87b5292d5b0bd86f3e17ae577042" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ab4c150bf9589df1f722d89ec040271f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="27" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a86e0dff62f2b01fd2f127b97fb2417df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Store</definition>
+        <argsstring>()</argsstring>
+        <name>Store</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="32" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a626c3c702f33378426330a7552744323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="37" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a9a03971c49064280d66ed4f10d6d6678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Edit</definition>
+        <argsstring>()</argsstring>
+        <name>Edit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="45" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ad35b2a4ba364563dfacc9a89b04ae072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="50" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7d6064f056d4e01439c5c045634016b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.CompanyController.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="55" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>Controller</label>
+      </node>
+      <node id="49">
+        <label>HRM.WebSite.Controllers.CompanyController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>HRM.Services.ICompanyService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_company_service"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>IService&lt; Company, long &gt;</label>
+      </node>
+      <node id="52">
+        <label>Controller</label>
+      </node>
+      <node id="51">
+        <label>HRM.WebSite.Controllers.CompanyController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>_companyService</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/CompanyController.cs" bodystart="11" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a2c04bc05bb914da3c9503b3c170167ca" prot="private" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>_companyService</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7fd4526416f924a75185eaee206b6376" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>CompanyController</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ab4c150bf9589df1f722d89ec040271f6" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Create</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a7d6064f056d4e01439c5c045634016b5" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Destroy</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a9a03971c49064280d66ed4f10d6d6678" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Edit</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a1c5e87b5292d5b0bd86f3e17ae577042" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Index</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a626c3c702f33378426330a7552744323" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Show</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1a86e0dff62f2b01fd2f127b97fb2417df" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Store</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_company_controller_1ad35b2a4ba364563dfacc9a89b04ae072" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::CompanyController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

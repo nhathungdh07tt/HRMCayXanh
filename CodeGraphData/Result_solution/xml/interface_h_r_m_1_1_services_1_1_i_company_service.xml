@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_services_1_1_i_company_service" kind="interface" prot="public">
+    <compoundname>HRM::Services::ICompanyService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IService&lt; Company, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_services_1_1_company_service" prot="public" virt="non-virtual">HRM.Services.CompanyService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_h_r_m_1_1_services_1_1_i_company_service_1acb048a55fb50359c76042948c6bd8066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_h_r_m_1_1_view_models_1_1_company_1_1_company_view_model" kindref="compound">CompanyViewModel</ref></type>
+        <definition>CompanyViewModel HRM.Services.ICompanyService.GetCompanyInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetCompanyInfo</name>
+        <reimplementedby refid="class_h_r_m_1_1_services_1_1_company_service_1a341640cfd766fedb0995cc22dc855975">GetCompanyInfo</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="147">
+        <label>HRM.Services.ICompanyService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_company_service"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>IService&lt; Company, long &gt;</label>
+      </node>
+      <node id="149">
+        <label>HRM.Services.CompanyService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_company_service"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="150">
+        <label>HRM.Services.ICompanyService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_company_service"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>IService&lt; Company, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/CompanyService.cs" line="19" column="1" bodyfile="D:/Projects/HRM/HRM.Services/CompanyService.cs" bodystart="18" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_services_1_1_i_company_service_1acb048a55fb50359c76042948c6bd8066" prot="public" virt="non-virtual"><scope>HRM::Services::ICompanyService</scope><name>GetCompanyInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

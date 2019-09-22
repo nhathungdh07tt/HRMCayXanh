@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_70399fa3d88a5292b2b41a1f3fe3e4e2" kind="dir">
+    <compoundname>D:/Projects</compoundname>
+    <innerdir refid="dir_cf3dcf05dfa1315b5cdfb7cfb89a7ae7">D:/Projects/HRM</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/"/>
+  </compounddef>
+</doxygen>

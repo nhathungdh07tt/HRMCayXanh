@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Controllers::AccountController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1abdceaff33ea18eac7b4b20af2e5128ee" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service" kindref="compound">IAuthenticateService</ref></type>
+        <definition>readonly IAuthenticateService HRM.WebSite.Controllers.AccountController._authenticateService</definition>
+        <argsstring></argsstring>
+        <name>_authenticateService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a8e72f0d3ddbce9e58232796aab6b7e59" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IAuthenticationManager</type>
+        <definition>IAuthenticationManager HRM.WebSite.Controllers.AccountController._authenticateManager</definition>
+        <argsstring></argsstring>
+        <name>_authenticateManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="70" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a95cf6a23806cdf5a84d072fb8467f9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.WebSite.Controllers.AccountController.AccountController</definition>
+        <argsstring>(IAuthenticateService authenticateService)</argsstring>
+        <name>AccountController</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service" kindref="compound">IAuthenticateService</ref></type>
+          <declname>authenticateService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a7f3b5e2284a8fdd3a96926f0645bf6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.AccountController.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="25" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1aa0719678334ae7aac9cce1390078a97d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.AccountController.Login</definition>
+        <argsstring>(LoginViewModel model)</argsstring>
+        <name>Login</name>
+        <param>
+          <type><ref refid="class_h_r_m_1_1_view_models_1_1_authenticate_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="32" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="32" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a5c6a62b4963c4b0b6571fbcb9d6f8b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.AccountController.Logout</definition>
+        <argsstring>()</argsstring>
+        <name>Logout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="60" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="60" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>HRM.WebSite.Controllers.AccountController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>HRM.Services.IAuthenticateService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service"/>
+      </node>
+      <node id="2">
+        <label>HRM.WebSite.Controllers.AccountController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_authenticateService</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/AccountController.cs" bodystart="13" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a8e72f0d3ddbce9e58232796aab6b7e59" prot="private" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>_authenticateManager</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1abdceaff33ea18eac7b4b20af2e5128ee" prot="private" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>_authenticateService</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a95cf6a23806cdf5a84d072fb8467f9a6" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>AccountController</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a7f3b5e2284a8fdd3a96926f0645bf6b3" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>Login</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1aa0719678334ae7aac9cce1390078a97d" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>Login</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_account_controller_1a5c6a62b4963c4b0b6571fbcb9d6f8b30" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::AccountController</scope><name>Logout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

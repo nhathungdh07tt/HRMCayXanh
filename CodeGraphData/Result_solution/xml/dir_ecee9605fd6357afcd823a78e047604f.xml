@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ecee9605fd6357afcd823a78e047604f" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Repository/Base</compoundname>
+    <innerdir refid="dir_113b913cc4cf35675b20959012facf93">D:/Projects/HRM/HRM.Repository/Base/Interfaces</innerdir>
+    <innerfile refid="_base_repository_8cs">BaseRepository.cs</innerfile>
+    <innerfile refid="_disposable_8cs">Disposable.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Repository/Base/"/>
+  </compounddef>
+</doxygen>

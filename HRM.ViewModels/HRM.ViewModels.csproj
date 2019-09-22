@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A887D19A-63F9-4664-97F1-A724EBAAF6A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRM.ViewModels</RootNamespace>
+    <AssemblyName>HRM.ViewModels</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achievement\AchievementCollectionViewModel.cs" />
+    <Compile Include="Achievement\AchievementViewModel.cs" />
+    <Compile Include="Authenticate\LoginViewModel.cs" />
+    <Compile Include="Authenticate\RoleViewModel.cs" />
+    <Compile Include="Company\CompanyChangeHistoryViewModel.cs" />
+    <Compile Include="Company\CompanyContactViewModel.cs" />
+    <Compile Include="Company\CompanyViewModel.cs" />
+    <Compile Include="Contract\ContractCollectionViewModel.cs" />
+    <Compile Include="Contract\ContractTypeViewModel.cs" />
+    <Compile Include="Contract\ContractViewModel.cs" />
+    <Compile Include="Decision\DecisionCollectionViewModel.cs" />
+    <Compile Include="Decision\DecisionTypeViewModel.cs" />
+    <Compile Include="Decision\DecisionViewModel.cs" />
+    <Compile Include="Department\DepartmentEmployeeViewModel.cs" />
+    <Compile Include="Department\DepartmentViewModel.cs" />
+    <Compile Include="Document\DocumentTypeViewModel.cs" />
+    <Compile Include="Document\DocumentViewModel.cs" />
+    <Compile Include="Employee\CountryViewModel.cs" />
+    <Compile Include="Employee\DateOffHistoryCollectionViewModel.cs" />
+    <Compile Include="Employee\DateOffHistoryViewModel.cs" />
+    <Compile Include="Employee\EducationViewModel.cs" />
+    <Compile Include="Employee\EmployeeSelectItemViewModel.cs" />
+    <Compile Include="Employee\EmployeeSkillViewModel.cs" />
+    <Compile Include="Employee\EmployeeViewModel.cs" />
+    <Compile Include="Employee\EthnicGroupViewModel.cs" />
+    <Compile Include="Employee\ReligionViewModel.cs" />
+    <Compile Include="Employee\SkillViewModel.cs" />
+    <Compile Include="Relation\RelationCollectionViewModel.cs" />
+    <Compile Include="Relation\RelationViewModel.cs" />
+    <Compile Include="Report\Report01ViewModel.cs" />
+    <Compile Include="Report\Report02ViewModel.cs" />
+    <Compile Include="Salary\SalaryHistoryCollectionViewModel.cs" />
+    <Compile Include="Salary\SalaryHistoryViewModel.cs" />
+    <Compile Include="Salary\SalaryLevelViewModel.cs" />
+    <Compile Include="System\RoleViewModel.cs" />
+    <Compile Include="System\UserViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\TestViewModel.cs" />
+    <Compile Include="Thongketongquat\ThongketongquatViewModel.cs" />
+    <Compile Include="Timekeeping\TimeAttendanceTypeViewModel.cs" />
+    <Compile Include="Timekeeping\TimekeepingViewModel.cs" />
+    <Compile Include="Work\WorkContractViewModel.cs" />
+    <Compile Include="Work\WorkTitleDetailViewModel.cs" />
+    <Compile Include="Work\WorkTitleViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HRM.Domain\HRM.Domain.csproj">
+      <Project>{965B1172-CE1A-4CF4-A296-8D7E7BF325D2}</Project>
+      <Name>HRM.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_services_1_1_base" kind="namespace">
+    <compoundname>HRM::Services::Base</compoundname>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_base_1_1_base_service_3_01_t_00_01_t_key_01_4" prot="public">HRM::Services::Base::BaseService&lt; T, TKey &gt;</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_services_1_1_base_1_1_interfaces">HRM::Services::Base::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/Base/BaseService.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

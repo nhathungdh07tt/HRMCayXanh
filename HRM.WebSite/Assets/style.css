@@ -1,0 +1,19 @@
+/* Cubic Bezier Transition */
+/*********** 
+    Page Header
+    ***********/
+/* Header search bar, toggler button & top menu */
+.ngaythang {
+    border-bottom: 1px solid #27a4b0;
+    padding-bottom:6px;
+}
+
+.inputngaythang {
+    padding-left: 12px;
+    border: 0px;
+}
+
+.mautable {
+    background-color: #3fbd6c;
+    color: #fff;
+}

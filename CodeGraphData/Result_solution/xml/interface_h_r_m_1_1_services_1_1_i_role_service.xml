@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_services_1_1_i_role_service" kind="interface" prot="public">
+    <compoundname>HRM::Services::IRoleService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IService&lt; Role, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_services_1_1_role_service" prot="public" virt="non-virtual">HRM.Services.RoleService</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="172">
+        <label>HRM.Services.RoleService</label>
+        <link refid="class_h_r_m_1_1_services_1_1_role_service"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>HRM.Services.IRoleService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_role_service"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>IService&lt; Role, long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="173">
+        <label>HRM.Services.IRoleService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_role_service"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>IService&lt; Role, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/RoleService.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.Services/RoleService.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ad731b282c2c96822df09ad6e1eb137c" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.WebSite</compoundname>
+    <innerdir refid="dir_a7d1532dd4e9c4c2150f1d6f44c9ad42">D:/Projects/HRM/HRM.WebSite/Api</innerdir>
+    <innerdir refid="dir_82e4be2de8d5fceb4b98765b52976461">D:/Projects/HRM/HRM.WebSite/Binders</innerdir>
+    <innerdir refid="dir_91d4f4ee5faf6473ce30eba416d4548f">D:/Projects/HRM/HRM.WebSite/Bootstrap</innerdir>
+    <innerdir refid="dir_4a668186a4fe47fc90f76ec972cd0be3">D:/Projects/HRM/HRM.WebSite/Common</innerdir>
+    <innerdir refid="dir_9e08a8a897eaf12516fefd9e14105c8b">D:/Projects/HRM/HRM.WebSite/Controllers</innerdir>
+    <innerdir refid="dir_6ff6fefc7ae6ec068fa695eb71cb8fd3">D:/Projects/HRM/HRM.WebSite/IoC</innerdir>
+    <innerdir refid="dir_e6090818c7f01f30a8806c892a016621">D:/Projects/HRM/HRM.WebSite/Models</innerdir>
+    <innerdir refid="dir_fbe82b9e04c606a3475558b426c45fc6">D:/Projects/HRM/HRM.WebSite/Properties</innerdir>
+    <innerfile refid="_global_8asax_8cs">Global.asax.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/"/>
+  </compounddef>
+</doxygen>

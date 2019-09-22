@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model" kind="class" prot="public">
+    <compoundname>HRM::ViewModels::System::RoleViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1aeb49cddea169e447d4097bd2d8b12565" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long HRM.ViewModels.System.RoleViewModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" line="11" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ace983e19d5004938cbe7f3effbfb6bcc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.RoleViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ac9537f394eb1dd923292f488a8f2e521" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string HRM.ViewModels.System.RoleViewModel.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.ViewModels/System/RoleViewModel.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ac9537f394eb1dd923292f488a8f2e521" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::RoleViewModel</scope><name>Description</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1aeb49cddea169e447d4097bd2d8b12565" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::RoleViewModel</scope><name>Id</name></member>
+      <member refid="class_h_r_m_1_1_view_models_1_1_system_1_1_role_view_model_1ace983e19d5004938cbe7f3effbfb6bcc" prot="public" virt="non-virtual"><scope>HRM::ViewModels::System::RoleViewModel</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

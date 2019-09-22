@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d60e49bf8dd02654a8169051fdb5fce2" kind="dir">
+    <compoundname>D:/Projects/HRM/HRM.Domain/Base</compoundname>
+    <innerfile refid="_auditable_entity_8cs">AuditableEntity.cs</innerfile>
+    <innerfile refid="_base_entity_8cs">BaseEntity.cs</innerfile>
+    <innerfile refid="_entity_8cs">Entity.cs</innerfile>
+    <innerfile refid="_i_auditable_entity_8cs">IAuditableEntity.cs</innerfile>
+    <innerfile refid="_i_entity_8cs">IEntity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4" kind="interface" prot="public">
+    <compoundname>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+      <param>
+        <type>in</type>
+        <declname>TKey</declname>
+        <defname>TKey</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aa43c413a81b4b0c64ad7677c76ce00ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.Add</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a18e8c8ca7d53d36d3b6480cd34d7a288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.Update</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac4a2b5ca88d3e91f41c4c07218516704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.Delete</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac03c01d49931156c49516655d371ee3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.Delete</definition>
+        <argsstring>(TKey id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a2bc25bd03456ea1c7dec2bb52921e46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.DeleteMulti</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; where)</argsstring>
+        <name>DeleteMulti</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aaeaaeca76d22e572671ea4bead7216c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.FindById</definition>
+        <argsstring>(TKey id, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>FindById</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a760272e819ebc43d162d3df13d075ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.FindByCondition</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>FindByCondition</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abed6ca86bb2987eb81858804b3eb9426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IQueryable&lt; T &gt;</type>
+        <definition>IQueryable&lt;T&gt; HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.GetAll</definition>
+        <argsstring>(params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>GetAll</name>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abd8d73b435b5c3257beb2bdd6437fb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IQueryable&lt; T &gt;</type>
+        <definition>IQueryable&lt;T&gt; HRM.Repository.Base.Interfaces.IRepository&lt; T, in TKey &gt;.GetAllByCondition</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>GetAllByCondition</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/Interfaces/IRepository.cs" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aa43c413a81b4b0c64ad7677c76ce00ef" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>Add</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac4a2b5ca88d3e91f41c4c07218516704" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>Delete</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1ac03c01d49931156c49516655d371ee3d" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>Delete</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a2bc25bd03456ea1c7dec2bb52921e46e" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>DeleteMulti</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a760272e819ebc43d162d3df13d075ffe" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>FindByCondition</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1aaeaaeca76d22e572671ea4bead7216c5" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>FindById</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abed6ca86bb2987eb81858804b3eb9426" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>GetAll</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1abd8d73b435b5c3257beb2bdd6437fb86" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>GetAllByCondition</name></member>
+      <member refid="interface_h_r_m_1_1_repository_1_1_base_1_1_interfaces_1_1_i_repository_3_01_t_00_01in_01_t_key_01_4_1a18e8c8ca7d53d36d3b6480cd34d7a288" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::Interfaces::IRepository&lt; T, in TKey &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_services" kind="namespace">
+    <compoundname>HRM::Services</compoundname>
+    <innerclass refid="interface_h_r_m_1_1_services_1_1_i_authenticate_service" prot="public">HRM::Services::IAuthenticateService</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_authenticate_service" prot="public">HRM::Services::AuthenticateService</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_services_1_1_i_company_service" prot="public">HRM::Services::ICompanyService</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_company_service" prot="public">HRM::Services::CompanyService</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_services_1_1_i_role_service" prot="public">HRM::Services::IRoleService</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_role_service" prot="public">HRM::Services::RoleService</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_services_1_1_i_user_service" prot="public">HRM::Services::IUserService</innerclass>
+    <innerclass refid="class_h_r_m_1_1_services_1_1_user_service" prot="public">HRM::Services::UserService</innerclass>
+    <innernamespace refid="namespace_h_r_m_1_1_services_1_1_auto_mapper_service">HRM::Services::AutoMapperService</innernamespace>
+    <innernamespace refid="namespace_h_r_m_1_1_services_1_1_base">HRM::Services::Base</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Services/AuthenticateService.cs" line="15" column="1"/>
+  </compounddef>
+</doxygen>

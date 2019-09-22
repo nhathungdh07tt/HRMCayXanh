@@ -1,0 +1,167 @@
+﻿@model HRM.ViewModels.Salary.SalaryHistoryCollectionViewModel
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div class="portlet light bordered">
+                        <div class="portlet-body">
+                            <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_2">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                                <span></span>
+                                            </label>
+                                        </th>
+                                        <th>Mã NV</th>
+                                        <th>Họ tên</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.Employees)
+                                    {
+                                        <tr class="odd gradeX">
+                                            <td>
+                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                    <input type="checkbox" class="checkboxes" value="1" />
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td><a href="@Url.Action("Index", "SalaryHistory", new { employeeId = item.Id})">@Html.DisplayFor(modelItem => item.LastName)</a></td>
+                                            <td><a href="@Url.Action("Index", "SalaryHistory", new { employeeId = item.Id})">@Html.DisplayFor(modelItem => item.FirstName)</a></td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+                <div class="col-md-8">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div class="portlet light bordered">                     
+                        <div class="portlet-body">
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="btn-group">
+                                            <button id="sample_editable_1_new" class="btn sbold green">
+                                                @Html.ActionLink("Thêm mới", "Create")
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green  btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Tools
+                                                <i class="fa fa-angle-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <i class="fa fa-print"></i> Print
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <i class="fa fa-file-pdf-o"></i> Save as PDF
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <i class="fa fa-file-excel-o"></i> Export to Excel
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                                <thead>
+                                    <tr class="mautable">
+                                        <th>
+                                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                                <span></span>
+                                            </label>
+                                        </th>
+                                        <th>
+                                            Tên nhân viên
+                                        </th>
+                                        <th>
+                                            Từ ngày
+                                        </th>
+                                        <th>
+                                            Đến ngày
+                                        </th>
+                                        <th>
+                                            Phòng ban
+                                        </th>
+                                        <th>
+                                            Chức danh
+                                        </th>
+                                        <th>
+                                            Tiền lương
+                                        </th>
+                                        <th>
+                                            Lương tăng
+                                        </th>
+                                        <th>
+                                            Tệp tin
+                                        </th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.SalaryHistorys)
+                                    {
+                                    <tr class="odd gradeX">
+                                        <td>
+                                            <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                <input type="checkbox" class="checkboxes" value="1" />
+                                                <span></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            @item.Employee.LastName.Trim() - @item.Employee.FirstName.Trim()
+                                            @*@Html.DisplayFor(modelItem => item.EmployeeId)*@
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.From)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.To)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Department.Name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.WorkTitleDetail.Name)
+                                        </td>
+                                        <td>
+                                            @*@Html.DisplayFor(modelItem => item.SalaryLevel.MonthlySalary)*@
+                                            @(item.SalaryLevel.MonthlySalary.ToString("N2"))
+                                        </td>
+                                        <td>
+                                            @*@Html.DisplayFor(modelItem => item.MonthlyBonus)*@
+                                            @(item.MonthlyBonus.ToString("N2"))
+                                        </td>
+                                        <td>
+                                            <a href="@Html.DisplayFor(modelItem => item.Document)"> @Html.DisplayFor(modelItem => item.Document)</a>
+                                        </td>
+                                        <td>
+                                            @Html.ActionLink("Sửa", "Edit", new { id = item.Id }) |
+                                            @Html.ActionLink("Xóa", "Delete", new { id = item.Id })
+                                        </td>
+                                    </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+            </div>
+       

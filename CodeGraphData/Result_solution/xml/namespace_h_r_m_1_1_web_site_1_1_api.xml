@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_web_site_1_1_api" kind="namespace">
+    <compoundname>HRM::WebSite::Api</compoundname>
+    <innerclass refid="class_h_r_m_1_1_web_site_1_1_api_1_1_user_controller" prot="public">HRM::WebSite::Api::UserController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Api/UserController.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+﻿@model IEnumerable<HRM.ViewModels.Report.Report01ViewModel>
+
+    <div class="page-container">
+        <div class="page-content">
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                        <div class="portlet light bordered">
+                            <div class="portlet-title">
+                                <div class="caption font-dark">
+                                    <i class="icon-settings font-dark"></i>
+                                    <span class="caption-subject bold uppercase">THỐNG KÊ TỔNG QUÁT</span>
+                                </div>
+                                <div class="actions">
+                                    <div class="btn-group btn-group-devided" data-toggle="buttons">
+                                        @*<label class="btn btn-transparent dark btn-outline btn-circle btn-sm active">
+                                            <input type="radio" name="options" class="toggle" id="option1">Actions
+                                        </label>*@
+                                        <label class="btn btn-transparent dark btn-outline btn-circle btn-sm">
+                                            @*<input type="radio" name="options" class="toggle" id="option2">Settings*@
+                                            <a href="@Url.Action("Export","TestReport01")" data-toggle="modal">
+                                                <i class="fa fa-print"></i> Xuất Excel
+                                            </a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portlet-body">
+                                <div class="table-toolbar">
+                                </div>
+                                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                                    <thead>
+                                        <tr class="mautable">
+                                            <th>
+                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                    <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" />
+                                                    <span></span>
+                                                </label>
+                                            </th>
+                                            <th>
+                                                Phòng ban
+                                            </th>
+                                            <th>
+                                                Tổng
+                                            </th>
+                                            <th>
+                                                Nam
+                                            </th>
+                                            <th>
+                                                Nữ
+                                            </th>
+
+                                            <th>
+                                                Thử việc
+                                            </th>
+                                            <th>
+                                                6 tháng
+                                            </th>
+                                            <th>
+                                                12 tháng
+                                            </th>
+                                            <th>
+                                                24 tháng
+                                            </th>
+                                            <th>
+                                                36 tháng
+                                            </th>
+                                            <th>
+                                                Không xác định
+                                            </th>
+                                            <th>
+                                                Đại học
+                                            </th>
+                                            <th>
+                                                Cao đẳng
+                                            </th>
+                                            <th>
+                                                Trung cấp
+                                            </th>
+                                            <th>
+                                                Sơ cấp nghề
+                                            </th>
+                                            <th>
+                                                Đào tạo tại chỗ
+                                            </th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                        <tr class="odd gradeX">
+                                            <td>
+                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                    <input type="checkbox" class="checkboxes" value="1" />
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.tong)
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, gender = 1})"> @Html.DisplayFor(modelItem => item.nam)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, gender = 0})"> @Html.DisplayFor(modelItem => item.nu)</a>
+
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 1})"> @Html.DisplayFor(modelItem => item.thuviec)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 2})"> @Html.DisplayFor(modelItem => item.thang6)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 3})"> @Html.DisplayFor(modelItem => item.thang12)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 4})"> @Html.DisplayFor(modelItem => item.thang24)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 5})"> @Html.DisplayFor(modelItem => item.thang36)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, contracttype = 6})"> @Html.DisplayFor(modelItem => item.kxd)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, education = 1})"> @Html.DisplayFor(modelItem => item.daihoc)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, education = 2})"> @Html.DisplayFor(modelItem => item.caodang)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, education = 3})"> @Html.DisplayFor(modelItem => item.trungcap)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, education = 4})"> @Html.DisplayFor(modelItem => item.socapnghe)</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("dotuoi", new {department = item.Id, education = 5})"> @Html.DisplayFor(modelItem => item.dttc)</a>
+                                            </td>
+
+                                        </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- END EXAMPLE TABLE PORTLET-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

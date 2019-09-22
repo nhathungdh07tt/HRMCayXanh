@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_common_1_1_settings" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Common::Settings</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_common_1_1_settings_1adea91afd2f505ca80728b1e7b5e8d5c2" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string HRM.WebSite.Common.Settings.DATE_PATTERN</definition>
+        <argsstring></argsstring>
+        <name>DATE_PATTERN</name>
+        <initializer>= &quot;dd/MM/yyyy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Common/Settings.cs" line="10" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Common/Settings.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.WebSite/Common/Settings.cs" line="9" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Common/Settings.cs" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_common_1_1_settings_1adea91afd2f505ca80728b1e7b5e8d5c2" prot="public" virt="non-virtual"><scope>HRM::WebSite::Common::Settings</scope><name>DATE_PATTERN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

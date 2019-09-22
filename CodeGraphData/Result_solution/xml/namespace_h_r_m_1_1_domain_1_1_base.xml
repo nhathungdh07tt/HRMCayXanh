@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_h_r_m_1_1_domain_1_1_base" kind="namespace">
+    <compoundname>HRM::Domain::Base</compoundname>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_base_1_1_auditable_entity_3_01_t_01_4" prot="public">HRM::Domain::Base::AuditableEntity&lt; T &gt;</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_base_1_1_base_entity" prot="public">HRM::Domain::Base::BaseEntity</innerclass>
+    <innerclass refid="class_h_r_m_1_1_domain_1_1_base_1_1_entity_3_01_t_01_4" prot="public">HRM::Domain::Base::Entity&lt; T &gt;</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_auditable_entity" prot="public">HRM::Domain::Base::IAuditableEntity</innerclass>
+    <innerclass refid="interface_h_r_m_1_1_domain_1_1_base_1_1_i_entity_3_01_t_01_4" prot="public">HRM::Domain::Base::IEntity&lt; T &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Projects/HRM/HRM.Domain/Base/AuditableEntity.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

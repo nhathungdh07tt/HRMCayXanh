@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>HRM::WebSite::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a37ea0cf7b44b5a094a3461254247fc92" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref></type>
+        <definition>readonly IUserService HRM.WebSite.Controllers.HomeController._userService</definition>
+        <argsstring></argsstring>
+        <name>_userService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1ab33e0aaa14188b67403e3bc1ab03feed" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_services_1_1_i_role_service" kindref="compound">IRoleService</ref></type>
+        <definition>readonly IRoleService HRM.WebSite.Controllers.HomeController._roleService</definition>
+        <argsstring></argsstring>
+        <name>_roleService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a7ee0c8ef1cdc69a32150470551b4da5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.WebSite.Controllers.HomeController.HomeController</definition>
+        <argsstring>(IUserService userService, IRoleService roleService)</argsstring>
+        <name>HomeController</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_services_1_1_i_user_service" kindref="compound">IUserService</ref></type>
+          <declname>userService</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_services_1_1_i_role_service" kindref="compound">IRoleService</ref></type>
+          <declname>roleService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="16" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a86c61090c14dab189e578eea461535aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="24" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="24" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a2a9c66bb9a6e5da7a03897ba779d92fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult HRM.WebSite.Controllers.HomeController.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="39" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="121">
+        <label>Controller</label>
+      </node>
+      <node id="120">
+        <label>HRM.WebSite.Controllers.HomeController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>HRM.Services.IUserService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_user_service"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>HRM.Services.IRoleService</label>
+        <link refid="interface_h_r_m_1_1_services_1_1_i_role_service"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>IService&lt; Role, long &gt;</label>
+      </node>
+      <node id="127">
+        <label>IService&lt; User, long &gt;</label>
+      </node>
+      <node id="123">
+        <label>Controller</label>
+      </node>
+      <node id="122">
+        <label>HRM.WebSite.Controllers.HomeController</label>
+        <link refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="usage">
+          <edgelabel>_roleService</edgelabel>
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>_userService</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.WebSite/Controllers/HomeController.cs" bodystart="12" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1ab33e0aaa14188b67403e3bc1ab03feed" prot="private" virt="non-virtual"><scope>HRM::WebSite::Controllers::HomeController</scope><name>_roleService</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a37ea0cf7b44b5a094a3461254247fc92" prot="private" virt="non-virtual"><scope>HRM::WebSite::Controllers::HomeController</scope><name>_userService</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a7ee0c8ef1cdc69a32150470551b4da5d" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::HomeController</scope><name>HomeController</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a86c61090c14dab189e578eea461535aa" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="class_h_r_m_1_1_web_site_1_1_controllers_1_1_home_controller_1a2a9c66bb9a6e5da7a03897ba779d92fa" prot="public" virt="non-virtual"><scope>HRM::WebSite::Controllers::HomeController</scope><name>Login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

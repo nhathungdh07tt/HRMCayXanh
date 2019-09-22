@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile" kind="class" prot="public">
+    <compoundname>HRM::Services::AutoMapperService::DomainToViewModelProfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Profile</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile_1a15ba76f1cede6b2982e020595837b057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Services.AutoMapperService.DomainToViewModelProfile.DomainToViewModelProfile</definition>
+        <argsstring>()</argsstring>
+        <name>DomainToViewModelProfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Services/AutoMapperService/DomainToViewModelProfile.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.Services/AutoMapperService/DomainToViewModelProfile.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>Profile</label>
+      </node>
+      <node id="101">
+        <label>HRM.Services.AutoMapperService.DomainToViewModelProfile</label>
+        <link refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>Profile</label>
+      </node>
+      <node id="103">
+        <label>HRM.Services.AutoMapperService.DomainToViewModelProfile</label>
+        <link refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Services/AutoMapperService/DomainToViewModelProfile.cs" line="14" column="1" bodyfile="D:/Projects/HRM/HRM.Services/AutoMapperService/DomainToViewModelProfile.cs" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_services_1_1_auto_mapper_service_1_1_domain_to_view_model_profile_1a15ba76f1cede6b2982e020595837b057" prot="public" virt="non-virtual"><scope>HRM::Services::AutoMapperService::DomainToViewModelProfile</scope><name>DomainToViewModelProfile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository" kind="class" prot="public">
+    <compoundname>HRM::Repository::Repositories::RoleRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseRepository&lt; Role, long &gt;</basecompoundref>
+    <basecompoundref refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository" prot="public" virt="non-virtual">HRM.Repository.Repositories.IRoleRepository</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository_1abeca09577ca48f952a02a0069e15a22e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Repository.Repositories.RoleRepository.RoleRepository</definition>
+        <argsstring>(IContext dbFactory)</argsstring>
+        <name>RoleRepository</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>dbFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" line="18" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="201">
+        <label>IRoleRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>HRM.Repository.Repositories.RoleRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>BaseRepository&lt; Role, long &gt;</label>
+      </node>
+      <node id="202">
+        <label>IRepository&lt; Role, long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="205">
+        <label>IRoleRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository"/>
+        <childnode refid="206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>HRM.Repository.Repositories.RoleRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>BaseRepository&lt; Role, long &gt;</label>
+      </node>
+      <node id="206">
+        <label>IRepository&lt; Role, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository_1abeca09577ca48f952a02a0069e15a22e" prot="public" virt="non-virtual"><scope>HRM::Repository::Repositories::RoleRepository</scope><name>RoleRepository</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

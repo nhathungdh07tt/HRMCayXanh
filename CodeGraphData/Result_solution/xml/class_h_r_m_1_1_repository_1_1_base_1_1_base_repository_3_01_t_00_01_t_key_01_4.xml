@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4" kind="class" prot="public">
+    <compoundname>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRepository&lt; T, TKey &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+      <param>
+        <type>TKey</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae380e855063b5f83757ba67484dd3eb3" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+        <definition>readonly IContext HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;._dataContext</definition>
+        <argsstring></argsstring>
+        <name>_dataContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="15" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a3e1d5b4fc7e5faee22a37875db026e2a" prot="private" static="no" mutable="no">
+        <type>readonly IDbSet&lt; T &gt;</type>
+        <definition>readonly IDbSet&lt;T&gt; HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;._dbSet</definition>
+        <argsstring></argsstring>
+        <name>_dbSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="17" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6355ca56cd51195db4f15d57bfa8b7cb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.BaseRepository</definition>
+        <argsstring>(IContext dataContext)</argsstring>
+        <name>BaseRepository</name>
+        <param>
+          <type><ref refid="interface_h_r_m_1_1_repository_1_1_i_context" kindref="compound">IContext</ref></type>
+          <declname>dataContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="21" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a58e1aa9668ed9ba0de95c5bf75ea0e48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.Add</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="29" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae2a8bf38bff104541ce269f196d3d116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.Update</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="34" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a90c616b1b9b33332d1b68ab82f121c4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.Delete</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="41" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6c6575ce1b628e2cc8187fe8f57d5fca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>T</type>
+        <definition>virtual T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.Delete</definition>
+        <argsstring>(TKey id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="46" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1afd9946e78a2176fc768a476cd1be3ab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.DeleteMulti</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; where)</argsstring>
+        <name>DeleteMulti</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="52" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ad22612a47aeb2f0a83fc24c06969f68f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.FindById</definition>
+        <argsstring>(TKey id, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>FindById</name>
+        <param>
+          <type>TKey</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="59" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a9ebbc29c2232f2640f3152918a0092f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.FindByCondition</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>FindByCondition</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="64" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ab237ed65c7be124e4d70afa395e4f91b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IQueryable&lt; T &gt;</type>
+        <definition>IQueryable&lt;T&gt; HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.GetAll</definition>
+        <argsstring>(params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>GetAll</name>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="69" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="69" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a7401b7d2f2b0c1c92c523e87f9024068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IQueryable&lt; T &gt;</type>
+        <definition>IQueryable&lt;T&gt; HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;.GetAllByCondition</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate, params Expression&lt; Func&lt; T, object &gt;&gt;[] includeProperties)</argsstring>
+        <name>GetAllByCondition</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>params Expression&lt; Func&lt; T, object &gt;&gt;[]</type>
+          <declname>includeProperties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="84" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>IRepository&lt; T, TKey &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>HRM.Repository.IContext</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_i_context"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>IDisposable</label>
+      </node>
+      <node id="31">
+        <label>HRM.Repository.Base.BaseRepository&lt; T, TKey &gt;</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>_dataContext</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>IRepository&lt; T, TKey &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" line="12" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Base/BaseRepository.cs" bodystart="11" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae380e855063b5f83757ba67484dd3eb3" prot="private" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>_dataContext</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a3e1d5b4fc7e5faee22a37875db026e2a" prot="private" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>_dbSet</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a58e1aa9668ed9ba0de95c5bf75ea0e48" prot="public" virt="virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>Add</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6355ca56cd51195db4f15d57bfa8b7cb" prot="protected" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>BaseRepository</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a90c616b1b9b33332d1b68ab82f121c4d" prot="public" virt="virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>Delete</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a6c6575ce1b628e2cc8187fe8f57d5fca" prot="public" virt="virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>Delete</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1afd9946e78a2176fc768a476cd1be3ab3" prot="public" virt="virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>DeleteMulti</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a9ebbc29c2232f2640f3152918a0092f5" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>FindByCondition</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ad22612a47aeb2f0a83fc24c06969f68f" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>FindById</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ab237ed65c7be124e4d70afa395e4f91b" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>GetAll</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1a7401b7d2f2b0c1c92c523e87f9024068" prot="public" virt="non-virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>GetAllByCondition</name></member>
+      <member refid="class_h_r_m_1_1_repository_1_1_base_1_1_base_repository_3_01_t_00_01_t_key_01_4_1ae2a8bf38bff104541ce269f196d3d116" prot="public" virt="virtual"><scope>HRM::Repository::Base::BaseRepository&lt; T, TKey &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

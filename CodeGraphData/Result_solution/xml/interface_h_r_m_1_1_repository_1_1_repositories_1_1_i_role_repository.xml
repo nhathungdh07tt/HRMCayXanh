@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository" kind="interface" prot="public">
+    <compoundname>HRM::Repository::Repositories::IRoleRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IRepository&lt; Role, long &gt;</basecompoundref>
+    <derivedcompoundref refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository" prot="public" virt="non-virtual">HRM.Repository.Repositories.RoleRepository</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="165">
+        <label>HRM.Repository.Repositories.IRoleRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>HRM.Repository.Repositories.RoleRepository</label>
+        <link refid="class_h_r_m_1_1_repository_1_1_repositories_1_1_role_repository"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>IRepository&lt; Role, long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>HRM.Repository.Repositories.IRoleRepository</label>
+        <link refid="interface_h_r_m_1_1_repository_1_1_repositories_1_1_i_role_repository"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>IRepository&lt; Role, long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" line="13" column="1" bodyfile="D:/Projects/HRM/HRM.Repository/Repositories/RoleRepository.cs" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
